@@ -9,3 +9,10 @@ export const fetchNUI = async (cbname, data) => {
     const resp = await fetch(`https://anims/${cbname}`, options);
     return await resp.json();
 };
+
+export const createPanels = (panelData) => {
+    console.log(panelData)
+    panelData.forEach(panel => {
+
+    });
+}
