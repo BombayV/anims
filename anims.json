@@ -1,0 +1,38 @@
+[
+    {
+        "type": "dance",
+        "section": "main",
+        "title": "Cleaning",
+        "subtitle": "/e cleaning",
+        "dances": {
+            "dict": "animDict",
+            "anim": "animName",
+            "moving": true
+        },
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_MY_ASS"
+        },
+        "expressions": {
+            "expression": "electrocuted_1"
+        },
+        "walks": {
+            "expression": "move_m@drunk@verydrunk"
+        },
+        "props": {
+            "prop": "ba_prop_battle_glowstick_01",
+            "propBone": 47419,
+            "propPlacement": [0.015, -0.009, 0.003, 55.0, 0.0, 110.0],
+            "propTwo": "ba_prop_battle_glowstick_01",
+            "propTwoBone": 47419,
+            "propTwoPlacement": [0.015, -0.009, 0.003, 55.0, 0.0, 110.0],
+            "moving": true
+        },
+        "particles": {
+            "asset": "scr_xs_celebration",
+            "name": "scr_xs_celebration",
+            "placement": [-0.05, 0.3, 0.0, 0.0, 90.0, 90.0, 1.0]
+        }
+    },
+    {}
+]
