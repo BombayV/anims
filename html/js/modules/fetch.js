@@ -14,6 +14,15 @@ export const fetchNUI = async (cbname, data) => {
 
 const setText = (elem, text) => elem.textContent = text;
 
+const getFavorite = (elemId) => {
+    const exists = false;
+    if (elemId) {
+        const id = localStorage.getItem(elemId);
+        (id) ? exists = true : exist = false;
+    }
+    return exists;
+}
+
 export const createPanels = (panelData) => {
     console.log(panelData)
     const main = doc.getElementById('anims-holder');
@@ -28,6 +37,11 @@ export const createPanels = (panelData) => {
             block.classList.add('anim');
             star.classList.add('material-icons', 'star');
             star.textContent = 'star';
+
+            star.addEventListener('click', e => {
+                const isSaved =
+                e.target.style.color = 'yellow';
+            });
 
             setText(title, panel.title);
             setText(subtitle, panel.subtitle);
