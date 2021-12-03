@@ -1,3 +1,5 @@
+const doc = document;
+
 export const fetchNUI = async (cbname, data) => {
     const options = {
         method: 'POST',
@@ -10,9 +12,29 @@ export const fetchNUI = async (cbname, data) => {
     return await resp.json();
 };
 
+const setText = (elem, text) => elem.textContent = text;
+
 export const createPanels = (panelData) => {
     console.log(panelData)
+    const main = doc.getElementById('anims-holder');
     panelData.forEach(panel => {
+        if (panel && panel.type) {
+            const block = doc.createElement('div');
+            const textBlock = doc.createElement('div')
+            const title = doc.createElement('span');
+            const subtitle = doc.createElement('span');
+            const star = doc.createElement('span');
 
+            block.classList.add('anim');
+            star.classList.add('material-icons', 'star');
+            star.textContent = 'star';
+
+            setText(title, panel.title);
+            setText(subtitle, panel.subtitle);
+
+            textBlock.append(title, subtitle);
+            block.append(textBlock, star);
+            main.appendChild(block);
+        }
     });
 }

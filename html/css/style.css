@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Kumbh Medium";
-    src: url('../fonts/KumbhSans-Medium.ttf');
+    font-family: "Rubik Medium";
+    src: url('../fonts/Rubik-Medium.ttf');
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Kumbh Regular";
-    src: url('../fonts/KumbhSans-Regular.ttf');
+    font-family: "Rubik Light";
+    src: url('../fonts/Rubik-Light.ttf');
     font-display: swap;
 }
 
@@ -48,7 +48,7 @@ body {
     flex-direction: column;
     width: 70em;
     height: 40em;
-    border-radius: 0.45vh;
+    border-radius: 0.6vh;
 }
 
 .navbar {
@@ -58,7 +58,6 @@ body {
     align-items: center;
     flex-flow: row nowrap;
     width: 100%;
-    height: 8vh;
 }
 
 .navbar div {
@@ -66,10 +65,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 70%;
-    height: 100%;
+    width: 70.5%;
+    height: 3.8em;
     background: rgba(0, 0, 0, 0.80);
-    border-radius: 0.45vh;
+    border-radius: 0.6vh;
 }
 
 .controls {
@@ -78,17 +77,17 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 1.5%;
-    width: 5.5%;
-    height: 100%;
+    width: 2.5em;
+    height: 2.5em;
     background: rgba(0, 0, 0, 0.80);
-    border-radius: 0.45vh;
+    border-radius: 0.6vh;
 }
 
 .search-bar {
     background: transparent;
     border: transparent;
     font-size: 1.0em;
-    font-family: "Kumbh Regular";
+    font-family: "Rubik Light";
     font-weight: bold;
     color: #dedede;
     border-bottom: 0.15vh solid white;
@@ -128,6 +127,9 @@ body {
 
 .anim {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 24%;
     height: 5.5em;
     margin: 0.35%;
@@ -136,18 +138,43 @@ body {
     background: rgba(0, 0, 0, 0.70);
 }
 
-/*
-@media screen and (min-width: 60.375em) {
+.anim div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+    margin-left: 7.5%;
+    font-family: "Rubik Medium";
+}
+
+.anim div span:first-of-type {
+    color: #FFFFFF;
+    font-size: 1.7em;
+}
+
+.anim div span:last-of-type {
+    color: #C1C1C1;
+    font-size: 0.875em;
+}
+
+.star {
+    color: #999999;
+    font-size: 3.0vh;
+    margin-right: 10%;
+}
+
+@media screen and (min-width: 50.375em) {
     body {
         background: red;
     }
     .menu-container {
-        max-width: 5%;
-        max-height: 50%;
+        max-width: 4em;
+        max-height: 20em;
     }
     .anims-container {
-        max-width: 50%;
-        max-height: 50%;
+        max-width:  45em;
+        max-height: 20em;
     }
 }
 
@@ -156,7 +183,12 @@ body {
         background: blue;
     }
     .menu-container {
-        max-width: 10%;
+        max-width: 5em;
+        max-height: 30em;
+    }
+    .anims-container {
+        max-width: 65em;
+        max-height: 30em;
     }
 }
 
@@ -165,7 +197,12 @@ body {
         background: green;
     }
     .menu-container {
-        max-width: 10%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .anims-container {
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
@@ -174,7 +211,11 @@ body {
         background: yellow;
     }
     .menu-container {
-        max-width: 10%;
+        max-width: 125%;
+        max-height: 125%;
+    }
+    .anims-container {
+        max-width: 125%;
+        max-height: 125%;
     }
 }
-*/
