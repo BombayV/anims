@@ -15,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
     width: 100%;
     height: 100%;
     top: 0;
@@ -89,7 +90,9 @@ body {
     font-size: 1.0em;
     font-family: "Kumbh Regular";
     font-weight: bold;
+    color: #dedede;
     border-bottom: 0.15vh solid white;
+    outline: none;
     width: 90%;
 }
 
