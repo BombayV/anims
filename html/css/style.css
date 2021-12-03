@@ -150,17 +150,17 @@ body {
 
 .anim div span:first-of-type {
     color: #FFFFFF;
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
 
 .anim div span:last-of-type {
     color: #C1C1C1;
-    font-size: 0.875em;
+    font-size: 0.855em;
 }
 
 .star {
     color: #999999;
-    font-size: 3.0vh;
+    font-size: 1.8em;
     margin-right: 10%;
 }
 
