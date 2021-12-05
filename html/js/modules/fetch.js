@@ -39,33 +39,36 @@ export const createPanels = (panelData) => {
             const subtitle = doc.createElement('span');
             const star = doc.createElement('span');
 
-            block.classList.add('anim');
+            block.classList.add('anim', panel.type);
             star.classList.add('material-icons', 'star');
             star.textContent = 'star';
 
             block.id = panel.id
             block.setAttribute('data-dances', (panel.dances) ? (JSON.stringify({dict: panel.dances.dict, anim: panel.dances.anim})) : null);
-            block.setAttribute('data-scenarios', (panel.scenarios) ? (JSON.stringify({sex: panel.scenarios.sex, scene: panel.scenarios.scene})) : b);
-            block.setAttribute('data-expressions', (panel.expressions) ? (JSON.stringify({expressions: panel.expressions.expression})) : b);
-            block.setAttribute('data-walks', (panel.walks) ? (JSON.stringify({style: panel.walks.style})) : b);
+            block.setAttribute('data-scenarios', (panel.scenarios) ? (JSON.stringify({sex: panel.scenarios.sex, scene: panel.scenarios.scene})) : null);
+            block.setAttribute('data-expressions', (panel.expressions) ? (JSON.stringify({expressions: panel.expressions.expression})) : null);
+            block.setAttribute('data-walks', (panel.walks) ? (JSON.stringify({style: panel.walks.style})) : null);
             block.setAttribute('data-props', (panel.props) ? (JSON.stringify({prop: panel.props.prop, propBone: panel.props.propBone, propPlacement: panel.props.propPlacement, propTwo: panel.props.propTwo || null, propTwoBone: panel.props.propTwoBone || null, propTwoPlacement: panel.props.propTwoPlacement || null})): null);
             block.setAttribute('data-particles', (panel.particles) ? (JSON.stringify({asset: panel.particles.asset, name: panel.particles.name, placement: panel.particles.placement})) : null);
 
             star.addEventListener('click', e => {
                 const isSaved = getFavorite(block.id);
                 const favs = JSON.parse(localStorage.getItem('favoriteAnims'));
+                console.log(favs)
                 if (isSaved) {
-                    e.target.style.color = '#999999';
                     for (let i = 0; i < favs.length; i++) {
                         if (favs[i] == block.id) {
                             favs.splice(i, 1);
-                            localStorage.setItem('favoriteAnims', JSON.stringify(favs))
+                            localStorage.setItem('favoriteAnims', JSON.stringify(favs));
+                            e.target.style.color = '#999999';
+                            block.classList.remove('favorite');
                         }
                     }
                 } else {
                     favs.push(block.id)
                     localStorage.setItem('favoriteAnims', JSON.stringify(favs))
                     e.target.style.color = '#f7ca17';
+                    block.classList.add('favorite');
                 }
             });
 
@@ -77,4 +80,15 @@ export const createPanels = (panelData) => {
             main.appendChild(block);
         }
     });
+
+    const favorites = JSON.parse(localStorage.getItem('favoriteAnims'))
+    const anims = document.getElementsByClassName('anim')
+    for (let i = 0; i < anims.length; i++) {
+        for (let x = 0; x < favorites.length; x++) {
+            if (anims[i].id == favorites[x]) {
+                anims[i].classList.add('favorite');
+                anims[i].getElementsByTagName("span")[2].style.color = '#f7ca17';
+            }
+        }
+    }
 }

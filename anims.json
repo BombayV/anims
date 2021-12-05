@@ -1,8 +1,7 @@
 [
     {
         "id": 1,
-        "type": "dance",
-        "section": "main",
+        "type": "dances",
         "title": "Cleaning",
         "subtitle": "/e cleaning",
         "dances": {
@@ -33,5 +32,60 @@
             "placement": [-0.05, 0.3, 0.0, 0.0, 90.0, 90.0, 1.0]
         }
     },
-    {}
+    {
+        "id": 2,
+        "type": "dances",
+        "title": "Drunk",
+        "subtitle": "/e cleaning",
+        "walks": {
+            "style": "move_m@drunk@verydrunk"
+        }
+    },
+    {
+        "id": 3,
+        "type": "scenarios",
+        "title": "A",
+        "subtitle": "/e cleaning",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_MY_ASS"
+        }
+    },
+    {
+        "id": 4,
+        "type": "dances",
+        "title": "DANCE",
+        "subtitle": "/e cleaning",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_MY_ASS"
+        }
+    },
+    {
+        "id": 5,
+        "type": "dances",
+        "title": "DANCE",
+        "subtitle": "/e cleaning",
+        "expressions": {
+            "expression": "electrocuted_1"
+        }
+    },    {
+        "id": 6,
+        "type": "dances",
+        "title": "DANCE",
+        "subtitle": "/e cleaning",
+        "expressions": {
+            "expression": "electrocuted_1"
+        }
+    },
+    {
+        "id": 7,
+        "type": "shared",
+        "title": "C",
+        "subtitle": "/e cleaning",
+        "dances": {
+            "dict": "animDict",
+            "anim": "animName"
+        }
+    }
 ]

@@ -10,6 +10,8 @@
     font-display: swap;
 }
 
+.material-icons.md-18 { font-size: 24px; }
+
 body {
     position: absolute;
     display: flex;
@@ -38,6 +40,13 @@ body {
     border-radius: 0.5vh;
 
     background: rgba(0, 0, 0, 0.80);
+}
+
+.sidebar:hover {
+    transition: all 0.2s;
+    background-color: rgba(238, 25, 82, 0.85);
+    border-radius: 0.4vh;
+    box-shadow: 0 0 0.3vh 0.1em #f24069;
 }
 
 .anims-container {
@@ -81,6 +90,12 @@ body {
     height: 2.5em;
     background: rgba(0, 0, 0, 0.80);
     border-radius: 0.6vh;
+    transition: background-color 0.2s;
+}
+
+.controls:hover {
+    background-color: rgba(255, 13, 78, 0.8);
+    cursor: pointer;
 }
 
 .search-bar {
@@ -136,6 +151,13 @@ body {
     border-radius: 0.4vh;
 
     background: rgba(0, 0, 0, 0.70);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.anim:hover {
+    transform: scale(1.025);
+    background-color: rgba(255, 13, 78, 0.70);
 }
 
 .anim div {
@@ -162,40 +184,96 @@ body {
     color: #999999;
     font-size: 1.8em;
     margin-right: 10%;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
-@media screen and (min-width: 50.375em) {
-    body {
-        background: red;
-    }
+.star:hover {
+    transform: scale(1.05);
+}
+
+.favorite {order: 1 !important;}
+.dances {order: 2;}
+.scenarios {order: 3;}
+.expressions {order: 4;}
+.walks {order: 5;}
+.shared {order: 6;}
+
+@media screen and (min-width: 45.375em) {
     .menu-container {
-        max-width: 4em;
+        max-width: 3em;
         max-height: 20em;
     }
     .anims-container {
-        max-width:  45em;
+        max-width: 30em;
         max-height: 20em;
+    }
+    .anim {
+        max-width: 24%;
+        max-height: 2.9em;
+    }
+    .anim div span:first-of-type {
+        font-size: 0.8em;
+    }
+
+    .anim div span:last-of-type {
+        font-size: 0.525em;
+    }
+    .navbar div {
+        max-width: 60%;
+        max-height: 2.5em;
+    }
+    .star {
+        font-size: 1.2em
+    }
+    .search-bar {
+        font-size: 0.8em;
+        max-width: 80%;
+    }
+    .controls {
+        max-width: 1.7em;
+        max-height: 1.7em;
     }
 }
 
 @media screen and (min-width: 80em) {
-    body {
-        background: blue;
-    }
     .menu-container {
-        max-width: 5em;
-        max-height: 30em;
+        max-width: 4em;
+        max-height: 25em;
     }
     .anims-container {
-        max-width: 65em;
-        max-height: 30em;
+        max-width: 40em;
+        max-height: 25em;
+    }
+    .anim {
+        max-width: 24%;
+        max-height: 4em;
+    }
+    .anim div span:first-of-type {
+        font-size: 1.0em;
+    }
+
+    .anim div span:last-of-type {
+        font-size: 0.655em;
+    }
+    .navbar div {
+        max-width: 60%;
+        max-height: 3.2em;
+    }
+    .star {
+        font-size: 1.4em
+    }
+    .search-bar {
+        font-size: 0.9em;
+        max-width: 80%;
+    }
+    .controls {
+        max-width: 2.2em;
+        max-height: 2.2em;
     }
 }
 
 @media screen and (min-width: 100em) {
-    body {
-        background: green;
-    }
     .menu-container {
         max-width: 100%;
         max-height: 100%;
@@ -203,19 +281,66 @@ body {
     .anims-container {
         max-width: 100%;
         max-height: 100%;
+    }
+    .anim {
+        min-width: 24%;
+        min-height: 5.8em;
+    }
+    .anim div span:first-of-type {
+        font-size: 1.3em;
+    }
+    .anim div span:last-of-type {
+        font-size: 1.055em;
+    }
+    .star {
+        font-size: 2.2em
+    }
+    .navbar div {
+        min-width: 70.5%;
+        min-height: 3.8em;
+    }
+    .controls {
+        min-width: 2.5em;
+        min-height: 2.5em;
+    }
+    .search-bar {
+        font-size: 1.2em;
+        max-width: 90%;
     }
 }
 
 @media screen and (min-width: 160em) {
-    body {
-        background: yellow;
-    }
     .menu-container {
-        max-width: 125%;
-        max-height: 125%;
+        min-width: 6.5em;
+        min-height: 55em;
     }
     .anims-container {
-        max-width: 125%;
-        max-height: 125%;
+        min-width: 100em;
+        min-height: 55em;
+    }
+    .anim {
+        min-width: 24em;
+        min-height: 7.8em;
+    }
+    .anim div span:first-of-type {
+        font-size: 2.0em;
+    }
+    .anim div span:last-of-type {
+        font-size: 1.555em;
+    }
+    .star {
+        font-size: 3.2em
+    }
+    .navbar div {
+        min-width: 68.5%;
+        min-height: 5.8em;
+    }
+    .controls {
+        min-width: 4.0em;
+        min-height: 4.0em;
+    }
+    .search-bar {
+        font-size: 1.7em;
+        max-width: 95%;
     }
 }
