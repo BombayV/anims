@@ -25,13 +25,13 @@
     <div class="anims-container">
         <nav class="navbar">
             <div>
-                <input class="search-bar" placeholder="Search animation...">
+                <input id="search-bar" class="search-bar" placeholder="Search animation...">
                 <span class="material-icons" style="color: white;">search</span>
             </div>
-            <span class="material-icons md-18 controls" style="color: white;">pause</span>
-            <span class="material-icons md-18 controls" style="color: white;">control_camera</span>
-            <span class="material-icons md-18 controls" style="color: white;">arrow_upward</span>
-            <span class="material-icons md-18 controls" style="color: white;">loop</span>
+            <span id="cancel" class="material-icons md-18 controls" style="color: white;">pause</span>
+            <span id="movement" class="material-icons md-18 controls" style="color: white;">control_camera</span>
+            <span id="body" class="material-icons md-18 controls" style="color: white;">arrow_upward</span>
+            <span id="loop" class="material-icons md-18 controls" style="color: white;">loop</span>
         </nav>
         <main id="anims-holder" class="anims-block">
             <div class="anim">
@@ -42,6 +42,9 @@
                 <span class="material-icons star">bookmark_add</span>
             </div>
         </main>
+        <div>
+
+        </div>
     </div>
     <script type="module" src='./js/script.js'></script>
     <script type="module" src='./js/listeners.js'></script>

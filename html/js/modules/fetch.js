@@ -16,7 +16,7 @@ export const fetchNUI = async (cbname, data) => {
 
 const setText = (elem, text) => elem.textContent = text;
 
-const getFavorite = (elemId) => {
+const getFavorite = elemId => {
     let exists = false;
     if (elemId) {
         const id = JSON.parse(localStorage.getItem('favoriteAnims'));
@@ -41,7 +41,7 @@ export const createPanels = (panelData) => {
 
             block.classList.add('anim', panel.type);
             star.classList.add('material-icons', 'star');
-            star.textContent = 'star';
+            star.textContent = 'bookmark_add';
 
             block.id = panel.id
             block.setAttribute('data-dances', (panel.dances) ? (JSON.stringify({dict: panel.dances.dict, anim: panel.dances.anim})) : null);
@@ -67,10 +67,20 @@ export const createPanels = (panelData) => {
                 } else {
                     favs.push(block.id)
                     localStorage.setItem('favoriteAnims', JSON.stringify(favs))
-                    e.target.style.color = '#f7ca17';
+                    e.target.style.color = '#FBB13C';
                     block.classList.add('favorite');
                 }
             });
+
+            block.addEventListener('click', e => {
+                console.log('teast')
+                fetchNUI('beginAnimation', {dance: e.target.getAttribute('data-dances'), scene: e.target.getAttribute('data-scenarios'), expression: e.target.getAttribute('data-expressions'), walk: e.target.getAttribute('data-walks'), prop: e.target.getAttribute('data-props'), particle: e.target.getAttribute('data-particles')})
+
+                block.classList.add('pop');
+                setTimeout(() => {
+                    block.classList.remove('pop');
+                }, 500);
+            })
 
             setText(title, panel.title);
             setText(subtitle, panel.subtitle);
@@ -87,7 +97,7 @@ export const createPanels = (panelData) => {
         for (let x = 0; x < favorites.length; x++) {
             if (anims[i].id == favorites[x]) {
                 anims[i].classList.add('favorite');
-                anims[i].getElementsByTagName("span")[2].style.color = '#f7ca17';
+                anims[i].getElementsByTagName("span")[2].style.color = '#FBB13C';
             }
         }
     }

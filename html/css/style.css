@@ -43,10 +43,9 @@ body {
 }
 
 .sidebar:hover {
-    transition: all 0.2s;
-    background-color: rgba(238, 25, 82, 0.85);
-    border-radius: 0.4vh;
-    box-shadow: 0 0 0.3vh 0.1em #f24069;
+    transition: 0.2s;
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
 .anims-container {
@@ -88,14 +87,15 @@ body {
     margin-left: 1.5%;
     width: 2.5em;
     height: 2.5em;
-    background: rgba(0, 0, 0, 0.80);
+    background-color: #000000cc;
     border-radius: 0.6vh;
-    transition: background-color 0.2s;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 .controls:hover {
-    background-color: rgba(255, 13, 78, 0.8);
-    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #990D35;
 }
 
 .search-bar {
@@ -157,7 +157,7 @@ body {
 
 .anim:hover {
     transform: scale(1.025);
-    background-color: rgba(255, 13, 78, 0.70);
+    background-color: rgba(216, 17, 90, 0.80);
 }
 
 .anim div {
@@ -198,6 +198,45 @@ body {
 .expressions {order: 4;}
 .walks {order: 5;}
 .shared {order: 6;}
+
+.pop {
+    animation: pop 0.5s ease-out;
+}
+
+.fadeIn {
+    animation: fadeIn 0.4s;
+}
+
+.fadeOut {
+    animation: fadeOut 0.4s;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 @media screen and (min-width: 45.375em) {
     .menu-container {
