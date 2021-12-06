@@ -73,8 +73,11 @@ export const createPanels = (panelData) => {
             });
 
             block.addEventListener('click', e => {
-                console.log('teast')
-                fetchNUI('beginAnimation', {dance: e.target.getAttribute('data-dances'), scene: e.target.getAttribute('data-scenarios'), expression: e.target.getAttribute('data-expressions'), walk: e.target.getAttribute('data-walks'), prop: e.target.getAttribute('data-props'), particle: e.target.getAttribute('data-particles')})
+                console.log(e.target)
+                fetchNUI('beginAnimation', {dance: e.target.getAttribute('data-dances'), scene: e.target.getAttribute('data-scenarios'), expression: e.target.getAttribute('data-expressions'), walk: e.target.getAttribute('data-walks'), prop: e.target.getAttribute('data-props'), particle: e.target.getAttribute('data-particles')}).then((e) => {
+                    (e) ? console.log('succesful')
+                        : console.log('error');
+                })
 
                 block.classList.add('pop');
                 setTimeout(() => {

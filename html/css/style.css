@@ -186,6 +186,7 @@ body {
     margin-right: 10%;
     transition: 0.3s;
     cursor: pointer;
+    z-index: 1;
 }
 
 .star:hover {
