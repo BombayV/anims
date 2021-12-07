@@ -37,6 +37,7 @@ local function findEmote(emoteName)
     end
 end
 
+--#region NUI callbacks
 RegisterNUICallback('changeCfg', function(data, cb)
     if data.type == 'movement' then
         cfg.animMovement = not data.state
@@ -94,7 +95,9 @@ RegisterNUICallback('beginAnimation', function(data, cb)
     end
     cb({e = false})
 end)
+--#endregion
 
+--#region -- commands
 RegisterCommand(cfg.commandName, function()
     cfg.panelStatus = not cfg.panelStatus
     SetNuiFocus(true, true)
@@ -102,8 +105,9 @@ RegisterCommand(cfg.commandName, function()
     SendNUIMessage({action = 'panelStatus',panelStatus = cfg.panelStatus})
 end)
 
-RegisterCommand('e', function(_, args)
+RegisterCommand(cfg.commandNameEmote, function(_, args)
     if args and args[1] then
         findEmote(args[1])
     end
 end)
+--#endregion

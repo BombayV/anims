@@ -2,6 +2,8 @@
 cfg = {
     commandName = 'emotePanel',
     commandSuggestion = 'Open the emote panel',
+    commandNameEmote = 'e',
+    commandNameSuggestion = 'Play an animation by command',
     keyActive = false,
     keyLetter = 'F5',
     keySuggestion = 'Open the emote panel by key',
