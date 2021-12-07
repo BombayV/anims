@@ -18,9 +18,9 @@ end
 ---Begins cancel key thread
 local function enableCancel()
     CreateThread(function()
-        while true do
+        while cfg.animActive or cfg.sceneActive do
             if IsControlJustReleased(0, cfg.cancelKey) then
-                StopAnimation()
+                Load.Cancel()
                 break
             end
             Wait(16)
