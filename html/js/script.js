@@ -12,6 +12,23 @@ window.addEventListener('load', (e) => {
                 }
             break;
 
+            case 'findEmote':
+                const panels = document.getElementsByClassName('anim');
+                for (let i = 0; i < panels.length; i++) {
+                    let panelEmote = panels[i].childNodes[0].lastChild.textContent.split(" ")[1];
+                    if (panelEmote == 'prone') {
+                        fetchNUI('beginAnimation', {dance: JSON.parse(panels[i].getAttribute('data-dances')), scene: JSON.parse(panels[i].getAttribute('data-scenarios')), expression: JSON.parse(panels[i].getAttribute('data-expressions')), walk: JSON.parse(panels[i].getAttribute('data-walks')), prop: JSON.parse(panels[i].getAttribute('data-props')), particle: JSON.parse(panels[i].getAttribute('data-particles'))}).then((resp) => {
+                            (resp.e)
+                                ? fetchNUI('sendNotification', {type: 'success', message: 'Animation executed!'})
+                                : fetchNUI('sendNotification', {type: 'error', message: 'Animation could not load!'});
+                            return;
+                        })
+                        return;
+                    }
+                }
+                fetchNUI('sendNotification', {type: 'info', message: 'Animation was not found...'})
+            break;
+
             default:
                 console.log('Something did not load properly when sending a message')
             break;

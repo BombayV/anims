@@ -18,6 +18,7 @@ end
 ---@param dance table
 ---@param particle table
 ---@param prop table
+---@param p string Promise
 Play.Animation = function(dance, particle, prop, p)
     if dance then
         if cfg.animActive then
@@ -50,6 +51,7 @@ end
 
 ---Plays a scene
 ---@param scene table
+---@param p string Promise
 Play.Scene = function(scene, p)
     if scene then
         local sex = checkSex(sex)
@@ -66,6 +68,7 @@ end
 
 ---Changes the facial expression
 ---@param expression table
+---@param p string Promise
 Play.Expression = function(expression, p)
     if expression then
         SetFacialIdleAnimOverride(PlayerPedId(), expression.expressions, 0)
@@ -77,6 +80,7 @@ end
 
 ---Changes the walking anim of a ped
 ---@param walks table
+---@param p string Promise
 Play.Walk = function(walks, p)
     if walks then
         Load.Walk(walks.style)

@@ -28,6 +28,15 @@ local function enableCancel()
     end)
 end
 
+---Finds an emote by command
+---@param emoteName table
+local function findEmote(emoteName)
+    if emoteName then
+        local name = emoteName:upper()
+        SendNUIMessage({action = 'findEmote', name = name})
+    end
+end
+
 RegisterNUICallback('changeCfg', function(data, cb)
     if data.type == 'movement' then
         cfg.animMovement = not data.state
@@ -91,4 +100,10 @@ RegisterCommand(cfg.commandName, function()
     SetNuiFocus(true, true)
     TriggerScreenblurFadeIn(1500)
     SendNUIMessage({action = 'panelStatus',panelStatus = cfg.panelStatus})
+end)
+
+RegisterCommand('e', function(_, args)
+    if args and args[1] then
+        findEmote(args[1])
+    end
 end)
