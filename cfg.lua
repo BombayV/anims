@@ -8,11 +8,22 @@ cfg = {
 
 
     -- Do not touch
+    useTnotify = GetResourceState('t-notify') == 'started' or false,
     panelStatus = false,
+
     animActive = false,
     animActiveType = nil or 'dance',
     animDuration = 1000,
     animLoop = false,
     animUpperBody = false,
-    animMovement = true
+    animMovement = false,
+
+    sceneActive = false,
+
+    propActive = false,
+    propsEntities = {},
+
+    malePeds = {
+        "mp_m_freemode_01"
+    }
 }

@@ -9,6 +9,7 @@ description 'A simple NUI animations panel developed by Entity Evolution'
 version '0.5.0'
 
 client_scripts {
+    'cfg.lua',
     'client/*.lua'
 }
 
@@ -20,9 +21,9 @@ ui_page 'html/ui.html'
 
 files {
     'html/ui.html',
-    'anims.json',
     'html/fonts/*.ttf',
     'html/css/style.css',
-    'html/js/module/*.js',
-    'html/js/*.js'
+    'html/js/*.js',
+    'html/js/modules/*.js',
+    'anims.json'
 }

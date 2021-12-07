@@ -1,3 +1,5 @@
+import { fetchNUI } from "./fetch.js";
+
 export const changeClass = target => {
     const sidebar = document.getElementsByClassName('sidebar');
     for (let i = 0; i < sidebar.length; i++) {
@@ -36,12 +38,14 @@ export const getStatus = elem => {
     for (let i = 0; i < savedOpts.length; i++) {
         if (savedOpts[i] == elem.id) {
             savedOpts.splice(i, 1);
+            fetchNUI('changeCfg', {type: elem.id, state: true});
             localStorage.setItem('animOptions', JSON.stringify(savedOpts));
             elem.style.backgroundColor = "#000000cc";
             return true;
         }
     }
     savedOpts.push(elem.id);
+    fetchNUI('changeCfg', {type: elem.id, state: false});
     localStorage.setItem('animOptions', JSON.stringify(savedOpts));
     elem.style.backgroundColor = "#ff0d4ecc";
     return false;

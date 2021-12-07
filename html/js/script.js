@@ -1,27 +1,26 @@
-import { createPanels } from "./modules/fetch.js";
+import { createPanels, fetchNUI } from "./modules/fetch.js";
 import { setDisplay } from "./modules/functions.js";
 
 window.addEventListener('load', (e) => {
-    let panelStatus = false
-    e.target.addEventListener('load', e => {
-        switch (e.data.message) {
+    window.addEventListener('message', e => {
+        switch (e.data.action) {
             case 'panelStatus':
-                if (!panelStatus) {
-
+                if (e.data.panelStatus) {
+                    setDisplay('fadeIn');
                 } else {
-
+                    setDisplay('fadeOut');
                 }
             break;
 
             default:
-
+                console.log('Something did not load properly when sending a message')
             break;
         }
     })
 
     document.addEventListener('keyup', e => {
         if (e.key == 'Escape') {
-            setDisplay('fadeIn');
+            fetchNUI('exitPanel');
         }
     })
 
@@ -37,8 +36,8 @@ window.addEventListener('load', (e) => {
         console.log("NEW")
         localStorage.setItem('animOptions', JSON.stringify([]))
     } else {
+        fetchNUI('fetchStorage', animOpts)
         for (let i = 0; i < animOpts.length; i++) {
-            console.log(animOpts[i])
             document.getElementById(animOpts[i]).style.backgroundColor = "#ff0d4ecc";
         }
     }

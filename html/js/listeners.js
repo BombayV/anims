@@ -13,9 +13,7 @@ doc.getElementById('settings').addEventListener('click', e => {
 
 doc.getElementById('exit').addEventListener('click', e => {
     setDisplay('fadeOut');
-    fetchNUI('closeUI').then((cb) => {
-        console.log('Test')
-    });
+    fetchNUI('exitPanel');
 });
 
 doc.getElementById('favorite').addEventListener('click', e => changeClass(e.target));
@@ -45,7 +43,27 @@ doc.getElementById('search-bar').addEventListener('input', e => {
     }
 })
 
-doc.getElementById('cancel').addEventListener('click', e => getStatus(e.target));
-doc.getElementById('movement').addEventListener('click', e => getStatus(e.target));
-doc.getElementById('body').addEventListener('click', e => getStatus(e.target));
+doc.getElementById('cancel').addEventListener('click', e => {
+    let currentColor = e.target.style.backgroundColor
+    e.target.classList.add('pop');
+    e.target.style.backgroundColor = "#ff0d4ecc";
+    setTimeout(() => {
+        e.target.style.backgroundColor = currentColor;
+        e.target.classList.remove('pop');
+    }, 500);
+    fetchNUI('cancelAnimation');
+});
+
+doc.getElementById('delete').addEventListener('click', e => {
+    let currentColor = e.target.style.backgroundColor
+    e.target.classList.add('pop');
+    e.target.style.backgroundColor = "#ff0d4ecc";
+    setTimeout(() => {
+        e.target.style.backgroundColor = currentColor;
+        e.target.classList.remove('pop');
+    }, 500);
+    fetchNUI('removeProps');
+});
+
+doc.getElementById('movement').addEventListener('click', e => (getStatus(e.target)));
 doc.getElementById('loop').addEventListener('click', e => getStatus(e.target));
