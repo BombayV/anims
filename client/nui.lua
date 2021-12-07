@@ -1,32 +1,24 @@
 ---Begins animation depending on data type
----@param data table
+---@param data table Animation Data
+---@param p string Promise
 local function animType(data, p)
     if data then
         if data.dance then
-            Play.Animation(data.dance, data.particle, data.prop)
-            p:resolve({passed = true})
-            return
+            Play.Animation(data.dance, data.particle, data.prop, p)
         elseif data.scene then
-            Play.Scene(data.scene)
-            p:resolve({passed = true})
-            return
+            Play.Scene(data.scene, p)
         elseif data.expression then
-            Play.Expression(data.expression)
-            p:resolve({passed = true})
-            return
+            Play.Expression(data.expression, p)
         elseif data.walk then
-            Play.Walk(data.walk)
-            p:resolve({passed = true})
-            return
+            Play.Walk(data.walk, v)
         end
     end
-    p:resolve({passed = false})
 end
 
 ---Begins cancel key thread
 local function enableCancel()
     CreateThread(function()
-        while animActive do
+        while true do
             if IsControlJustReleased(0, cfg.cancelKey) then
                 StopAnimation()
                 break

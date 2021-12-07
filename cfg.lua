@@ -1,3 +1,4 @@
+---Config with all global variables
 cfg = {
     commandName = 'emotePanel',
     commandSuggestion = 'Open the emote panel',
@@ -6,22 +7,23 @@ cfg = {
     keySuggestion = 'Open the emote panel by key',
     cancelKey = 38,
 
-
     -- Do not touch
     useTnotify = GetResourceState('t-notify') == 'started' or false,
     panelStatus = false,
 
     animActive = false,
-    animActiveType = nil or 'dance',
-    animDuration = 1000,
+    animDuration = 1500, -- You can change this but I recommend not to.
     animLoop = false,
-    animUpperBody = false,
     animMovement = false,
 
     sceneActive = false,
+    sceneForcedEnd = false,
 
     propActive = false,
     propsEntities = {},
+
+    ptfxActive = false,
+    ptfxEntities = {},
 
     malePeds = {
         "mp_m_freemode_01"

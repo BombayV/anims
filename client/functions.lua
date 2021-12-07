@@ -1,5 +1,9 @@
+---Holds Playing animation
 Play = {}
 
+---Checks for sex of ped
+---@param sex string
+---@return string
 local function checkSex(sex)
     local pedModel = GetEntityModel(PlayerPedId())
     for i= 1, #cfg.malePeds do
@@ -10,17 +14,23 @@ local function checkSex(sex)
     return 'female'
 end
 
-Play.Animation = function(dance, particle, prop)
+---Plays an animation
+---@param dance table
+---@param particle table
+---@param prop table
+Play.Animation = function(dance, particle, prop, p)
     if dance then
         if cfg.animActive then
             Load.Cancel()
         end
         Load.Dict(dance.dict)
-        if particle then
-            if prop then
-
+        if prop then
+            if particle then
+                Play.Ptfx(particle)
             end
+            Play.Prop(prop)
         end
+
         local loop = cfg.animDuration
         local move = 1
         if cfg.animLoop then
@@ -32,43 +42,85 @@ Play.Animation = function(dance, particle, prop)
         TaskPlayAnim(PlayerPedId(), dance.dict, dance.anim, 1.5, 1.5, loop, move, 0, false, false, false)
         RemoveAnimDict(dance.dict)
         cfg.animActive = true
+        p:resolve({passed = true})
+        return
+    end
+    p:resolve({passed = false})
+end
 
+---Plays a scene
+---@param scene table
+Play.Scene = function(scene, p)
+    if scene then
+        local sex = checkSex(sex)
+        if not scene.sex == 'both' and not (sex == scene.sex) then
+            Play.Notification('info', 'Sex does not allow this animation')
+        end
+        TaskStartScenarioInPlace(PlayerPedId(), scene.scene, 0, true)
+        cfg.sceneActive = true
+        p:resolve({passed = true})
+        return
+    end
+    p:resolve({passed = false})
+end
+
+---Changes the facial expression
+---@param expression table
+Play.Expression = function(expression, p)
+    if expression then
+        SetFacialIdleAnimOverride(PlayerPedId(), expression.expressions, 0)
+        p:resolve({passed = true})
+        return
+    end
+    p:resolve({passed = false})
+end
+
+---Changes the walking anim of a ped
+---@param walks table
+Play.Walk = function(walks, p)
+    if walks then
+        Load.Walk(walks.style)
+        SetPedMovementClipset(PlayerPedId(), walks.style, 0.2)
+        RemoveAnimSet(walks.style)
+        p:resolve({passed = true})
+        return
+    end
+    p:resolve({passed = false})
+end
+
+---Creates a prop(s)
+---@param props table
+Play.Prop = function(props)
+    if props then
+        if props.prop then
+            Load.Model(props.prop)
+            Load.PropCreation(PlayerPedId(), props.prop, props.propBone, props.propPlacement)
+        end
+        if props.propTwo then
+            Load.Model(props.propTwo)
+            Load.PropCreation(PlayerPedId(), props.propTwo, props.propBoneTwo, props.propPlacemenTwo)
+        end
     end
 end
 
-Play.Scene = function(scene)
-    local sex = checkSex(sex)
-    if not scene.sex == 'both' and not (sex == scene.sex) then
-        Play.Notification('info', 'Sex does not allow this animation')
+---Creates a particle effect
+---@param particles table
+Play.Ptfx = function(particles)
+    if particles then
+        Load.Ptfx(particles.asset)
+        UseParticleFxAssetNextCall(PtfxAsset)
+        Load.PtfxCreation(PlayerPedId(), cfg.propsEntities[1] or cfg.propsEntities[2] or nil, particles.name, particles.placement)
     end
-    TaskStartScenarioInPlace(PlayerPedId(), scene.scene, 0, true)
-    cfg.sceneActive = true
-    print('test')
 end
 
-Play.Expression = function(expression)
-    SetFacialIdleAnimOverride(PlayerPedId(), expression.expressions, 0)
-end
-
-Play.Walk = function(walks)
-    Load.Walk(walks.style)
-    SetPedMovementClipset(PlayerPedId(), walks.style, 0.2)
-    RemoveAnimSet(walks.style)
-end
-
-Play.Prop = function()
-
-end
-
-Play.Ptfx = function()
-
-end
-
+---Creates a notifications
+---@param type string
+---@param message string
 Play.Notification = function(type, message)
     if cfg.useTnotify then
         exports['t-notify']:Alert({
             style  =  type or 'info',
-            message  =  message or 'No message'
+            message  =  message or 'Something went wrong...'
         })
     else
 
