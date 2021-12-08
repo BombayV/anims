@@ -62,13 +62,54 @@ body {
 .settings-container {
     position: relative;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
     width: 25em;
     height: 40em;
     border-radius: 0.6vh;
     background: rgba(0, 0, 0, 0.80);
+
+    font-family: "Rubik Medium";
+    color: #FFFFFF;
+}
+
+.settings-container div {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 0.5%;
+}
+
+.settings-container div span {
+    margin-left: 4%;
+    font-size: 1.1em;
+}
+
+.settings-container div input {
+    margin-right: 4%;
+    width: 30%;
+    height: 100%;
+    background: none;
+    border: none;
+    border-bottom: 0.1vh solid white;
+
+    font-family: "Rubik Light";
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1em;
+    -webkit-appearance: none;
+    outline: none;
+    color: #FFFFFF;
+}
+
+.settings-container div input::-webkit-outer-spin-button,
+.settings-container div input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .navbar {
@@ -260,6 +301,10 @@ body {
         max-width: 30em;
         max-height: 20em;
     }
+    .settings-container {
+        max-width: 14em;
+        max-height: 20em;
+    }
     .anim {
         max-width: 24%;
         max-height: 2.9em;
@@ -295,6 +340,10 @@ body {
     }
     .anims-container {
         max-width: 40em;
+        max-height: 25em;
+    }
+    .settings-container {
+        max-width: 18em;
         max-height: 25em;
     }
     .anim {
@@ -334,6 +383,10 @@ body {
         max-width: 100%;
         max-height: 100%;
     }
+    .settings-container {
+        max-width: 100%;
+        max-height: 100%;
+    }
     .anim {
         min-width: 24%;
         min-height: 5.8em;
@@ -368,6 +421,10 @@ body {
     }
     .anims-container {
         min-width: 100em;
+        min-height: 55em;
+    }
+    .settings-container {
+        min-width: 35em;
         min-height: 55em;
     }
     .anim {
