@@ -16,7 +16,7 @@ window.addEventListener('load', (e) => {
                 const panels = document.getElementsByClassName('anim');
                 for (let i = 0; i < panels.length; i++) {
                     let panelEmote = panels[i].childNodes[0].lastChild.textContent.split(" ")[1];
-                    if (panelEmote == 'prone') {
+                    if (panelEmote == e.data.name) {
                         fetchNUI('beginAnimation', {dance: JSON.parse(panels[i].getAttribute('data-dances')), scene: JSON.parse(panels[i].getAttribute('data-scenarios')), expression: JSON.parse(panels[i].getAttribute('data-expressions')), walk: JSON.parse(panels[i].getAttribute('data-walks')), prop: JSON.parse(panels[i].getAttribute('data-props')), particle: JSON.parse(panels[i].getAttribute('data-particles'))}).then((resp) => {
                             (resp.e)
                                 ? fetchNUI('sendNotification', {type: 'success', message: 'Animation executed!'})
