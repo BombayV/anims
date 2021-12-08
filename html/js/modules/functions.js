@@ -1,6 +1,12 @@
 import { fetchNUI } from "./fetch.js";
+let settingsStatus = false;
 
 export const changeClass = target => {
+    if (settingsStatus && target.id != 'home') {
+        return;
+    } else {
+        settingsStatus = false;
+    }
     const sidebar = document.getElementsByClassName('sidebar');
     for (let i = 0; i < sidebar.length; i++) {
         sidebar[i].style.color = 'white';
@@ -23,13 +29,32 @@ export const changeClass = target => {
             }
             return;
         } else {
+            if (window.getComputedStyle(document.querySelector('.settings-container')).getPropertyValue('display') == 'flex') {
+                document.querySelector('.anims-container').classList.add('fadeIn');
+                document.querySelector('.settings-container').classList.add('fadeOut');
+                setTimeout(() => {
+                    document.querySelector('.anims-container').style.display = 'flex';
+                    document.querySelector('.settings-container').style.display = 'none';
+                    document.querySelector('.anims-container').classList.remove('fadeIn');
+                    document.querySelector('.settings-container').classList.remove('fadeOut');
+                }, 300);
+            }
             for (let i = 0; i < allClass.length; i++) {
                 allClass[i].style.display = 'flex';
             }
         }
     } else {
-
-
+        settingsStatus = true;
+        if (window.getComputedStyle(document.querySelector('.settings-container')).getPropertyValue('display') != 'flex') {
+            document.querySelector('.anims-container').classList.add('fadeOut');
+            document.querySelector('.settings-container').classList.add('fadeIn');
+            setTimeout(() => {
+                document.querySelector('.anims-container').style.display = 'none';
+                document.querySelector('.settings-container').style.display = 'flex';
+                document.querySelector('.anims-container').classList.remove('fadeOut');
+                document.querySelector('.settings-container').classList.remove('fadeIn');
+            }, 300);
+        }
     }
 }
 

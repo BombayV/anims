@@ -30,7 +30,7 @@ body {
 
 .menu-container {
     position: relative;
-    display: none;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
@@ -57,6 +57,18 @@ body {
     width: 70em;
     height: 40em;
     border-radius: 0.6vh;
+}
+
+.settings-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 25em;
+    height: 40em;
+    border-radius: 0.6vh;
+    background: rgba(0, 0, 0, 0.80);
 }
 
 .navbar {

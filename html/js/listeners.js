@@ -8,7 +8,7 @@ doc.getElementById('home').addEventListener('click', e => {
 });
 
 doc.getElementById('settings').addEventListener('click', e => {
-    changeClass(e.target);
+    changeClass(e.target)
 });
 
 doc.getElementById('exit').addEventListener('click', e => {

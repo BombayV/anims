@@ -110,4 +110,8 @@ RegisterCommand(cfg.commandNameEmote, function(_, args)
         findEmote(args[1])
     end
 end)
+
+if cfg.keyActive then
+    RegisterKeyMapping(cfg.commandName, cfg.keySuggestion, 'keyboard', cfg.keyLetter)
+end
 --#endregion
