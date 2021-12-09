@@ -57,15 +57,19 @@ end
 ---@param prop number
 ---@param name string
 ---@param placement table
-Load.PtfxCreation = function(ped, prop, name, placement)
+---@param rgb table
+Load.PtfxCreation = function(ped, prop, name, asset, placement, rgb)
     local ptfxSpawn = ped
     if prop then
         ptfxSpawn = prop
     end
-    local newPtfx = StartNetworkedParticleFxLoopedOnEntityBone(name, ptfxSpawn, placement[1], placement[2], placement[3], placement[4], placement[4], placement[5], GetEntityBoneIndexByName(name, "VFX"), 1065353216, 0, 0, 0, 1065353216, 1065353216, 1065353216, 0)
-    SetParticleFxLoopedColour(newPtfx, 1.0, 1.0, 1.0)
-    insert(cfg.ptfxEntities, newPtfx)
-    cfg.ptfxActive = true
+    local newPtfx = StartNetworkedParticleFxLoopedOnEntityBone(name, ptfxSpawn, placement[1] + 0.0, placement[2] + 0.0, placement[3] + 0.0, placement[4] + 0.0, placement[5] + 0.0, placement[6] + 0.0, GetEntityBoneIndexByName(name, "VFX"), placement[7] + 0.0, 0, 0, 0, 1065353216, 1065353216, 1065353216, 0)
+    if newPtfx then
+        SetParticleFxLoopedColour(newPtfx, rgb[1] + 0.0, rgb[2] + 0.0, rgb[3] + 0.0)
+        insert(cfg.ptfxEntities, newPtfx)
+        cfg.ptfxActive = true
+    end
+    RemoveNamedPtfxAsset(asset)
 end
 
 ---Removes existing particle effects
@@ -85,9 +89,9 @@ end
 ---@param placement table
 Load.PropCreation = function(ped, prop, bone, placement)
     local coords = GetEntityCoords(ped)
-    local newProp = CreateObject(GetHashKey(prop1), coords.x, coords.y, coords.z + 0.2,  true,  true, true)
+    local newProp = CreateObject(GetHashKey(prop), coords.x, coords.y, coords.z + 0.2, true, true, true)
     if newProp then
-        AttachEntityToEntity(newProp, Player, GetPedBoneIndex(ped, bone), placement[1], placement[2], placement[3], placement[4], placement[5], placement[6], true, true, false, true, 1, true)
+        AttachEntityToEntity(newProp, ped, GetPedBoneIndex(ped, bone), placement[1] + 0.0, placement[2] + 0.0, placement[3] + 0.0, placement[4] + 0.0, placement[5] + 0.0, placement[6] + 0.0, true, true, true, true, 1, true)
         insert(cfg.propsEntities, newProp)
         cfg.propActive = true
     end
@@ -98,11 +102,15 @@ end
 ---@param type string
 Load.PropRemoval = function(type)
     if type == 'global' then
-        for _, v in pairs(GetGamePool('CObject')) do
-            if IsEntityAttachedToEntity(PlayerPedId(), v) then
-                SetEntityAsMissionEntity(v, true, true)
-                DeleteObject(v)
+        if not cfg.propActive then
+            for _, v in pairs(GetGamePool('CObject')) do
+                if IsEntityAttachedToEntity(PlayerPedId(), v) then
+                    SetEntityAsMissionEntity(v, true, true)
+                    DeleteObject(v)
+                end
             end
+        else
+            Play.Notification('info', 'Prevented real prop deletion...')
         end
     else
         if cfg.propActive then

@@ -8,13 +8,20 @@ doc.getElementById('home').addEventListener('click', e => {
 });
 
 doc.getElementById('settings').addEventListener('click', e => {
-    changeClass(e.target)
+    changeClass(e.target);
 });
 
 doc.getElementById('exit').addEventListener('click', e => {
-    setDisplay('fadeOut');
+    changeClass(doc.getElementById('home'));
     fetchNUI('exitPanel');
 });
+
+doc.addEventListener('keyup', e => {
+    if (e.key == 'Escape') {
+        changeClass(doc.getElementById('home'));
+        fetchNUI('exitPanel');
+    }
+})
 
 doc.getElementById('favorite').addEventListener('click', e => changeClass(e.target));
 doc.getElementById('dances').addEventListener('click', e => changeClass(e.target));

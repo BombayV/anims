@@ -30,7 +30,7 @@ body {
 
 .menu-container {
     position: relative;
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
@@ -61,7 +61,7 @@ body {
 
 .settings-container {
     position: relative;
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;

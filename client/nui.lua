@@ -10,7 +10,7 @@ local function animType(data, p)
         elseif data.expression then
             Play.Expression(data.expression, p)
         elseif data.walk then
-            Play.Walk(data.walk, v)
+            Play.Walk(data.walk, p)
         end
     end
 end
@@ -39,11 +39,13 @@ end
 
 --#region NUI callbacks
 RegisterNUICallback('changeCfg', function(data, cb)
-    if data.type == 'movement' then
-        cfg.animMovement = not data.state
-    elseif data.type == 'loop' then
-        print(data.state)
-        cfg.animLoop = not data.state
+    if data then
+        if data.type == 'movement' then
+            cfg.animMovement = not data.state
+        elseif data.type == 'loop' then
+            print(data.state)
+            cfg.animLoop = not data.state
+        end
     end
     cb({})
 end)
@@ -69,22 +71,27 @@ RegisterNUICallback('exitPanel', function(_, cb)
 end)
 
 RegisterNUICallback('sendNotification', function(data, cb)
-    Play.Notification(data.type, data.message)
+    if data then
+        Play.Notification(data.type, data.message)
+    end
     cb({})
 end)
 
 RegisterNUICallback('fetchStorage', function(data, cb)
-    for _, v in pairs(data) do
-        if v == 'loop' then
-            cfg.animLoop = true
-        elseif v == 'movement' then
-            cfg.animMovement = true
+    if data then
+        for _, v in pairs(data) do
+            if v == 'loop' then
+                cfg.animLoop = true
+            elseif v == 'movement' then
+                cfg.animMovement = true
+            end
         end
     end
     cb({})
 end)
 
 RegisterNUICallback('beginAnimation', function(data, cb)
+    Load.Cancel()
     local animState = promise.new()
     animType(data, animState)
     local result = Citizen.Await(animState)
@@ -107,8 +114,9 @@ end)
 
 RegisterCommand(cfg.commandNameEmote, function(_, args)
     if args and args[1] then
-        findEmote(args[1])
+        return findEmote(args[1])
     end
+    Play.Notification('info', 'No emote name set...')
 end)
 
 if cfg.keyActive then

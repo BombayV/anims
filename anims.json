@@ -32,5 +32,39 @@
         "expressions": {
             "expression": "mood_angry_1"
         }
+    },
+    {
+        "type": "dances",
+        "title": "Test",
+        "subtitle": "/e test",
+        "dances": {
+            "dict": "anim@heists@box_carry@",
+            "anim": "idle"
+        },
+        "props": {
+            "prop": "hei_prop_heist_box",
+            "propBone": 60309,
+            "propPlacement": [0.025, 0.08, 0.255, -140.0, 290.0, 0.0]
+        }
+    },
+    {
+        "type": "dances",
+        "title": "Rain",
+        "subtitle": "/e rain",
+        "dances": {
+            "dict": "anim@mp_player_intupperraining_cash",
+            "anim": "idle_a"
+        },
+        "props": {
+            "prop": "prop_anim_cash_pile_01",
+            "propBone": 60309,
+            "propPlacement": [0.0, 0.0, 0.0, 180.0, 0.0, 70.0]
+        },
+        "particles": {
+            "asset": "scr_xs_celebration",
+            "name": "scr_xs_money_rain",
+            "placement": [0.0, 0.0, -0.09, -80.0, 0.0, 0.0, 10.0],
+            "rgb": [255.0, 0.0, 0.0]
+        }
     }
 ]

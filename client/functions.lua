@@ -26,10 +26,10 @@ Play.Animation = function(dance, particle, prop, p)
         end
         Load.Dict(dance.dict)
         if prop then
+            Play.Prop(prop)
             if particle then
                 Play.Ptfx(particle)
             end
-            Play.Prop(prop)
         end
 
         local loop = cfg.animDuration
@@ -46,7 +46,7 @@ Play.Animation = function(dance, particle, prop, p)
         p:resolve({passed = true})
         return
     end
-    p:resolve({passed = false})
+    p:reject({passed = false})
 end
 
 ---Plays a scene
@@ -63,7 +63,7 @@ Play.Scene = function(scene, p)
         p:resolve({passed = true})
         return
     end
-    p:resolve({passed = false})
+    p:reject({passed = false})
 end
 
 ---Changes the facial expression
@@ -75,7 +75,7 @@ Play.Expression = function(expression, p)
         p:resolve({passed = true})
         return
     end
-    p:resolve({passed = false})
+    p:reject({passed = false})
 end
 
 ---Changes the walking anim of a ped
@@ -84,12 +84,12 @@ end
 Play.Walk = function(walks, p)
     if walks then
         Load.Walk(walks.style)
-        SetPedMovementClipset(PlayerPedId(), walks.style, 0.2)
+        SetPedMovementClipset(PlayerPedId(), walks.style, cfg.walkingTransition)
         RemoveAnimSet(walks.style)
         p:resolve({passed = true})
         return
     end
-    p:resolve({passed = false})
+    p:reject({passed = false})
 end
 
 ---Creates a prop(s)
@@ -112,8 +112,8 @@ end
 Play.Ptfx = function(particles)
     if particles then
         Load.Ptfx(particles.asset)
-        UseParticleFxAssetNextCall(PtfxAsset)
-        Load.PtfxCreation(PlayerPedId(), cfg.propsEntities[1] or cfg.propsEntities[2] or nil, particles.name, particles.placement)
+        UseParticleFxAssetNextCall(particles.asset)
+        Load.PtfxCreation(PlayerPedId(), cfg.propsEntities[1] or cfg.propsEntities[2] or nil, particles.name, particles.asset, particles.placement, particles.rgb)
     end
 end
 
