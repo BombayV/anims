@@ -30,7 +30,7 @@ body {
 
 .menu-container {
     position: relative;
-    display: none;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
@@ -61,7 +61,7 @@ body {
 
 .settings-container {
     position: relative;
-    display: none;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
@@ -80,17 +80,15 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 100%;
+    width: 85%;
     margin: 0.5%;
 }
 
 .settings-container div span {
-    margin-left: 4%;
     font-size: 1.1em;
 }
 
 .settings-container div input {
-    margin-right: 4%;
     width: 30%;
     height: 100%;
     background: none;
@@ -110,6 +108,18 @@ body {
 .settings-container div input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+.settings-container button {
+    background: transparent;
+    font-size: 1.05em;
+    font-family: "Rubik Light";
+    width: 85%;
+    height: 5%;
+    border-radius: 0.4vh;
+    border: 0.1vh solid #42b2b8;
+    color: white;
+    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
 }
 
 .navbar {
