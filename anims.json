@@ -1,5 +1,198 @@
 [
     {
+        "type": "expressions",
+        "title": "Angry",
+        "subtitle": "/e angry",
+        "expressions": {
+            "expression": "mood_angry_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Drunk",
+        "subtitle": "/e drunk",
+        "expressions": {
+            "expression": "mood_drunk_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Dumb",
+        "subtitle": "/e dumb",
+        "expressions": {
+            "expression": "pose_injured_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Electrocuted",
+        "subtitle": "/e electrocuted",
+        "expressions": {
+            "expression": "electrocuted_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Grumpy",
+        "subtitle": "/e grumpy",
+        "expressions": {
+            "expression": "effort_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Grumpy2",
+        "subtitle": "/e grumpy2",
+        "expressions": {
+            "expression": "mood_drivefast_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Grumpy 3",
+        "subtitle": "/e grumpy3",
+        "expressions": {
+            "expression": "pose_angry_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Happy",
+        "subtitle": "/e happy",
+        "expressions": {
+            "expression": "mood_happy_1"
+        }
+    },
+
+    {
+        "type": "expressions",
+        "title": "Injured",
+        "subtitle": "/e injured",
+        "expressions": {
+            "expression": "mood_injured_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Joyful",
+        "subtitle": "/e joyful",
+        "expressions": {
+            "expression": "mood_dancing_low_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Mouthbreather",
+        "subtitle": "/e mouthbreather",
+        "expressions": {
+            "expression": "smoking_hold_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Never Blink",
+        "subtitle": "/e neverblink",
+        "expressions": {
+            "expression": "pose_normal_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "One Eye",
+        "subtitle": "/e oneeye",
+        "expressions": {
+            "expression": "pose_aiming_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Shocked",
+        "subtitle": "/e shocked",
+        "expressions": {
+            "expression": "shocked_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Shocked2",
+        "subtitle": "/e shocked2",
+        "expressions": {
+            "expression": "shocked_2"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Sleeping",
+        "subtitle": "/e sleeping",
+        "expressions": {
+            "expression": "mood_sleeping_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Sleeping 2",
+        "subtitle": "/e sleeping2",
+        "expressions": {
+            "expression": "dead_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Sleeping 3",
+        "subtitle": "/e sleeping3",
+        "expressions": {
+            "expression": "dead_2"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Smug",
+        "subtitle": "/e smug",
+        "expressions": {
+            "expression": "mood_smug_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Speculative",
+        "subtitle": "/e speculative",
+        "expressions": {
+            "expression": "mood_aiming_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Stressed",
+        "subtitle": "/e stressed",
+        "expressions": {
+            "expression": "mood_stressed_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Sulking",
+        "subtitle": "/e sulking",
+        "expressions": {
+            "expression": "mood_sulk_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Weird",
+        "subtitle": "/e weird",
+        "expressions": {
+            "expression": "effort_2"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Weird2",
+        "subtitle": "/e weird2",
+        "expressions": {
+            "expression": "enffort_3"
+        }
+    },
+    {
         "type": "dances",
         "title": "Prone",
         "subtitle": "/e prone",
@@ -63,7 +256,7 @@
         "particles": {
             "asset": "scr_xs_celebration",
             "name": "scr_xs_money_rain",
-            "placement": [0.0, 0.0, -0.09, -80.0, 0.0, 0.0, 10.0],
+            "placement": [0.0, 0.0, -0.09, -80.0, 0.0, 0.0, 10000.0],
             "rgb": [255.0, 0.0, 0.0]
         }
     }

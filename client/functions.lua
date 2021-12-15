@@ -1,4 +1,5 @@
 ---Holds Playing animation
+---@class Play
 Play = {}
 
 ---Checks for sex of ped

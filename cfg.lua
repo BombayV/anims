@@ -7,9 +7,10 @@ cfg = {
     keyActive = false, -- Use key for opening the panel
     keyLetter = 'F5', -- Which key for opening the panel if cfg.keyActive is true
     keySuggestion = 'Open the emote panel by key', -- Suggestion on keybind mapping
-    cancelKey = 38, -- Default key for cancelling an animation. Users can change this manually too.
-
     walkingTransition = 0.5,
+    cancelKey = 38, -- Default key for cancelling an animation. Users can change this manually too.
+    defaultEmote = 'dance',
+    defaultEmoteKey = 36,
 
     -- Do not touch
     useTnotify = GetResourceState('t-notify') == 'started',

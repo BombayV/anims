@@ -39,32 +39,32 @@
     </div>
     <div class="settings-container">
         <span style="font-size: 1.8em; margin-top: 5%; text-decoration: underline;">Settings</span>
-        <hr style="margin-top: 5%; margin-bottom: 5%;" width="80%">
+        <hr style="margin-top: 2.5%; margin-bottom: 2.5%;" width="80%">
         <div>
             <span>Animation Duration</span>
-            <input type="number" placeholder="1500" maxlength="5" min="1000" max="15000" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
+            <input id="set-duration" type="number" placeholder="1500" maxlength="5" min="1000" max="15000" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
         </div>
         <div>
             <span>Cancel Animation Key</span>
-            <input type="number" placeholder="38" maxlength="3" min="0" max="350" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
+            <input id="set-cancel" type="number" placeholder="38" maxlength="3" min="0" max="360" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
         </div>
         <div>
             <span>Favorite Animation</span>
-            <input type="text" placeholder="emote1">
+            <input id="set-emote" type="text" placeholder="emote1">
         </div>
         <div>
             <span>Favorite Animation Key</span>
-            <input type="number" placeholder="38" maxlength="3" min="0" max="350" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
+            <input id="set-key" type="number" placeholder="38" maxlength="3" min="0" max="360" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
         </div>
-        <hr style="margin-top: 5%; margin-bottom: 5%;" width="80%">
-        <button>Reset Animation Duration</button>
-        <button>Reset Cancel Animation Key</button>
-        <button>Reset Favorite Animation</button>
-        <button>Reset Favorite Animation Key</button>
-        <hr style="margin-top: 5%; margin-bottom: 5%;" width="80%">
-        <button>Reset Favorite Anims</button>
-        <button>Copy Favorite Anims</button>
-        <button style="margin-bottom: 2.5%">Save Settings</button>
+        <hr style="margin-top: 2.5%; margin-bottom: 2.5%;" width="80%">
+        <button id="reset-duration">Reset Animation Duration</button>
+        <button id="reset-cancel">Reset Cancel Animation Key</button>
+        <button id="reset-fav">Reset Favorite Animation</button>
+        <button id="reset-key">Reset Favorite Animation Key</button>
+        <hr style="margin-top: 2.5%; margin-bottom: 2.5%;" width="80%">
+        <button id="reset-favs">Reset Favorite Anims</button>
+        <button id="copy-favs">Copy Favorite Anims</button>
+        <button id="save-settings" style="margin-bottom: 5%">Save Settings</button>
     </div>
     <script type="module" src='./js/script.js'></script>
     <script type="module" src='./js/listeners.js'></script>

@@ -3,6 +3,11 @@ import { fetchNUI } from "./modules/fetch.js"
 
 const doc = document;
 
+const currentDuration = localStorage.getItem('currentDuration') || 0;
+const currentCancel = localStorage.getItem('currentCancel') || 0;
+const currentEmote = localStorage.getItem('currentEmote') || 0;
+const currentKey = localStorage.getItem('currentKey') || 0;
+
 doc.getElementById('home').addEventListener('click', e => {
     changeClass(e.target);
 });
@@ -74,3 +79,36 @@ doc.getElementById('delete').addEventListener('click', e => {
 
 doc.getElementById('movement').addEventListener('click', e => (getStatus(e.target)));
 doc.getElementById('loop').addEventListener('click', e => getStatus(e.target));
+
+doc.getElementById('save-settings').addEventListener('click', () => {
+    const duration = doc.getElementById('set-duration');
+    const cancel = doc.getElementById('set-cancel');
+    const emote = doc.getElementById('set-emote');
+    const key = doc.getElementById('set-key');
+
+    if (duration.value) {
+        localStorage.setItem('currentDuration', duration.value);
+        duration.placeholder = duration.value;
+        duration.value = '';
+    }
+
+    if (cancel.value) {
+        localStorage.setItem('currentCancel', cancel.value);
+        cancel.placeholder = cancel.value;
+        cancel.value = '';
+    }
+
+    if (emote.value) {
+        localStorage.setItem('currentEmote', emote.value);
+        emote.placeholder = emote.value;
+        emote.value = '';
+    }
+
+    if (key.value) {
+        localStorage.setItem('currentKey', key.value);
+        key.placeholder = key.value;
+        key.value = '';
+    }
+
+    fetchNUI('changCfg', {type: 'settings', duration: currentDuration, cancel: currentCancel, emote: currentEmote, key: currentKey})
+})

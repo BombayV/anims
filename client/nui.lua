@@ -45,6 +45,11 @@ RegisterNUICallback('changeCfg', function(data, cb)
         elseif data.type == 'loop' then
             print(data.state)
             cfg.animLoop = not data.state
+        elseif data.type == 'settings' then
+            cfg.animDuration = data.duration or cfg.animDuration
+            cfg.cancelKey = data.cancel or cfg.cancelKey
+            cfg.defaultEmote = data.currentEmote or cfg.defaultEmote
+            cfg.defaultEmoteKey = data.key or cfg.defaultEmoteKey
         end
     end
     cb({})

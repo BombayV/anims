@@ -111,15 +111,24 @@ body {
 }
 
 .settings-container button {
-    background: transparent;
+    background: #272a2d;
     font-size: 1.05em;
-    font-family: "Rubik Light";
+    font-family: "Rubik Medium";
     width: 85%;
-    height: 5%;
+    height: 6.5%;
     border-radius: 0.4vh;
-    border: 0.1vh solid #42b2b8;
+    border: none;
     color: white;
-    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+    box-shadow: 0vh 0.1vh 0.3vh 0.1vh #14171f;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.settings-container button:hover {
+    background-color: #990D35;
+    box-shadow: 0vh 0.1vh 0.2vh 0.1vh #550d21;
 }
 
 .navbar {
@@ -216,6 +225,7 @@ body {
     background: rgba(0, 0, 0, 0.70);
     cursor: pointer;
     transition: 0.2s;
+    overflow: hidden;
 }
 
 .anim:hover {
@@ -236,11 +246,13 @@ body {
 .anim div span:first-of-type {
     color: #FFFFFF;
     font-size: 1.4em;
+    word-break:break-all;
 }
 
 .anim div span:last-of-type {
     color: #C1C1C1;
     font-size: 0.855em;
+    word-break:break-all;
 }
 
 .star {
