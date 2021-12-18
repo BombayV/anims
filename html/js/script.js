@@ -35,7 +35,7 @@ window.addEventListener('load', (e) => {
         }
     })
 
-    //window.localStorage.clear()
+    //window.localStorage.clear() // Clear everyone's storage
     const favorites = JSON.parse(localStorage.getItem('favoriteAnims'))
     if (favorites == null) {
         console.log("NEW")

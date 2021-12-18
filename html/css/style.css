@@ -74,6 +74,12 @@ body {
     color: #FFFFFF;
 }
 
+.settings-title {
+    font-size: 1.8em;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
 .settings-container div {
     position: relative;
     display: flex;
@@ -327,6 +333,19 @@ body {
         max-width: 14em;
         max-height: 20em;
     }
+    .settings-container div span {
+        font-size: 0.65em;
+    }
+
+    .settings-container button {
+        font-size: 0.60em;
+    }
+    .settings-title {
+        font-size: 0.8em;
+    }
+    .settings-container div input {
+        font-size: 0.7em;
+    }
     .anim {
         max-width: 24%;
         max-height: 2.9em;
@@ -367,6 +386,19 @@ body {
     .settings-container {
         max-width: 18em;
         max-height: 25em;
+    }
+    .settings-container div span {
+        font-size: 0.85em;
+    }
+
+    .settings-container button {
+        font-size: 0.80em;
+    }
+    .settings-title {
+        font-size: 1.0em;
+    }
+    .settings-container div input {
+        font-size: 0.85em;
     }
     .anim {
         max-width: 24%;
@@ -409,6 +441,19 @@ body {
         max-width: 100%;
         max-height: 100%;
     }
+    .settings-container div span {
+        font-size: 1.1em;
+    }
+
+    .settings-container button {
+        font-size: 1.05em;
+    }
+    .settings-title {
+        font-size: 1.8em;
+    }
+    .settings-container div input {
+        font-size: 1.1em;
+    }
     .anim {
         min-width: 24%;
         min-height: 5.8em;
@@ -448,6 +493,19 @@ body {
     .settings-container {
         min-width: 35em;
         min-height: 55em;
+    }
+    .settings-container div span {
+        font-size: 1.6em;
+    }
+
+    .settings-container button {
+        font-size: 1.65em;
+    }
+    .settings-title {
+        font-size: 2.1em;
+    }
+    .settings-container div input {
+        font-size: 1.6em;
     }
     .anim {
         min-width: 24em;
