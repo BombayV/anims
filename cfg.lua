@@ -8,9 +8,6 @@ cfg = {
     keyLetter = 'F5', -- Which key for opening the panel if cfg.keyActive is true
     keySuggestion = 'Open the emote panel by key', -- Suggestion on keybind mapping
     walkingTransition = 0.5,
-    cancelKey = 38, -- Default key for cancelling an animation. Users can change this manually too.
-    defaultEmote = 'dance',
-    defaultEmoteKey = 36,
 
     -- Do not touch
     useTnotify = GetResourceState('t-notify') == 'started',
@@ -32,5 +29,11 @@ cfg = {
 
     malePeds = {
         "mp_m_freemode_01"
-    }
+    },
+
+    cancelKey = 73, -- Default key for cancelling an animation. Users can change this manually too.
+    defaultCommand = 'fav', -- Emote command execution
+    defaultEmote = 'dance', -- Default emote by default
+    defaultEmoteUseKey = true, -- Don't recommend setting this to false unless you change UI
+    defaultEmoteKey = 20 -- Default emote command key
 }

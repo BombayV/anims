@@ -53,6 +53,17 @@ window.addEventListener('load', (e) => {
         }
     }
 
+    const duration = localStorage.getItem('currentDuration')
+    const cancel = localStorage.getItem('currentCancel')
+    const emote = localStorage.getItem('currentEmote')
+    const key = localStorage.getItem('currentKey')
+
+    if (duration) {document.getElementById('set-duration').placeholder = duration};
+    if (cancel) {document.getElementById('set-cancel').placeholder = cancel};
+    if (emote) {document.getElementById('set-emote').placeholder = emote};
+    if (key) {document.getElementById('set-key').placeholder = key};
+    fetchNUI('changeCfg', {type: 'settings', duration: duration, cancel: cancel, emote: emote, key: key})
+
     fetch('../anims.json')
     .then((resp) => resp.json())
     .then((data) => createPanels(data))

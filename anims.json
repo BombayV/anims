@@ -211,22 +211,6 @@
         }
     },
     {
-        "type": "walks",
-        "title": "Arrogant",
-        "subtitle": "/e arrogant",
-        "walks": {
-            "style": "move_f@arrogant@a"
-        }
-    },
-    {
-        "type": "expressions",
-        "title": "Angry",
-        "subtitle": "/e angry",
-        "expressions": {
-            "expression": "mood_angry_1"
-        }
-    },
-    {
         "type": "dances",
         "title": "Test",
         "subtitle": "/e test",
@@ -256,8 +240,8 @@
         "particles": {
             "asset": "scr_xs_celebration",
             "name": "scr_xs_money_rain",
-            "placement": [0.0, 0.0, -0.09, -80.0, 0.0, 0.0, 10000.0],
-            "rgb": [255.0, 0.0, 0.0]
+            "placement": [0.0, 0.0, -0.09, -80.0, 0.0, 0.0, 1.0],
+            "rgb": [1.0, 1.0, 1.0]
         }
     }
 ]

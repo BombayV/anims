@@ -1,9 +1,12 @@
+--#region Functions
+
 ---Begins animation depending on data type
 ---@param data table Animation Data
 ---@param p string Promise
 local function animType(data, p)
     if data then
         if data.dance then
+            print('passed')
             Play.Animation(data.dance, data.particle, data.prop, p)
         elseif data.scene then
             Play.Scene(data.scene, p)
@@ -19,11 +22,11 @@ end
 local function enableCancel()
     CreateThread(function()
         while cfg.animActive or cfg.sceneActive do
-            if IsControlJustReleased(0, cfg.cancelKey) then
+            if IsControlJustPressed(0, cfg.cancelKey) then
                 Load.Cancel()
                 break
             end
-            Wait(16)
+            Wait(10)
         end
     end)
 end
@@ -36,6 +39,7 @@ local function findEmote(emoteName)
         SendNUIMessage({action = 'findEmote', name = name})
     end
 end
+--#endregion
 
 --#region NUI callbacks
 RegisterNUICallback('changeCfg', function(data, cb)
@@ -46,10 +50,12 @@ RegisterNUICallback('changeCfg', function(data, cb)
             print(data.state)
             cfg.animLoop = not data.state
         elseif data.type == 'settings' then
-            cfg.animDuration = data.duration or cfg.animDuration
-            cfg.cancelKey = data.cancel or cfg.cancelKey
-            cfg.defaultEmote = data.currentEmote or cfg.defaultEmote
-            cfg.defaultEmoteKey = data.key or cfg.defaultEmoteKey
+            print('Start: ', data.duration, cfg.animDuration)
+            cfg.animDuration = tonumber(data.duration) or cfg.animDuration
+            cfg.cancelKey = tonumber(data.cancel) or cfg.cancelKey
+            cfg.defaultEmote = data.emote or cfg.defaultEmote
+            cfg.defaultEmoteKey = tonumber(data.key) or cfg.defaultEmoteKey
+            print('End: ', data.duration, cfg.animDuration)
         end
     end
     cb({})
@@ -109,7 +115,7 @@ RegisterNUICallback('beginAnimation', function(data, cb)
 end)
 --#endregion
 
---#region -- commands
+--#region Commands
 RegisterCommand(cfg.commandName, function()
     cfg.panelStatus = not cfg.panelStatus
     SetNuiFocus(true, true)
@@ -124,7 +130,30 @@ RegisterCommand(cfg.commandNameEmote, function(_, args)
     Play.Notification('info', 'No emote name set...')
 end)
 
+RegisterCommand(cfg.defaultCommand, function()
+    if cfg.defaultEmote then
+        findEmote(cfg.defaultEmote)
+    end
+end)
+
+if cfg.defaultEmoteUseKey then
+    CreateThread(function()
+        while cfg.defaultEmoteKey do
+            if IsControlJustPressed(0, cfg.defaultEmoteKey) then
+                findEmote(cfg.defaultEmote)
+            end
+            Wait(10)
+        end
+    end)
+end
+
 if cfg.keyActive then
     RegisterKeyMapping(cfg.commandName, cfg.keySuggestion, 'keyboard', cfg.keyLetter)
 end
 --#endregion
+
+AddEventHandler('onResourceStop', function(name)
+    if GetCurrentResourceName() == name then
+        Load.Cancel()
+    end
+end)

@@ -1,12 +1,7 @@
-import { changeClass, getStatus, setDisplay } from "./modules/functions.js";
+import { changeClass, getStatus } from "./modules/functions.js";
 import { fetchNUI } from "./modules/fetch.js"
 
 const doc = document;
-
-const currentDuration = localStorage.getItem('currentDuration') || 0;
-const currentCancel = localStorage.getItem('currentCancel') || 0;
-const currentEmote = localStorage.getItem('currentEmote') || 0;
-const currentKey = localStorage.getItem('currentKey') || 0;
 
 doc.getElementById('home').addEventListener('click', e => {
     changeClass(e.target);
@@ -56,24 +51,22 @@ doc.getElementById('search-bar').addEventListener('input', e => {
 })
 
 doc.getElementById('cancel').addEventListener('click', e => {
-    let currentColor = e.target.style.backgroundColor
     e.target.classList.add('pop');
     e.target.style.backgroundColor = "#ff0d4ecc";
     setTimeout(() => {
-        e.target.style.backgroundColor = currentColor;
         e.target.classList.remove('pop');
-    }, 500);
+        e.target.style.backgroundColor = '#000000cc';
+    }, 300);
     fetchNUI('cancelAnimation');
 });
 
 doc.getElementById('delete').addEventListener('click', e => {
-    let currentColor = e.target.style.backgroundColor
     e.target.classList.add('pop');
     e.target.style.backgroundColor = "#ff0d4ecc";
     setTimeout(() => {
-        e.target.style.backgroundColor = currentColor;
         e.target.classList.remove('pop');
-    }, 500);
+        e.target.style.backgroundColor = '#000000cc';
+    }, 300);
     fetchNUI('removeProps');
 });
 
@@ -85,30 +78,68 @@ doc.getElementById('save-settings').addEventListener('click', () => {
     const cancel = doc.getElementById('set-cancel');
     const emote = doc.getElementById('set-emote');
     const key = doc.getElementById('set-key');
-
     if (duration.value) {
         localStorage.setItem('currentDuration', duration.value);
         duration.placeholder = duration.value;
-        duration.value = '';
     }
 
     if (cancel.value) {
         localStorage.setItem('currentCancel', cancel.value);
         cancel.placeholder = cancel.value;
-        cancel.value = '';
     }
 
     if (emote.value) {
         localStorage.setItem('currentEmote', emote.value);
         emote.placeholder = emote.value;
-        emote.value = '';
     }
 
     if (key.value) {
         localStorage.setItem('currentKey', key.value);
         key.placeholder = key.value;
-        key.value = '';
     }
+    fetchNUI('changeCfg', {type: 'settings', duration: duration.value, cancel: cancel.value, emote: emote.value, key: key.value})
 
-    fetchNUI('changCfg', {type: 'settings', duration: currentDuration, cancel: currentCancel, emote: currentEmote, key: currentKey})
+    duration.value = '';
+    cancel.value = '';
+    emote.value = '';
+    key.value = '';
 })
+
+doc.getElementById('reset-duration').addEventListener('click', _ => {
+    localStorage.setItem('currentDuration', 1500);
+    doc.getElementById('set-duration').placeholder = 1500;
+    fetchNUI('changeCfg', {type: 'settings', duration: 1500})
+});
+
+doc.getElementById('reset-cancel').addEventListener('click', _ => {
+    localStorage.setItem('currentCancel', 73);
+    doc.getElementById('set-cancel').placeholder = 73;
+    fetchNUI('changeCfg', {type: 'settings', cancel: 73})
+});
+
+doc.getElementById('reset-fav').addEventListener('click', _ => {
+    localStorage.setItem('currentEmote', 'dance');
+    doc.getElementById('set-emote').placeholder = 'dance';
+    fetchNUI('changeCfg', {type: 'settings', emote: 'dance'})
+});
+
+doc.getElementById('reset-key').addEventListener('click', _ => {
+    localStorage.setItem('currentKey', 20);
+    doc.getElementById('set-key').placeholder = 20;
+    fetchNUI('changeCfg', {type: 'settings', key: 20})
+});
+
+
+doc.getElementById('reset-favs').addEventListener('click', _ => {
+    const favorites = JSON.parse(localStorage.getItem('favoriteAnims'))
+    const anims = document.getElementsByClassName('anim')
+    for (let i = 0; i < anims.length; i++) {
+        for (let x = 0; x < favorites.length; x++) {
+            if (anims[i].id == favorites[x]) {
+                anims[i].classList.remove('favorite');
+                anims[i].getElementsByTagName("span")[2].style.color = '#999999';
+            }
+        }
+    }
+    localStorage.setItem('favoriteAnims', JSON.stringify([]))
+});

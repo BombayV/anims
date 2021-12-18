@@ -19,9 +19,10 @@ end
 ---Loads model/prop
 ---@param model string
 Load.Model = function(model)
-    local hashModel = GetHashKey(model)
+    local timeout = false
     SetTimeout(5000, function() timeout = true end)
 
+    local hashModel = GetHashKey(model)
     repeat
         RequestModel(hashModel)
         Wait(50)

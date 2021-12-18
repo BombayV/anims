@@ -37,6 +37,8 @@ Play.Animation = function(dance, particle, prop, p)
         local move = 1
         if cfg.animLoop then
             loop = -1
+        else
+            SetTimeout(cfg.animDuration, function() Load.Cancel() end)
         end
         if cfg.animMovement then
             move = 51

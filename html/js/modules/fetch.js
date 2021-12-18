@@ -82,7 +82,7 @@ export const createPanels = (panelData) => {
                     block.classList.add('pop');
                     setTimeout(() => {
                         block.classList.remove('pop');
-                    }, 500);
+                    }, 300);
                 }
             })
 
