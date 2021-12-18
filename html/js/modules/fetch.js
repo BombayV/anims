@@ -31,6 +31,15 @@ const getFavorite = elemId => {
 
 export const createPanels = (panelData) => {
     const main = doc.getElementById('anims-holder');
+    const old = localStorage.getItem('oldValues');
+    if (old != null) {
+        if (old != JSON.stringify(panelData)) {
+            console.log('You seem to have new animations. Remember to open a pull request on Github so people can enjoy more animations.')
+            localStorage.setItem('oldValues', JSON.stringify(panelData))
+        }
+    } else {
+        localStorage.setItem('oldValues', JSON.stringify(panelData))
+    }
     panelData.forEach(panel => {
         if (panel && panel.type) {
             const block = doc.createElement('div');
