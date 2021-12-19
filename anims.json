@@ -3660,456 +3660,456 @@
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Casual",
+        "subtitle": "/e casual",
         "walks": {
             "style": "move_m@casual@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Casual 2",
+        "subtitle": "/e casual2",
         "walks": {
             "style": "move_m@casual@b"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Casual 3",
+        "subtitle": "/e casual3",
         "walks": {
             "style": "move_m@casual@c"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Casual 4",
+        "subtitle": "/e casual4",
         "walks": {
             "style": "move_m@casual@d"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Casual 5",
+        "subtitle": "/e casual5",
         "walks": {
             "style": "move_m@casual@e"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Casual 6",
+        "subtitle": "/e casual6",
         "walks": {
             "style": "move_m@casual@f"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Chichi",
+        "subtitle": "/e chichi",
         "walks": {
             "style": "move_f@chichi"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Confident",
+        "subtitle": "/e confident",
         "walks": {
             "style": "move_m@confident"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Cop",
+        "subtitle": "/e cop",
         "walks": {
             "style": "move_m@business@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Cop 2",
+        "subtitle": "/e cop2",
         "walks": {
             "style": "move_m@business@b"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Cop 3",
+        "subtitle": "/e cop3",
         "walks": {
             "style": "move_m@business@c"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Default Female",
+        "subtitle": "/e defaultfemale",
         "walks": {
             "style": "move_f@multiplayer"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Default Male",
+        "subtitle": "/e defaultmale",
         "walks": {
             "style": "move_m@multiplayer"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Drunk",
+        "subtitle": "/e drunk",
         "walks": {
             "style": "move_m@drunk@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Drunk 2",
+        "subtitle": "/e drunk2",
         "walks": {
             "style": "move_m@drunk@slightlydrunk"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Drunk 3",
+        "subtitle": "/e drunk3",
         "walks": {
             "style": "move_m@buzzed"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Drunk 4",
+        "subtitle": "/e drunk4",
         "walks": {
             "style": "move_m@drunk@verydrunk"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Femme",
+        "subtitle": "/e femme",
         "walks": {
             "style": "move_f@femme@"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Fire",
+        "subtitle": "/e fire",
         "walks": {
             "style": "move_characters@franklin@fire"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Fire 2",
+        "subtitle": "/e fire2",
         "walks": {
             "style": "move_characters@michael@fire"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Fire 3",
+        "subtitle": "/e fire3",
         "walks": {
             "style": "move_m@fire"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Flee",
+        "subtitle": "/e flee",
         "walks": {
             "style": "move_f@flee@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Franklin",
+        "subtitle": "/e franklin",
         "walks": {
             "style": "move_p_m_one"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Gangster",
+        "subtitle": "/e gangster",
         "walks": {
             "style": "move_m@gangster@generic"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Gangster 2",
+        "subtitle": "/e gangster2",
         "walks": {
             "style": "move_m@gangster@ng"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Gangster 3",
+        "subtitle": "/e gangster3",
         "walks": {
             "style": "move_m@gangster@var_e"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Gangster 4",
+        "subtitle": "/e gangster4",
         "walks": {
             "style": "move_m@gangster@var_f"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Gangster 5",
+        "subtitle": "/e gangster5",
         "walks": {
             "style": "move_m@gangster@var_i"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Grooving",
+        "subtitle": "/e grooving",
         "walks": {
             "style": "anim@move_m@grooving@"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Guard",
+        "subtitle": "/e guard",
         "walks": {
             "style": "move_m@prison_gaurd"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Handcuffed",
+        "subtitle": "/e handcuffed",
         "walks": {
             "style": "move_m@prisoner_cuffed"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Heels",
+        "subtitle": "/e heels",
         "walks": {
             "style": "move_f@heels@c"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Heels 2",
+        "subtitle": "/e heels2",
         "walks": {
             "style": "move_f@heels@d"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Hiking",
+        "subtitle": "/e hiking",
         "walks": {
             "style": "move_m@hiking"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Hipster",
+        "subtitle": "/e hipster",
         "walks": {
             "style": "move_m@hipster@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Hobo",
+        "subtitle": "/e hobo",
         "walks": {
             "style": "move_m@hobo@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Hurry",
+        "subtitle": "/e hurry",
         "walks": {
             "style": "move_f@hurry@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Janitor",
+        "subtitle": "/e janitor",
         "walks": {
             "style": "move_p_m_zero_janitor"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Janitor 2",
+        "subtitle": "/e janitor2",
         "walks": {
             "style": "move_p_m_zero_slow"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Jog",
+        "subtitle": "/e jog",
         "walks": {
             "style": "move_m@jog@"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Lamar",
+        "subtitle": "/e lamar",
         "walks": {
             "style": "anim_group_move_lemar_alley"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Lester",
+        "subtitle": "/e lester",
         "walks": {
             "style": "move_heist_lester"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Lester 2",
+        "subtitle": "/e lester2",
         "walks": {
             "style": "move_lester_caneup"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Maneater",
+        "subtitle": "/e maneater",
         "walks": {
             "style": "move_f@maneater"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Michael",
+        "subtitle": "/e michael",
         "walks": {
             "style": "move_ped_bucket"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Money",
+        "subtitle": "/e money",
         "walks": {
             "style": "move_m@money"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Muscle",
+        "subtitle": "/e muscle",
         "walks": {
             "style": "move_m@muscle@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Posh",
+        "subtitle": "/e posh",
         "walks": {
             "style": "move_m@posh@"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Posh2",
+        "subtitle": "/e posh2",
         "walks": {
             "style": "move_f@posh@"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Quick",
+        "subtitle": "/e quick",
         "walks": {
             "style": "move_m@quick"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Runner",
+        "subtitle": "/e runner",
         "walks": {
             "style": "female_fast_runner"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Sad",
+        "subtitle": "/e sad",
         "walks": {
             "style": "move_m@sad@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Sassy",
+        "subtitle": "/e sassy",
         "walks": {
             "style": "move_m@sassy"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Sassy2",
+        "subtitle": "/e sassy2",
         "walks": {
             "style": "move_f@sassy"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Scared",
+        "subtitle": "/e scared",
         "walks": {
             "style": "move_f@scared"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Sexy",
+        "subtitle": "/e sexy",
         "walks": {
             "style": "move_f@sexy@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Shady",
+        "subtitle": "/e shady",
         "walks": {
             "style": "move_m@shadyped@a"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Slow",
+        "subtitle": "/e slow",
         "walks": {
             "style": "move_characters@jimmy@slow@"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Swagger",
+        "subtitle": "/e swagger",
         "walks": {
             "style": "move_m@swagger"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Tough",
+        "subtitle": "/e tough",
         "walks": {
             "style": "move_m@tough_guy@"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Tough2",
+        "subtitle": "/e tough2",
         "walks": {
             "style": "move_f@tough_guy@"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Trash",
+        "subtitle": "/e trash",
         "walks": {
             "style": "clipset@move@trash_fast_turn"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Trash2",
+        "subtitle": "/e trash2",
         "walks": {
             "style": "missfbi4prepp1_garbageman"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Trevor",
+        "subtitle": "/e trevor",
         "walks": {
             "style": "move_p_m_two"
         }
     },    {
         "type": "walks",
-        "title": "______",
-        "subtitle": "/e ______",
+        "title": "Wide",
+        "subtitle": "/e wide",
         "walks": {
             "style": "move_m@bag"
         }
@@ -4317,80 +4317,80 @@
 
     {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Handshake",
+        "subtitle": "/e handshake",
         "shared": {
             "first": ["mp_ped_interaction", "handshake_guy_a", 1.0, 3000],
             "second": ["mp_ped_interaction", "handshake_guy_b", 0.9, 3000]
         }
     },    {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Hug Other",
+        "subtitle": "/e hugother",
         "shared": {
             "first": ["mp_ped_interaction", "kisses_guy_a", 1.0, 10000],
             "second": ["mp_ped_interaction", "kisses_guy_b", 1.05, 10000]
         }
     },    {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Hug Other 2",
+        "subtitle": "/e hugother2",
         "shared": {
             "first": ["mp_ped_interaction", "hugs_guy_a", 5000],
             "second": ["mp_ped_interaction", "hugs_guy_b", 1.14, 7000]
         }
     },    {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Give & Take",
+        "subtitle": "/e givetake",
         "shared": {
             "first": ["mp_common", "givetake1_a", 2000],
             "second": ["mp_common", "givetake1_b", 1.0, 2000]
         }
     },    {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Baseball",
+        "subtitle": "/e baseball",
         "shared": {
             "first": ["anim@arena@celeb@flat@paired@no_props@", "baseball_a_player_a", 1.0, 5000],
             "second": ["anim@arena@celeb@flat@paired@no_props@", "baseball_a_player_b", 1.14, 5000]
         }
     },    {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Point At Man",
+        "subtitle": "/e pointatman",
         "shared": {
             "first": ["random@countryside_gang_fight", "biker_02_stickup_loop", 1.0, 2000],
             "second": ["missminuteman_1ig_2", "handsup_base", 1.0, 2000]
         }
     },    {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Punch",
+        "subtitle": "/e punch",
         "shared": {
             "first": ["melee@unarmed@streamed_variations", "plyr_takedown_rear_lefthook", 1.0, 2000],
             "second": ["melee@unarmed@streamed_variations", "victim_takedown_front_cross_r", 1.0, 2000]
         }
     },    {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Headbutt",
+        "subtitle": "/e headputt",
         "shared": {
             "first": ["melee@unarmed@streamed_variations", "plyr_takedown_front_headbutt", 1.0, 2000],
             "second": ["melee@unarmed@streamed_variations", "victim_takedown_front_headbutt", 1.1, 2000]
         }
     },    {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Back Slap",
+        "subtitle": "/e backslap",
         "shared": {
             "first": ["melee@unarmed@streamed_variations", "plyr_takedown_front_backslap", 1.0, 2000],
             "second": ["melee@unarmed@streamed_variations", "victim_takedown_front_backslap", 1.0, 2000]
         }
     },    {
         "type": "shared",
-        "title": "_________",
-        "subtitle": "/e test",
+        "title": "Front Slap",
+        "subtitle": "/e frontslap",
         "shared": {
             "first": ["melee@unarmed@streamed_variations", "plyr_takedown_front_slap", 1.0, 2000],
             "second": ["melee@unarmed@streamed_variations", "victim_takedown_front_slap", 1.0, 2000]
