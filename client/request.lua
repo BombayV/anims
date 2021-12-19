@@ -92,7 +92,7 @@ Load.PropCreation = function(ped, prop, bone, placement)
     local coords = GetEntityCoords(ped)
     local newProp = CreateObject(GetHashKey(prop), coords.x, coords.y, coords.z + 0.2, true, true, true)
     if newProp then
-        AttachEntityToEntity(newProp, ped, GetPedBoneIndex(ped, bone), placement[1] + 0.0, placement[2] + 0.0, placement[3] + 0.0, placement[4] + 0.0, placement[5] + 0.0, placement[6] + 0.0, true, true, true, true, 1, true)
+        AttachEntityToEntity(newProp, ped, GetPedBoneIndex(ped, bone), placement[1] + 0.0, placement[2] + 0.0, placement[3] + 0.0, placement[4] + 0.0, placement[5] + 0.0, placement[6] + 0.0, true, true, false, true, 1, true)
         insert(cfg.propsEntities, newProp)
         cfg.propActive = true
     end
@@ -115,10 +115,10 @@ Load.PropRemoval = function(type)
         end
     else
         if cfg.propActive then
-            for k, v in pairs(cfg.propsEntities) do
+            for _, v in pairs(cfg.propsEntities) do
                 DeleteObject(v)
-                remove(cfg.propsEntities, k)
             end
+            cfg.propsEntities = {}
             cfg.propActive = false
         end
     end
