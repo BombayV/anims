@@ -34,7 +34,7 @@ export const createPanels = (panelData) => {
     const old = localStorage.getItem('oldValues');
     if (old != null) {
         if (old != JSON.stringify(panelData)) {
-            console.log('You seem to have new animations. Remember to open a pull request on Github so people can enjoy more animations.')
+            console.log('You seem to have new animations. Remember to open a pull request on Github so people can enjoy more animations.\nhttps://github.com/BombayV/anims')
             localStorage.setItem('oldValues', JSON.stringify(panelData))
         }
     } else {

@@ -50,7 +50,7 @@ body {
 
 .anims-container {
     position: relative;
-    display: none;
+    display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
@@ -61,7 +61,7 @@ body {
 
 .settings-container {
     position: relative;
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;

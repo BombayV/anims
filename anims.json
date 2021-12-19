@@ -194,36 +194,689 @@
     },
     {
         "type": "dances",
-        "title": "Prone",
-        "subtitle": "/e prone",
+        "title": "Dance F",
+        "subtitle": "/e dancef",
         "dances": {
-            "dict": "missfbi3_sniping",
-            "anim": "prone_dave"
-        }
-    },
-    {
-        "type": "scenarios",
-        "title": "ATM",
-        "subtitle": "/e atm",
-        "scenarios": {
-            "sex": "both",
-            "scene": "PROP_HUMAN_ATM"
+            "dict": "anim@amb@nightclub@dancers@solomun_entourage@",
+            "anim": "mi_dance_facedj_17_v1_female^1"
         }
     },
     {
         "type": "dances",
-        "title": "Test",
-        "subtitle": "/e test",
+        "title": "Dance F2",
+        "subtitle": "/e dancef2",
         "dances": {
-            "dict": "anim@heists@box_carry@",
-            "anim": "idle"
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "high_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance F3",
+        "subtitle": "/e dancef3",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "high_center_up"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance F4",
+        "subtitle": "/e dancef4",
+        "dances": {
+            "dict": "anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity",
+            "anim": "hi_dance_facedj_09_v2_female^1"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dances F5",
+        "subtitle": "/e dancef5",
+        "dances": {
+            "dict": "anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity",
+            "anim": "hi_dance_facedj_09_v2_female^3"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance F6",
+        "subtitle": "/e dancef6",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "high_center_up"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Slow 2",
+        "subtitle": "/e danceslow2",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "low_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Slow 3",
+        "subtitle": "/e danceslow3",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "low_center_down"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Slow 4",
+        "subtitle": "/e danceslow4",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+            "anim": "low_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance",
+        "subtitle": "/e dance",
+        "dances": {
+            "dict": "anim@amb@nightclub@dancers@podium_dancers@",
+            "anim": "hi_dance_facedj_17_v2_male^5"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 2",
+        "subtitle": "/e dance2",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@male@var_b@",
+            "anim": "high_center_down"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 3",
+        "subtitle": "/e dance3",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
+            "anim": "high_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Upper",
+        "subtitle": "/e danceupper",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+            "anim": "high_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Upper 2",
+        "subtitle": "/e danceupper2",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+            "anim": "high_center_up"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Shy",
+        "subtitle": "/e danceshy",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
+            "anim": "low_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Shy 2",
+        "subtitle": "/e danceshy2",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+            "anim": "low_center_down"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Slow",
+        "subtitle": "/e danceslow",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@male@var_b@",
+            "anim": "low_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 6",
+        "subtitle": "/e dance6",
+        "dances": {
+            "dict": "misschinese2_crystalmazemcs1_cs",
+            "anim": "dance_loop_tao"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 7",
+        "subtitle": "/e dance7",
+        "dances": {
+            "dict": "misschinese2_crystalmazemcs1_ig",
+            "anim": "dance_loop_tao"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 8",
+        "subtitle": "/e dance8",
+        "dances": {
+            "dict": "missfbi3_sniping",
+            "anim": "dance_m_default"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly",
+        "subtitle": "/e dancesilly",
+        "dances": {
+            "dict": "special_ped@mountain_dancer@monologue_3@monologue_3a",
+            "anim": "mnt_dnc_buttwag"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 2",
+        "subtitle": "/e dancesilly2",
+        "dances": {
+            "dict": "move_clown@p_m_zero_idles@",
+            "anim": "fidget_short_dance"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 3",
+        "subtitle": "/e dancesilly3",
+        "dances": {
+            "dict": "move_clown@p_m_two_idles@",
+            "anim": "fidget_short_dance"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 4",
+        "subtitle": "/e dancesilly4",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+            "anim": "danceidle_hi_11_buttwiggle_b_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 5",
+        "subtitle": "/e dancesilly5",
+        "dances": {
+            "dict": "timetable@tracy@ig_5@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 6",
+        "subtitle": "/e dancesilly6",
+        "dances": {
+            "dict": "timetable@tracy@ig_8@idle_b",
+            "anim": "idle_d"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 7",
+        "subtitle": "/e dancesilly7",
+        "dances": {
+            "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+            "anim": "high_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 8",
+        "subtitle": "/e dancesilly8",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@the_woogie",
+            "anim": "the_woogie"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 9",
+        "subtitle": "/e dancesilly9",
+        "dances": {
+            "dict": "rcmnigel1bnmt_1b",
+            "anim": "dance_loop_tyler"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 9",
+        "subtitle": "/e dance9",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "med_center_up"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 5",
+        "subtitle": "/e dance5",
+        "dances": {
+            "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_a@",
+            "anim": "med_center"
+        }
+    }, {
+        "type": "dances",
+        "title": "Dance Glowsticks",
+        "subtitle": "/e danceglowstick",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_railing@",
+            "anim": "ambclub_13_mi_hi_sexualgriding_laz"
         },
         "props": {
-            "prop": "hei_prop_heist_box",
-            "propBone": 60309,
-            "propPlacement": [0.025, 0.08, 0.255, -140.0, 290.0, 0.0]
+            "prop": "ba_prop_battle_glowstick_01",
+            "propBone": 28422,
+            "propPlacement": [0.0700, 0.1400, 0.0, -80.0, 20.0, 0.0],
+            "propTwo": "ba_prop_battle_glowstick_01",
+            "propTwoBone": 60309,
+            "propTwoPlacement": [0.0700, 0.0900, 0.0, -120.0, -20.0, 0.0]
+        }
+    }, {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "_____",
+        "subtitle": "/e ____",
+        "dances": {
+            "dict": "_____",
+            "anim": "_____"
         }
     },
+
+
+
+
+
+
+
+
+
+
+
     {
         "type": "dances",
         "title": "Rain",

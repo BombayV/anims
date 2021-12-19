@@ -105,7 +105,7 @@ Play.Prop = function(props)
         end
         if props.propTwo then
             Load.Model(props.propTwo)
-            Load.PropCreation(PlayerPedId(), props.propTwo, props.propBoneTwo, props.propPlacemenTwo)
+            Load.PropCreation(PlayerPedId(), props.propTwo, props.propTwoBone, props.propTwoPlacement)
         end
     end
 end
