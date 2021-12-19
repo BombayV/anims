@@ -3298,7 +3298,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "BBQ",
         "subtitle": "/e bbq",
         "scenarios": {
             "sex": "male",
@@ -3306,7 +3306,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Bum Bin",
         "subtitle": "/e bumbin",
         "scenarios": {
             "sex": "both",
@@ -3314,7 +3314,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Bum Sleep",
         "subtitle": "/e bumsleep",
         "scenarios": {
             "sex": "both",
@@ -3322,7 +3322,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Cheer",
         "subtitle": "/e cheer",
         "scenarios": {
             "sex": "both",
@@ -3330,7 +3330,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Chin Up",
         "subtitle": "/e chinup",
         "scenarios": {
             "sex": "both",
@@ -3338,7 +3338,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Clipboard 2",
         "subtitle": "/e clipboard2",
         "scenarios": {
             "sex": "male",
@@ -3346,15 +3346,15 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
-        "subtitle": "/e cop",
+        "title": "Cop Idle",
+        "subtitle": "/e copidle",
         "scenarios": {
             "sex": "both",
             "scene": "WORLD_HUMAN_COP_IDLES"
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Cop Beacon",
         "subtitle": "/e copbeacon",
         "scenarios": {
             "sex": "male",
@@ -3362,7 +3362,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Film Shocking",
         "subtitle": "/e filmshocking",
         "scenarios": {
             "sex": "both",
@@ -3370,7 +3370,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Flex",
         "subtitle": "/e flex",
         "scenarios": {
             "sex": "both",
@@ -3378,15 +3378,15 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
-        "subtitle": "/e flex",
+        "title": "Guard Stand",
+        "subtitle": "/e guardstand",
         "scenarios": {
             "sex": "both",
             "scene": "WORLD_HUMAN_GUARD_STAND"
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Hammer",
         "subtitle": "/e hammer",
         "scenarios": {
             "sex": "both",
@@ -3394,7 +3394,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Hangout",
         "subtitle": "/e hangout",
         "scenarios": {
             "sex": "both",
@@ -3402,7 +3402,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Impatient",
         "subtitle": "/e impatient",
         "scenarios": {
             "sex": "both",
@@ -3410,7 +3410,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Janitor",
         "subtitle": "/e janitor",
         "scenarios": {
             "sex": "both",
@@ -3418,7 +3418,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Jog",
         "subtitle": "/e jog",
         "scenarios": {
             "sex": "both",
@@ -3426,7 +3426,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Kneel",
         "subtitle": "/e kneel",
         "scenarios": {
             "sex": "both",
@@ -3434,7 +3434,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Leafblower",
         "subtitle": "/e leafblower",
         "scenarios": {
             "sex": "male",
@@ -3442,23 +3442,23 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
-        "subtitle": "/e lean",
+        "title": "Lean",
+        "subtitle": "/e leanscene",
         "scenarios": {
             "sex": "both",
             "scene": "WORLD_HUMAN_LEANING"
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
-        "subtitle": "/e leanbar",
+        "title": "Lean Bar",
+        "subtitle": "/e leanbarscene",
         "scenarios": {
             "sex": "both",
             "scene": "PROP_HUMAN_BUM_SHOPPING_CART"
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Lookout",
         "subtitle": "/e lookout",
         "scenarios": {
             "sex": "both",
@@ -3466,7 +3466,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Maid",
         "subtitle": "/e maid",
         "scenarios": {
             "sex": "both",
@@ -3474,7 +3474,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Medic",
         "subtitle": "/e medic",
         "scenarios": {
             "sex": "both",
@@ -3482,7 +3482,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Musician",
         "subtitle": "/e musician",
         "scenarios": {
             "sex": "male",
@@ -3490,7 +3490,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Notepad",
         "subtitle": "/e notepad2",
         "scenarios": {
             "sex": "both",
@@ -3498,7 +3498,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Parking Meter",
         "subtitle": "/e parkingmeter",
         "scenarios": {
             "sex": "both",
@@ -3506,7 +3506,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Party",
         "subtitle": "/e party",
         "scenarios": {
             "sex": "both",
@@ -3514,7 +3514,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Texting",
         "subtitle": "/e texting",
         "scenarios": {
             "sex": "both",
@@ -3522,7 +3522,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Prostitute High",
         "subtitle": "/e prosthigh",
         "scenarios": {
             "sex": "both",
@@ -3530,7 +3530,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Prostitute Low",
         "subtitle": "/e prostlow",
         "scenarios": {
             "sex": "both",
@@ -3538,7 +3538,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Puddle",
         "subtitle": "/e puddle",
         "scenarios": {
             "sex": "both",
@@ -3546,7 +3546,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Record",
         "subtitle": "/e record",
         "scenarios": {
             "sex": "both",
@@ -3554,7 +3554,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Smoke",
         "subtitle": "/e smoke",
         "scenarios": {
             "sex": "both",
@@ -3562,7 +3562,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Smoke Weed",
         "subtitle": "/e smokeweed",
         "scenarios": {
             "sex": "both",
@@ -3570,7 +3570,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Statue",
         "subtitle": "/e statue",
         "scenarios": {
             "sex": "both",
@@ -3578,7 +3578,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Sunbathe 3",
         "subtitle": "/e sunbathe3",
         "scenarios": {
             "sex": "both",
@@ -3586,7 +3586,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Sunbathe Back",
         "subtitle": "/e sunbatheback",
         "scenarios": {
             "sex": "both",
@@ -3594,7 +3594,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Weld",
         "subtitle": "/e weld",
         "scenarios": {
             "sex": "both",
@@ -3602,7 +3602,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Window Shop",
         "subtitle": "/e windowshop",
         "scenarios": {
             "sex": "both",
@@ -3610,7 +3610,7 @@
         }
     },    {
         "type": "scenarios",
-        "title": "_____",
+        "title": "Yoga",
         "subtitle": "/e yoga",
         "scenarios": {
             "sex": "both",
