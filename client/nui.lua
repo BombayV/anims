@@ -6,7 +6,6 @@
 local function animType(data, p)
     if data then
         if data.dance then
-            print('passed')
             Play.Animation(data.dance, data.particle, data.prop, p)
         elseif data.scene then
             Play.Scene(data.scene, p)
@@ -14,6 +13,8 @@ local function animType(data, p)
             Play.Expression(data.expression, p)
         elseif data.walk then
             Play.Walk(data.walk, p)
+        elseif data.shared then
+            Play.Shared(data.shared, p)
         end
     end
 end

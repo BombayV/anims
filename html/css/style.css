@@ -277,8 +277,8 @@ body {
 .favorite {order: 1 !important;}
 .dances {order: 2;}
 .scenarios {order: 3;}
-.expressions {order: 4;}
-.walks {order: 5;}
+.walks {order: 4;}
+.expressions {order: 5;}
 .shared {order: 6;}
 
 .pop {

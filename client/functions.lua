@@ -28,9 +28,10 @@ Play.Animation = function(dance, particle, prop, p)
         Load.Dict(dance.dict)
         if prop then
             Play.Prop(prop)
-            if particle then
-                Play.Ptfx(particle)
-            end
+        end
+
+        if particle then
+            Play.Ptfx(particle)
         end
 
         local loop = cfg.animDuration
@@ -46,7 +47,9 @@ Play.Animation = function(dance, particle, prop, p)
         TaskPlayAnim(PlayerPedId(), dance.dict, dance.anim, 1.5, 1.5, loop, move, 0, false, false, false)
         RemoveAnimDict(dance.dict)
         cfg.animActive = true
-        p:resolve({passed = true})
+        if p then
+            p:resolve({passed = true})
+        end
         return
     end
     p:reject({passed = false})
@@ -60,11 +63,17 @@ Play.Scene = function(scene, p)
         local sex = checkSex(sex)
         if not scene.sex == 'both' and not (sex == scene.sex) then
             Play.Notification('info', 'Sex does not allow this animation')
+        else
+            if scene.sex == 'position' then
+                local coords = GetOffsetFromEntityInWorldCoords(PlayerPedId(), 0.0, 0 - 0.5, -0.5);
+                TaskStartScenarioAtPosition(PlayerPedId(), scene.scene, coords.x, coords.y, coords.z, GetEntityHeading(PlayerPedId()), 0, 1, false)
+            else
+                TaskStartScenarioInPlace(PlayerPedId(), scene.scene, 0, true)
+            end
+            cfg.sceneActive = true
+            p:resolve({passed = true})
+            return
         end
-        TaskStartScenarioInPlace(PlayerPedId(), scene.scene, 0, true)
-        cfg.sceneActive = true
-        p:resolve({passed = true})
-        return
     end
     p:reject({passed = false})
 end
@@ -120,6 +129,18 @@ Play.Ptfx = function(particles)
     end
 end
 
+Play.Shared = function(shared, p)
+    if shared then
+        local closePed = Load.GetPlayer()
+        if closePed then
+            TriggerServerEvent('anims:requestAnimation', GetPlayerServerId(NetworkGetEntityOwner(closePed)), shared)
+        end
+        p:resolve({passed = true})
+        return
+    end
+    p:reject({passed = false})
+end
+
 ---Creates a notifications
 ---@param type string
 ---@param message string
@@ -133,3 +154,27 @@ Play.Notification = function(type, message)
 
     end
 end
+
+RegisterNetEvent('anims:requestShared', function(shared, targetId, owner)
+    if type(shared) == "table" and targetId then
+        Load.Cancel()
+        Wait(500)
+
+        local targetPlayer = Load.GetPlayer()
+        if targetPlayer then
+            local ped = PlayerPedId()
+            if not owner then
+                local targetHeading = GetEntityHeading(targetPlayer)
+                local targetCoords = GetOffsetFromEntityInWorldCoords(targetPlayer, 0.0, shared[3] + 0.0, 0.0)
+
+                SetEntityHeading(ped, targetHeading - 180.1)
+                SetEntityCoordsNoOffset(ped, targetCoords.x, targetCoords.y, targetCoords.z, 0)
+            end
+
+            Load.Dict(shared[1])
+            print(json.encode(shared), shared[4])
+            TaskPlayAnim(PlayerPedId(), shared[1], shared[2], 2.0, 2.0, shared[4] or 3000, 1, 0, false, false, false)
+            RemoveAnimDict(shared[1])
+        end
+    end
+end)

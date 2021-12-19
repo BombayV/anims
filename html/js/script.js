@@ -17,7 +17,7 @@ window.addEventListener('load', (e) => {
                 for (let i = 0; i < panels.length; i++) {
                     let panelEmote = panels[i].childNodes[0].lastChild.textContent.split(" ")[1];
                     if (panelEmote.toLowerCase() == e.data.name.toLowerCase()) {
-                        fetchNUI('beginAnimation', {dance: JSON.parse(panels[i].getAttribute('data-dances')), scene: JSON.parse(panels[i].getAttribute('data-scenarios')), expression: JSON.parse(panels[i].getAttribute('data-expressions')), walk: JSON.parse(panels[i].getAttribute('data-walks')), prop: JSON.parse(panels[i].getAttribute('data-props')), particle: JSON.parse(panels[i].getAttribute('data-particles'))}).then((resp) => {
+                        fetchNUI('beginAnimation', {dance: JSON.parse(panels[i].getAttribute('data-dances')), scene: JSON.parse(panels[i].getAttribute('data-scenarios')), expression: JSON.parse(panels[i].getAttribute('data-expressions')), walk: JSON.parse(panels[i].getAttribute('data-walks')), prop: JSON.parse(panels[i].getAttribute('data-props')), particle: JSON.parse(panels[i].getAttribute('data-particles')), shared: JSON.parse(panels[i].getAttribute('data-shared'))}).then((resp) => {
                             (resp.e)
                                 ? fetchNUI('sendNotification', {type: 'success', message: 'Animation executed!'})
                                 : fetchNUI('sendNotification', {type: 'error', message: 'Animation could not load!'});

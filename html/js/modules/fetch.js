@@ -59,6 +59,7 @@ export const createPanels = (panelData) => {
             block.setAttribute('data-walks', (panel.walks) ? (JSON.stringify({style: panel.walks.style})) : false);
             block.setAttribute('data-props', (panel.props) ? (JSON.stringify({prop: panel.props.prop, propBone: panel.props.propBone, propPlacement: panel.props.propPlacement, propTwo: panel.props.propTwo || false, propTwoBone: panel.props.propTwoBone || false, propTwoPlacement: panel.props.propTwoPlacement || false})): false);
             block.setAttribute('data-particles', (panel.particles) ? (JSON.stringify({asset: panel.particles.asset, name: panel.particles.name, placement: panel.particles.placement, rgb: panel.particles.rgb})) : false);
+            block.setAttribute('data-shared', (panel.shared) ? (JSON.stringify({first: panel.shared.first, second: panel.shared.second})) : false)
 
             star.addEventListener('click', e => {
                 const isSaved = getFavorite(block.id);
@@ -82,9 +83,9 @@ export const createPanels = (panelData) => {
 
             block.addEventListener('click', e => {
                 if (e.target.textContent != 'bookmark_add') {
-                    fetchNUI('beginAnimation', {dance: JSON.parse(block.getAttribute('data-dances')), scene: JSON.parse(block.getAttribute('data-scenarios')), expression: JSON.parse(block.getAttribute('data-expressions')), walk: JSON.parse(block.getAttribute('data-walks')), prop: JSON.parse(block.getAttribute('data-props')), particle: JSON.parse(block.getAttribute('data-particles'))}).then((resp) => {
+                    fetchNUI('beginAnimation', {dance: JSON.parse(block.getAttribute('data-dances')), scene: JSON.parse(block.getAttribute('data-scenarios')), expression: JSON.parse(block.getAttribute('data-expressions')), walk: JSON.parse(block.getAttribute('data-walks')), prop: JSON.parse(block.getAttribute('data-props')), particle: JSON.parse(block.getAttribute('data-particles')), shared: JSON.parse(block.getAttribute('data-shared'))}).then((resp) => {
                         (resp.e)
-                            ? fetchNUI('sendNotification', {type: 'success', message: 'Animation executed!'})
+                            ? fetchNUI('sendNotification', {type: 'success', message: 'Animation started!'})
                             : fetchNUI('sendNotification', {type: 'error', message: 'Animation could not load!'});
                         return;
                     })

@@ -124,6 +124,21 @@ Load.PropRemoval = function(type)
     end
 end
 
+Load.GetPlayer = function()
+    local ped = PlayerPedId()
+    local coords = GetEntityCoords(ped)
+    local offset = GetOffsetFromEntityInWorldCoords(ped, 0.0, 1.3, 0.0)
+    local rayHandle = StartShapeTestCapsule(coords.x, coords.y, coords.z, offset.x, offset.y, offset.z, 3.0, 12, ped, 7)
+    local _, hit, _, _, pedResult = GetShapeTestResult(rayHandle)
+
+    if hit and pedResult ~= 0 and IsPedAPlayer(pedResult) then
+        if not IsEntityDead(pedResult) then
+            return pedResult
+        end
+    end
+    return false
+end
+
 ---Cancels currently playing animations
 Load.Cancel = function()
     if cfg.animActive then
