@@ -158,3 +158,24 @@ AddEventHandler('onResourceStop', function(name)
         Load.Cancel()
     end
 end)
+
+---Event for updating cfg from other resource
+---@param _cfg table
+---@param result any
+---@return any
+AddEventHandler('anims:updateCfg', function(_cfg, result)
+    if type(_cfg) ~= "table" then
+        print(GetInvokingResource() .. ' tried to update anims cfg but it was not a table')
+        CancelEvent()
+    end
+    local oldCfg = cfg
+    for k, v in pairs(_cfg) do
+        if cfg[k] and v then
+            cfg[k] = v
+        end
+    end
+    print(GetInvokingResource() .. ' updated anims cfg!')
+    if result then
+        print('Old:' .. json.encode(oldCfg) .. '\nNew: ' .. json.encode(cfg))
+    end
+end)
