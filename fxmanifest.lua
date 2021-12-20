@@ -4,9 +4,9 @@ game 'gta5'
 
 lua54 'yes'
 
-description 'A simple NUI animations panel developed by Entity Evolution'
+description 'A simple NUI animations panel developed by Bombay'
 
-version '0.5.0'
+version '1.0.0'
 
 client_scripts {
     'cfg.lua',
