@@ -179,3 +179,5 @@ AddEventHandler('anims:updateCfg', function(_cfg, result)
         print('Old:' .. json.encode(oldCfg) .. '\nNew: ' .. json.encode(cfg))
     end
 end)
+
+exports('PlayEmote', findEmote)
