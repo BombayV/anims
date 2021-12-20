@@ -48,15 +48,12 @@ RegisterNUICallback('changeCfg', function(data, cb)
         if data.type == 'movement' then
             cfg.animMovement = not data.state
         elseif data.type == 'loop' then
-            print(data.state)
             cfg.animLoop = not data.state
         elseif data.type == 'settings' then
-            print('Start: ', data.duration, cfg.animDuration)
             cfg.animDuration = tonumber(data.duration) or cfg.animDuration
             cfg.cancelKey = tonumber(data.cancel) or cfg.cancelKey
             cfg.defaultEmote = data.emote or cfg.defaultEmote
             cfg.defaultEmoteKey = tonumber(data.key) or cfg.defaultEmoteKey
-            print('End: ', data.duration, cfg.animDuration)
         end
     end
     cb({})
@@ -76,7 +73,7 @@ RegisterNUICallback('exitPanel', function(_, cb)
     if cfg.panelStatus then
         cfg.panelStatus = false
         SetNuiFocus(false, false)
-        TriggerScreenblurFadeOut(1500)
+        TriggerScreenblurFadeOut(3000)
         SendNUIMessage({action = 'panelStatus',panelStatus = cfg.panelStatus})
     end
     cb({})
@@ -108,10 +105,13 @@ RegisterNUICallback('beginAnimation', function(data, cb)
     animType(data, animState)
     local result = Citizen.Await(animState)
     if result.passed then
-        enableCancel()
+        if not result.shared then
+            enableCancel()
+        end
         cb({e = true})
         return
     end
+    if result.nearby then cb({e = 'nearby'}) return end
     cb({e = false})
 end)
 --#endregion
@@ -120,7 +120,7 @@ end)
 RegisterCommand(cfg.commandName, function()
     cfg.panelStatus = not cfg.panelStatus
     SetNuiFocus(true, true)
-    TriggerScreenblurFadeIn(1500)
+    TriggerScreenblurFadeIn(3000)
     SendNUIMessage({action = 'panelStatus',panelStatus = cfg.panelStatus})
 end)
 
@@ -143,7 +143,7 @@ if cfg.defaultEmoteUseKey then
             if IsControlJustPressed(0, cfg.defaultEmoteKey) then
                 findEmote(cfg.defaultEmote)
             end
-            Wait(10)
+            Wait(5)
         end
     end)
 end

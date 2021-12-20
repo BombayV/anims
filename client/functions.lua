@@ -15,11 +15,19 @@ local function checkSex(sex)
     return 'female'
 end
 
+---Notify a person with default notificaiont
+---@param message string
+local function notify(message)
+    SetNotificationTextEntry('STRING')
+    AddTextComponentString(message)
+    DrawNotification(0, 1)
+end
+
 ---Plays an animation
 ---@param dance table
 ---@param particle table
 ---@param prop table
----@param p string Promise
+---@param p table Promise
 Play.Animation = function(dance, particle, prop, p)
     if dance then
         if cfg.animActive then
@@ -57,7 +65,7 @@ end
 
 ---Plays a scene
 ---@param scene table
----@param p string Promise
+---@param p table Promise
 Play.Scene = function(scene, p)
     if scene then
         local sex = checkSex(sex)
@@ -80,7 +88,7 @@ end
 
 ---Changes the facial expression
 ---@param expression table
----@param p string Promise
+---@param p table Promise
 Play.Expression = function(expression, p)
     if expression then
         SetFacialIdleAnimOverride(PlayerPedId(), expression.expressions, 0)
@@ -92,7 +100,7 @@ end
 
 ---Changes the walking anim of a ped
 ---@param walks table
----@param p string Promise
+---@param p table Promise
 Play.Walk = function(walks, p)
     if walks then
         Load.Walk(walks.style)
@@ -129,16 +137,20 @@ Play.Ptfx = function(particles)
     end
 end
 
+---Tries to send event to server for animation
+---@param shared table
+---@param p table
 Play.Shared = function(shared, p)
     if shared then
         local closePed = Load.GetPlayer()
         if closePed then
-            TriggerServerEvent('anims:requestAnimation', GetPlayerServerId(NetworkGetEntityOwner(closePed)), shared)
+            local targetId = NetworkGetEntityOwner(closePed)
+            Play.Notification('info', 'Request sent to ' .. GetPlayerName(targetId))
+            TriggerServerEvent('anims:awaitConfirmation', GetPlayerServerId(targetId), shared)
+            p:resolve({passed = true, shared = true})
         end
-        p:resolve({passed = true})
-        return
     end
-    p:reject({passed = false})
+    p:resolve({passed = false, nearby = true})
 end
 
 ---Creates a notifications
@@ -151,17 +163,25 @@ Play.Notification = function(type, message)
             message  =  message or 'Something went wrong...'
         })
     else
-
+        notify(message)
     end
 end
 
+---Plays shared animation if accepted
+---@param shared table
+---@param targetId number
+---@param owner any
 RegisterNetEvent('anims:requestShared', function(shared, targetId, owner)
     if type(shared) == "table" and targetId then
-        Load.Cancel()
-        Wait(500)
+        if cfg.animActive or cfg.sceneActive then
+            Load.Cancel()
+        end
+        Wait(350)
 
         local targetPlayer = Load.GetPlayer()
         if targetPlayer then
+            SetTimeout(shared[4] or 3000, function() cfg.sharedActive = false end)
+            cfg.sharedActive = true
             local ped = PlayerPedId()
             if not owner then
                 local targetHeading = GetEntityHeading(targetPlayer)
@@ -172,9 +192,27 @@ RegisterNetEvent('anims:requestShared', function(shared, targetId, owner)
             end
 
             Load.Dict(shared[1])
-            print(json.encode(shared), shared[4])
             TaskPlayAnim(PlayerPedId(), shared[1], shared[2], 2.0, 2.0, shared[4] or 3000, 1, 0, false, false, false)
             RemoveAnimDict(shared[1])
         end
     end
+end)
+
+---Loads shared confirmation for target
+---@param target number
+---@param shared table
+RegisterNetEvent('anims:awaitConfirmation', function(target, shared)
+    if not cfg.sharedActive then
+        Load.Confirmation(target, shared)
+    else
+        TriggerServerEvent('anims:resolveAnimation', target, shared, false)
+    end
+end)
+
+---Just notification function but for
+---server to send to target
+---@param type string
+---@param message string
+RegisterNetEvent('anims:notify', function(type, message)
+    Play.Notification(type, message)
 end)

@@ -18,9 +18,13 @@ window.addEventListener('load', (e) => {
                     let panelEmote = panels[i].childNodes[0].lastChild.textContent.split(" ")[1];
                     if (panelEmote.toLowerCase() == e.data.name.toLowerCase()) {
                         fetchNUI('beginAnimation', {dance: JSON.parse(panels[i].getAttribute('data-dances')), scene: JSON.parse(panels[i].getAttribute('data-scenarios')), expression: JSON.parse(panels[i].getAttribute('data-expressions')), walk: JSON.parse(panels[i].getAttribute('data-walks')), prop: JSON.parse(panels[i].getAttribute('data-props')), particle: JSON.parse(panels[i].getAttribute('data-particles')), shared: JSON.parse(panels[i].getAttribute('data-shared'))}).then((resp) => {
-                            (resp.e)
+                            if (resp.e == 'nearby') {
+                                fetchNUI('sendNotification', {type: 'info', message: 'No one nearby...'})
+                            } else {
+                                (resp.e)
                                 ? fetchNUI('sendNotification', {type: 'success', message: 'Animation executed!'})
                                 : fetchNUI('sendNotification', {type: 'error', message: 'Animation could not load!'});
+                            }
                             return;
                         })
                         return;
@@ -38,13 +42,13 @@ window.addEventListener('load', (e) => {
     //window.localStorage.clear() // Clear everyone's storage
     const favorites = JSON.parse(localStorage.getItem('favoriteAnims'))
     if (favorites == null) {
-        console.log("NEW")
+        //console.log("NEW")
         localStorage.setItem('favoriteAnims', JSON.stringify([]))
     }
 
     const animOpts = JSON.parse(localStorage.getItem('animOptions'))
     if (animOpts == null) {
-        console.log("NEW")
+        //console.log("NEW")
         localStorage.setItem('animOptions', JSON.stringify([]))
     } else {
         fetchNUI('fetchStorage', animOpts)

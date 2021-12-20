@@ -9,6 +9,9 @@ cfg = {
     keySuggestion = 'Open the emote panel by key', -- Suggestion on keybind mapping
     walkingTransition = 0.5,
 
+    acceptKey = 38,
+    denyKey = 182,
+
     -- Do not touch
     useTnotify = GetResourceState('t-notify') == 'started',
     panelStatus = false,
@@ -19,7 +22,6 @@ cfg = {
     animMovement = false,
 
     sceneActive = false,
-    sceneForcedEnd = false,
 
     propActive = false,
     propsEntities = {},
@@ -30,6 +32,8 @@ cfg = {
     malePeds = {
         "mp_m_freemode_01"
     },
+
+    sharedActive = false,
 
     cancelKey = 73, -- Default key for cancelling an animation. Users can change this manually too.
     defaultCommand = 'fav', -- Emote command execution

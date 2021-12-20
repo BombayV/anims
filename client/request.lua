@@ -124,6 +124,8 @@ Load.PropRemoval = function(type)
     end
 end
 
+---Gets the closest ped by raycast
+---@return any
 Load.GetPlayer = function()
     local ped = PlayerPedId()
     local coords = GetEntityCoords(ped)
@@ -137,6 +139,40 @@ Load.GetPlayer = function()
         end
     end
     return false
+end
+
+---Sends confirmation to player
+---@param target number
+---@param shared string
+Load.Confirmation = function(target, shared)
+    Play.Notification('info', '[E] Accept Request\n[L] Deny Request')
+    local hasResolved = false
+    SetTimeout(10000, function()
+        if not hasResolved then
+            hasResolved = true
+            TriggerServerEvent('anims:resolveAnimation', target, shared, false)
+        end
+    end)
+
+    CreateThread(function()
+        while not hasResolved do
+            if IsControlJustPressed(0, cfg.acceptKey) then
+                if not hasResolved then
+                    if cfg.animActive or cfg.sceneActive then
+                        Load.Cancel()
+                    end
+                    TriggerServerEvent('anims:resolveAnimation', target, shared, true)
+                    hasResolved = true
+                end
+            elseif IsControlJustPressed(0, cfg.denyKey) then
+                if not hasResolved then
+                    TriggerServerEvent('anims:resolveAnimation', target, shared, false)
+                    hasResolved = true
+                end
+            end
+            Wait(5)
+        end
+    end)
 end
 
 ---Cancels currently playing animations
