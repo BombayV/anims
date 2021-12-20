@@ -16,3 +16,7 @@ This project does not contain a license, therefore you are not allowed to add on
 ![Image](https://i.imgur.com/rZdEX9C.png)
 
 [Video](https://youtu.be/Gvf9gW8KUdg)
+
+
+## Acknowledgements
+- [dpemotes](https://github.com/andristum/dpemotes) for the overall idea and the actual animations. Without it this wouldn't be possible <3.
