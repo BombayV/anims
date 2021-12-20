@@ -7,7 +7,7 @@ Play = {}
 ---@return string
 local function checkSex(sex)
     local pedModel = GetEntityModel(PlayerPedId())
-    for i= 1, #cfg.malePeds do
+    for i = 1, #cfg.malePeds do
         if pedModel == GetHashKey(cfg.malePeds[i]) then
             return 'male'
         end
@@ -216,3 +216,5 @@ end)
 RegisterNetEvent('anims:notify', function(type, message)
     Play.Notification(type, message)
 end)
+
+exports('Play', Play)

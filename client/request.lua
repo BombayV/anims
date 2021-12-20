@@ -198,3 +198,5 @@ Load.Cancel = function()
         cfg.ptfxActive = false
     end
 end
+
+exports('Load', Load)
