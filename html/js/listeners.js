@@ -1,4 +1,4 @@
-import { changeClass, getStatus } from "./modules/functions.js";
+import { changeClass, getStatus, changeInfo } from "./modules/functions.js";
 import { fetchNUI } from "./modules/fetch.js"
 
 const doc = document;
@@ -50,6 +50,9 @@ doc.getElementById('search-bar').addEventListener('input', e => {
     }
 })
 
+
+doc.getElementById('cancel').addEventListener('mouseover', _ => changeInfo(true, 'Cancel', 'Cancel current playing animation.'));
+doc.getElementById('cancel').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('cancel').addEventListener('click', e => {
     e.target.classList.add('pop');
     e.target.style.backgroundColor = "#ff0d4ecc";
@@ -60,6 +63,8 @@ doc.getElementById('cancel').addEventListener('click', e => {
     fetchNUI('cancelAnimation');
 });
 
+doc.getElementById('delete').addEventListener('mouseover', _ => changeInfo(true, 'Delete Props', 'Deletes all props if you have them stuck to you.'));
+doc.getElementById('delete').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('delete').addEventListener('click', e => {
     e.target.classList.add('pop');
     e.target.style.backgroundColor = "#ff0d4ecc";
@@ -69,8 +74,12 @@ doc.getElementById('delete').addEventListener('click', e => {
     }, 300);
     fetchNUI('removeProps');
 });
-
+doc.getElementById('movement').addEventListener('mouseover', _ => changeInfo(true, 'Movement', 'Allows movement while playing an animation (not shared).'));
+doc.getElementById('movement').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('movement').addEventListener('click', e => (getStatus(e.target)));
+
+doc.getElementById('loop').addEventListener('mouseover', _ => changeInfo(true, 'Loop', 'Loops animations (overwrites duration in animations).'));
+doc.getElementById('loop').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('loop').addEventListener('click', e => getStatus(e.target));
 
 doc.getElementById('save-settings').addEventListener('click', () => {
