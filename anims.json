@@ -470,6 +470,19 @@
         }
     },    {
         "type": "dances",
+        "title": "Suitcase 3",
+        "subtitle": "/e suitcase2",
+        "dances": {
+            "dict": "anim@heists@box_carry@",
+            "anim": "idle"
+        },
+        "props": {
+            "prop": "prop_cash_case_02",
+            "propBone": 60309,
+            "propPlacement": [0.025, -0.03, 0.255, 445.0, 290.0, 170.0]
+        }
+    },    {
+        "type": "dances",
         "title": "Mugshot",
         "subtitle": "/e mugshot",
         "dances": {
@@ -827,6 +840,38 @@
         }
     },    {
         "type": "dances",
+        "title": "Spray",
+        "subtitle": "/e spray",
+        "dances": {
+            "dict": "switch@franklin@lamar_tagging_wall",
+            "anim": "lamar_tagging_exit_loop_lamar"
+        },
+        "props": {
+            "prop": "prop_cs_spray_can",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        },
+        "particles": {
+            "asset": "scr_playerlamgraff",
+            "name": "scr_lamgraff_paint_spray",
+            "placement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+            "rgb": [1.0, 1.0, 1.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Spray 2",
+        "subtitle": "/e spray2",
+        "dances": {
+            "dict": "switch@franklin@lamar_tagging_wall",
+            "anim": "lamar_tagging_wall_loop_lamar"
+        },
+        "props": {
+            "prop": "prop_cs_spray_can",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 130.0]
+        }
+    },    {
+        "type": "dances",
         "title": "Champagne Spray",
         "subtitle": "/e champagnespray",
         "dances": {
@@ -985,9 +1030,15 @@
         "title": "Drink",
         "subtitle": "/e drink",
         "dances": {
-            "dict": "mp_player_inteat@pnq",
-            "anim": "loop"
+            "dict": "mp_player_intdrink",
+            "anim": "loop_bottle"
+        },
+        "props": {
+            "prop": "prop_ld_flow_bottle",
+            "propBone": 18905,
+            "propPlacement": [0.12, 0.008, 0.03, 240.0, -60.0, 0.0]
         }
+
     },    {
         "type": "dances",
         "title": "Beast",
@@ -3329,6 +3380,206 @@
         "dances": {
             "dict": "export@breakdance",
             "anim": "breakdance"
+        }
+    },    {
+        "type": "dances",
+        "title": "Id",
+        "subtitle": "/e id",
+        "dances": {
+            "dict": "friends@laf@ig_5",
+            "anim": "nephew"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lap Dance 4",
+        "subtitle": "/e lapdance4",
+        "dances": {
+            "dict": "mini@strip_club@private_dance@part2",
+            "anim": "priv_dance_p2"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex",
+        "subtitle": "/e sex",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "shagloop_hooker"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 2",
+        "subtitle": "/e sex2",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "shagloop_pimp"
+        }
+    },    {
+        "type": "dances",
+        "title": "Grab Crotch",
+        "subtitle": "/e grabcrotch",
+        "dances": {
+            "dict": "mp_player_int_uppergrab_crotch",
+            "anim": "mp_player_int_grab_crotch"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fix",
+        "subtitle": "/e fix",
+        "dances": {
+            "dict": "amb@prop_human_bum_bin@base",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fix 2",
+        "subtitle": "/e fix2",
+        "dances": {
+            "dict": "amb@prop_human_movie_bulb@base",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fix 3",
+        "subtitle": "/e fix3",
+        "dances": {
+            "dict": "amb@prop_human_bum_bin@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pick Butt",
+        "subtitle": "/e pickbutt",
+        "dances": {
+            "dict": "mp_player_int_upperarse_pick",
+            "anim": "mp_player_int_arse_pick"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 3",
+        "subtitle": "/e sex3",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "shagloop_hooker"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 4",
+        "subtitle": "/e sex4",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "shagloop_pimp"
+        }
+    },    {
+        "type": "dances",
+        "title": "Blowjob",
+        "subtitle": "/e blowjob",
+        "dances": {
+            "dict": "oddjobs@towing",
+            "anim": "m_blow_job_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Blowjob 2",
+        "subtitle": "/e blowjob2",
+        "dances": {
+            "dict": "oddjobs@towing",
+            "anim": "f_blow_job_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 5",
+        "subtitle": "/e sex5",
+        "dances": {
+            "dict": "mini@prostitutes@sexlow_veh",
+            "anim": "low_car_sex_loop_player"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 6",
+        "subtitle": "/e sex6",
+        "dances": {
+            "dict": "mini@prostitutes@sexlow_veh",
+            "anim": "low_car_sex_loop_female"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 7",
+        "subtitle": "/e sex7",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_chair@",
+            "anim": "seatedidle_hi_13_sexualadvance_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 8",
+        "subtitle": "/e sex",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_chair@",
+            "anim": "seatedidle_hi_13_sexualadvance_laz_face"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 9",
+        "subtitle": "/e sex9",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_chair@",
+            "anim": "seatedidle_mi_17_sexualadvance_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 10",
+        "subtitle": "/e sex10",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_chair@",
+            "anim": "seatedidle_mi_17_sexualadvance_laz_face"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 11",
+        "subtitle": "/e sex11",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+            "anim": "danceidle_li_15_sexygrind_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 12",
+        "subtitle": "/e sex12",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+            "anim": "danceidle_li_15_sexygrind_laz_face"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 13",
+        "subtitle": "/e sex13",
+        "dances": {
+            "dict": "director@character_select_intro@female",
+            "anim": "ambclub_13_mi_hi_sexualgriding_glowstick_l"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 14",
+        "subtitle": "/e sex14",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "pimpsex_pimp"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 15",
+        "subtitle": "/e sex15",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "pimpsex_hooker"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 16",
+        "subtitle": "/e sex16",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "pimpsex_punter"
         }
     },
 
