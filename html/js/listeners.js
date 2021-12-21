@@ -3,14 +3,16 @@ import { fetchNUI } from "./modules/fetch.js"
 
 const doc = document;
 
-doc.getElementById('home').addEventListener('click', e => {
-    changeClass(e.target);
-});
+doc.getElementById('home').addEventListener('mouseover', _ => changeInfo(true, 'home', 'Show all animations.'));
+doc.getElementById('home').addEventListener('mouseleave', _ => changeInfo(false));
+doc.getElementById('home').addEventListener('click', e => { changeClass(e.target); });
 
-doc.getElementById('settings').addEventListener('click', e => {
-    changeClass(e.target);
-});
+doc.getElementById('settings').addEventListener('mouseover', _ => changeInfo(true, 'settings', 'Show the animation menu settings.'));
+doc.getElementById('settings').addEventListener('mouseleave', _ => changeInfo(false));
+doc.getElementById('settings').addEventListener('click', e => { changeClass(e.target); });
 
+doc.getElementById('exit').addEventListener('mouseover', _ => changeInfo(true, 'exit', 'Close the animation menu.'));
+doc.getElementById('exit').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('exit').addEventListener('click', e => {
     changeClass(doc.getElementById('home'));
     fetchNUI('exitPanel');
@@ -23,11 +25,28 @@ doc.addEventListener('keyup', e => {
     }
 })
 
+doc.getElementById('favorite').addEventListener('mouseover', _ => changeInfo(true, 'favorites', 'Show your bookmarked animations.'));
+doc.getElementById('favorite').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('favorite').addEventListener('click', e => changeClass(e.target));
+
+doc.getElementById('dances').addEventListener('mouseover', _ => changeInfo(true, 'dances', 'Show dancing animations.'));
+doc.getElementById('dances').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('dances').addEventListener('click', e => changeClass(e.target));
+
+doc.getElementById('scenarios').addEventListener('mouseover', _ => changeInfo(true, 'scenarios', 'Show scenario animations.'));
+doc.getElementById('scenarios').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('scenarios').addEventListener('click', e => changeClass(e.target));
+
+doc.getElementById('walks').addEventListener('mouseover', _ => changeInfo(true, 'walks', 'Show walking animations.'));
+doc.getElementById('walks').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('walks').addEventListener('click', e => changeClass(e.target));
+
+doc.getElementById('expressions').addEventListener('mouseover', _ => changeInfo(true, 'expressions', 'Show facial expressions.'));
+doc.getElementById('expressions').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('expressions').addEventListener('click', e => changeClass(e.target));
+
+doc.getElementById('shared').addEventListener('mouseover', _ => changeInfo(true, 'shared', 'Show shared animations.'));
+doc.getElementById('shared').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('shared').addEventListener('click', e => changeClass(e.target));
 
 doc.getElementById('search-bar').addEventListener('input', e => {
