@@ -174,9 +174,14 @@ end)
 ---@param result any
 ---@return any
 AddEventHandler('anims:updateCfg', function(_cfg, result)
+    if GetCurrentResourceName() == GetInvokingResource() then
+        CancelEvent()
+        return print('Cannot use this event from the same resource!')
+    end
     if type(_cfg) ~= "table" then
         print(GetInvokingResource() .. ' tried to update anims cfg but it was not a table')
         CancelEvent()
+        return
     end
     local oldCfg = cfg
     for k, v in pairs(_cfg) do
