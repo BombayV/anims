@@ -200,3 +200,10 @@ Load.Cancel = function()
 end
 
 exports('Load', Load)
+
+CreateThread(function()
+    TriggerClientEvent('chat:addSuggestions', {
+        {name = '/' .. cfg.commandNameEmote, help = cfg.commandNameSuggestion, params = {{name = 'emote', help = 'Emote name'}}},
+        {name = '/' .. cfg.commandName, help = cfg.commandSuggestion, params = {}}
+    })
+end)
