@@ -5,11 +5,11 @@ const doc = document;
 
 doc.getElementById('home').addEventListener('mouseover', _ => changeInfo(true, 'home', 'Show all animations.'));
 doc.getElementById('home').addEventListener('mouseleave', _ => changeInfo(false));
-doc.getElementById('home').addEventListener('click', e => { changeClass(e.target); });
+doc.getElementById('home').addEventListener('click', e => changeClass(e.target));
 
 doc.getElementById('settings').addEventListener('mouseover', _ => changeInfo(true, 'settings', 'Show the animation menu settings.'));
 doc.getElementById('settings').addEventListener('mouseleave', _ => changeInfo(false));
-doc.getElementById('settings').addEventListener('click', e => { changeClass(e.target); });
+doc.getElementById('settings').addEventListener('click', e => changeClass(e.target));
 
 doc.getElementById('exit').addEventListener('mouseover', _ => changeInfo(true, 'exit', 'Close the animation menu.'));
 doc.getElementById('exit').addEventListener('mouseleave', _ => changeInfo(false));
