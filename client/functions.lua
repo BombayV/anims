@@ -7,7 +7,7 @@ Play = {}
 ---@return string
 local function checkSex(sex)
     local pedModel = GetEntityModel(PlayerPedId())
-    for i= 1, #cfg.malePeds do
+    for i = 1, #cfg.malePeds do
         if pedModel == GetHashKey(cfg.malePeds[i]) then
             return 'male'
         end
@@ -106,6 +106,7 @@ Play.Walk = function(walks, p)
         Load.Walk(walks.style)
         SetPedMovementClipset(PlayerPedId(), walks.style, cfg.walkingTransition)
         RemoveAnimSet(walks.style)
+        SetResourceKvp('savedWalk', walks.style)
         p:resolve({passed = true})
         return
     end
@@ -216,3 +217,5 @@ end)
 RegisterNetEvent('anims:notify', function(type, message)
     Play.Notification(type, message)
 end)
+
+exports('Play', Play)

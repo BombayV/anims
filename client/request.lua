@@ -198,3 +198,12 @@ Load.Cancel = function()
         cfg.ptfxActive = false
     end
 end
+
+exports('Load', Load)
+
+CreateThread(function()
+    TriggerEvent('chat:addSuggestions', {
+        {name = '/' .. cfg.commandNameEmote, help = cfg.commandNameSuggestion, params = {{name = 'emote', help = 'Emote name'}}},
+        {name = '/' .. cfg.commandName, help = cfg.commandSuggestion, params = {}}
+    })
+end)

@@ -74,7 +74,7 @@ RegisterNUICallback('exitPanel', function(_, cb)
         cfg.panelStatus = false
         SetNuiFocus(false, false)
         TriggerScreenblurFadeOut(3000)
-        SendNUIMessage({action = 'panelStatus',panelStatus = cfg.panelStatus})
+        SendNUIMessage({action = 'panelStatus', panelStatus = cfg.panelStatus})
     end
     cb({})
 end)
@@ -93,6 +93,16 @@ RegisterNUICallback('fetchStorage', function(data, cb)
                 cfg.animLoop = true
             elseif v == 'movement' then
                 cfg.animMovement = true
+            end
+        end
+        local savedWalk = GetResourceKvpString('savedWalk')
+        if savedWalk then -- If someone has a better implementation which works with multichar please share it.
+            local p = promise.new()
+            Wait(cfg.waitBeforeWalk)
+            Play.Walk({style = savedWalk}, p)
+            local result = Citizen.Await(p)
+            if result.passed then
+                Play.Notification('info', 'Set old walk style back.')
             end
         end
     end
@@ -158,3 +168,31 @@ AddEventHandler('onResourceStop', function(name)
         Load.Cancel()
     end
 end)
+
+---Event for updating cfg from other resource
+---@param _cfg table
+---@param result any
+---@return any
+AddEventHandler('anims:updateCfg', function(_cfg, result)
+    if GetCurrentResourceName() == GetInvokingResource() then
+        CancelEvent()
+        return print('Cannot use this event from the same resource!')
+    end
+    if type(_cfg) ~= "table" then
+        print(GetInvokingResource() .. ' tried to update anims cfg but it was not a table')
+        CancelEvent()
+        return
+    end
+    local oldCfg = cfg
+    for k, v in pairs(_cfg) do
+        if cfg[k] and v then
+            cfg[k] = v
+        end
+    end
+    print(GetInvokingResource() .. ' updated anims cfg!')
+    if result then
+        print('Old:' .. json.encode(oldCfg) .. '\nNew: ' .. json.encode(cfg))
+    end
+end)
+
+exports('PlayEmote', findEmote)

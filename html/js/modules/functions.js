@@ -93,3 +93,15 @@ export const setDisplay = animType => {
         document.querySelector('.anims-container').classList.remove(animType);
     }, 300);
 }
+
+export const changeInfo = (type, titleM, descM) => {
+    const title = document.getElementById('info-title');
+    const desc = document.getElementById('info-desc');
+    if (type) {
+        title.textContent = titleM;
+        desc.textContent = descM;
+    } else {
+        title.textContent = 'Info';
+        desc.textContent = 'Display info about certain buttons and icons.'
+    }
+}
