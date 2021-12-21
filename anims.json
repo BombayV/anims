@@ -3282,6 +3282,54 @@
             "dict": "clothingtie",
             "anim": "try_tie_positive_a"
         }
+    },    {
+        "type": "dances",
+        "title": "Dab",
+        "subtitle": "/e dab",
+        "dances": {
+            "dict": "custom@dab",
+            "anim": "dab"
+        }
+    },    {
+        "type": "dances",
+        "title": "Can't See Me",
+        "subtitle": "/e cantsee",
+        "dances": {
+            "dict": "custom@cant_see",
+            "anim": "cant_see"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cop Search",
+        "subtitle": "/e copsearch",
+        "dances": {
+            "dict": "custom@dab",
+            "anim": "dab"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sheeeeesh",
+        "subtitle": "/e sheesh",
+        "dances": {
+            "dict": "custom@sheeeeesh",
+            "anim": "sheeeeesh"
+        }
+    },    {
+        "type": "dances",
+        "title": "Suspect",
+        "subtitle": "/e sus",
+        "dances": {
+            "dict": "custom@suspect",
+            "anim": "suspect"
+        }
+    },    {
+        "type": "dances",
+        "title": "Breakdance",
+        "subtitle": "/e breakdance",
+        "dances": {
+            "dict": "export@breakdance",
+            "anim": "breakdance"
+        }
     },
 
 
