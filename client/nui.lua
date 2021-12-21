@@ -74,7 +74,7 @@ RegisterNUICallback('exitPanel', function(_, cb)
         cfg.panelStatus = false
         SetNuiFocus(false, false)
         TriggerScreenblurFadeOut(3000)
-        SendNUIMessage({action = 'panelStatus',panelStatus = cfg.panelStatus})
+        SendNUIMessage({action = 'panelStatus', panelStatus = cfg.panelStatus})
     end
     cb({})
 end)
@@ -105,7 +105,6 @@ RegisterNUICallback('fetchStorage', function(data, cb)
                 Play.Notification('info', 'Set old walk style back.')
             end
         end
-        print(GetResourceKvpString('savedWalk'))
     end
     cb({})
 end)
