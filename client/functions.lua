@@ -3,9 +3,8 @@
 Play = {}
 
 ---Checks for sex of ped
----@param sex string
 ---@return string
-local function checkSex(sex)
+local function checkSex()
     local pedModel = GetEntityModel(PlayerPedId())
     for i = 1, #cfg.malePeds do
         if pedModel == GetHashKey(cfg.malePeds[i]) then
@@ -68,7 +67,7 @@ end
 ---@param p table Promise
 Play.Scene = function(scene, p)
     if scene then
-        local sex = checkSex(sex)
+        local sex = checkSex()
         if not scene.sex == 'both' and not (sex == scene.sex) then
             Play.Notification('info', 'Sex does not allow this animation')
         else
