@@ -38,7 +38,12 @@ Play.Animation = function(dance, particle, prop, p)
         end
 
         if particle then
-            Play.Ptfx(particle)
+            local nearbyPlayers = {}
+            local players = GetActivePlayers()
+            for i = 1, #players do
+                nearbyPlayers[i] = players[i]
+            end
+            TriggerServerEvent('anims:syncParticles', particle, nearbyPlayers)
         end
 
         local loop = cfg.animDuration
@@ -128,12 +133,13 @@ Play.Prop = function(props)
 end
 
 ---Creates a particle effect
+---@param ped number
 ---@param particles table
-Play.Ptfx = function(particles)
+Play.Ptfx = function(ped, particles)
     if particles then
         Load.Ptfx(particles.asset)
         UseParticleFxAssetNextCall(particles.asset)
-        Load.PtfxCreation(PlayerPedId(), cfg.propsEntities[1] or cfg.propsEntities[2] or nil, particles.name, particles.asset, particles.placement, particles.rgb)
+        Load.PtfxCreation(ped, cfg.propsEntities[1] or cfg.propsEntities[2] or nil, particles.name, particles.asset, particles.placement, particles.rgb)
     end
 end
 
@@ -195,6 +201,13 @@ RegisterNetEvent('anims:requestShared', function(shared, targetId, owner)
             TaskPlayAnim(PlayerPedId(), shared[1], shared[2], 2.0, 2.0, shared[4] or 3000, 1, 0, false, false, false)
             RemoveAnimDict(shared[1])
         end
+    end
+end)
+
+RegisterNetEvent('anims:syncParticles', function(syncPlayer, particle)
+    local mainPed = GetPlayerPed(syncPlayer)
+    if mainPed > 0 and type(particle) == "table" then
+        Play.Ptfx(mainPed, particle)
     end
 end)
 

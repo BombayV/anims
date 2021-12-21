@@ -22,3 +22,15 @@ RegisterNetEvent('anims:awaitConfirmation', function(target, shared)
         end
     end
 end)
+
+RegisterNetEvent('anims:syncParticles', function(particles, nearbyPlayers)
+    local playerId <const> = source
+    if type(particles) ~= "table" or type(nearbyPlayers) ~= "table" then
+        return false
+    end
+    if playerId > 0 then
+        for i = 1, #nearbyPlayers do
+            TriggerClientEvent('anims:syncPlayerParticles', nearbyPlayers[i], playerId, particles)
+        end
+    end
+end)
