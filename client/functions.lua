@@ -106,6 +106,7 @@ Play.Walk = function(walks, p)
         Load.Walk(walks.style)
         SetPedMovementClipset(PlayerPedId(), walks.style, cfg.walkingTransition)
         RemoveAnimSet(walks.style)
+        SetResourceKvp('savedWalk', walks.style)
         p:resolve({passed = true})
         return
     end

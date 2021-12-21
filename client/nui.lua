@@ -95,6 +95,17 @@ RegisterNUICallback('fetchStorage', function(data, cb)
                 cfg.animMovement = true
             end
         end
+        local savedWalk = GetResourceKvpString('savedWalk')
+        if savedWalk then -- If someone has a better implementation which works with multichar please share it.
+            local p = promise.new()
+            Wait(cfg.waitBeforeWalk)
+            Play.Walk({style = savedWalk}, p)
+            local result = Citizen.Await(p)
+            if result.passed then
+                Play.Notification('info', 'Set old walk style back.')
+            end
+        end
+        print(GetResourceKvpString('savedWalk'))
     end
     cb({})
 end)
