@@ -29,6 +29,7 @@ cfg = {
 
     ptfxActive = false,
     ptfxEntities = {},
+    ptfxOtherEntities = {},
 
     malePeds = {
         "mp_m_freemode_01"

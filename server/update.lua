@@ -22,7 +22,10 @@ local function checkVersion(e, latest, _)
             end
         end
     else
-        print('You removed the JSON file smh. Goodbye to updates :sadge:')
+        if not firstTime then
+            firstTime = true
+            print('You removed the JSON file smh. Goodbye to updates :sadge:')
+        end
     end
 end
 
