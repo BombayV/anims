@@ -1,5 +1,5 @@
 {
-    "version": "1.1.0",
-    "new": "Button Description, Anim Exports, Cfg Event, Removed Streamed Assets, and more.",
-    "update": "Highly Recommended"
+    "version": "1.2.0",
+    "new": "More button descriptions (NoBrainer) and particle syncing",
+    "update": "Stable (syncing issues may arise)"
 }
