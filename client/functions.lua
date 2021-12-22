@@ -1,3 +1,5 @@
+NearbyPlayers = {}
+
 ---Holds Playing animation
 ---@class Play
 Play = {}
@@ -38,12 +40,15 @@ Play.Animation = function(dance, particle, prop, p)
         end
 
         if particle then
-            local nearbyPlayers = {}
             local players = GetActivePlayers()
-            for i = 1, #players do
-                nearbyPlayers[i] = players[i]
+            if #players ~= 1 then
+                for i = 1, #players do
+                    NearbyPlayers[i] = GetPlayerServerId(players[i])
+                end
+                TriggerServerEvent('anims:syncParticles', particle, NearbyPlayers, NetworkGetNetworkIdFromEntity(cfg.propsEntities[1] or cfg.propsEntities[2]))
+            else
+                Play.Ptfx(PlayerPedId(), particle)
             end
-            TriggerServerEvent('anims:syncParticles', particle, nearbyPlayers)
         end
 
         local loop = cfg.animDuration
@@ -135,11 +140,15 @@ end
 ---Creates a particle effect
 ---@param ped number
 ---@param particles table
-Play.Ptfx = function(ped, particles)
+Play.Ptfx = function(ped, particles, prop)
     if particles then
         Load.Ptfx(particles.asset)
         UseParticleFxAssetNextCall(particles.asset)
-        Load.PtfxCreation(ped, cfg.propsEntities[1] or cfg.propsEntities[2] or nil, particles.name, particles.asset, particles.placement, particles.rgb)
+        local setProp = not prop and cfg.propsEntities[1] or not prop and cfg.propsEntities[2]
+        if prop and prop > 0 then
+            setProp = NetToEnt(prop)
+        end
+        Load.PtfxCreation(ped, setProp or nil, particles.name, particles.asset, particles.placement, particles.rgb)
     end
 end
 
@@ -204,10 +213,19 @@ RegisterNetEvent('anims:requestShared', function(shared, targetId, owner)
     end
 end)
 
-RegisterNetEvent('anims:syncParticles', function(syncPlayer, particle)
-    local mainPed = GetPlayerPed(syncPlayer)
+RegisterNetEvent('anims:syncPlayerParticles', function(syncPlayer, particle, prop)
+    local mainPed = GetPlayerPed(GetPlayerFromServerId(syncPlayer))
     if mainPed > 0 and type(particle) == "table" then
-        Play.Ptfx(mainPed, particle)
+        Play.Ptfx(mainPed, particle, prop)
+    end
+end)
+
+RegisterNetEvent('anims:syncRemoval', function()
+    if cfg.ptfxOtherEntities then
+        for _, v in pairs(cfg.ptfxOtherEntities) do
+            StopParticleFxLooped(v, false)
+        end
+        cfg.ptfxOtherEntities = {}
     end
 end)
 

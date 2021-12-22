@@ -1,4 +1,3 @@
-local remove = table.remove
 local insert = table.insert
 
 ---Load table functions
@@ -67,7 +66,11 @@ Load.PtfxCreation = function(ped, prop, name, asset, placement, rgb)
     local newPtfx = StartNetworkedParticleFxLoopedOnEntityBone(name, ptfxSpawn, placement[1] + 0.0, placement[2] + 0.0, placement[3] + 0.0, placement[4] + 0.0, placement[5] + 0.0, placement[6] + 0.0, GetEntityBoneIndexByName(name, "VFX"), placement[7] + 0.0, 0, 0, 0, 1065353216, 1065353216, 1065353216, 0)
     if newPtfx then
         SetParticleFxLoopedColour(newPtfx, rgb[1] + 0.0, rgb[2] + 0.0, rgb[3] + 0.0)
-        insert(cfg.ptfxEntities, newPtfx)
+        if ped ~= PlayerPedId() then
+            insert(cfg.ptfxOtherEntities, newPtfx)
+        else
+            insert(cfg.ptfxEntities, newPtfx)
+        end
         cfg.ptfxActive = true
     end
     RemoveNamedPtfxAsset(asset)
@@ -76,10 +79,10 @@ end
 ---Removes existing particle effects
 Load.PtfxRemoval = function()
     if cfg.ptfxEntities then
-        for k, v in pairs(cfg.ptfxEntities) do
+        for _, v in pairs(cfg.ptfxEntities) do
             StopParticleFxLooped(v, false)
-            remove(cfg.ptfxEntities, k)
         end
+        cfg.ptfxEntities = {}
     end
 end
 
@@ -194,6 +197,10 @@ Load.Cancel = function()
        cfg.propActive = false
     end
     if cfg.ptfxActive then
+        if #NearbyPlayers > 0 then
+            TriggerServerEvent('anims:syncRemoval')
+        end
+        NearbyPlayers = {}
         Load.PtfxRemoval()
         cfg.ptfxActive = false
     end
