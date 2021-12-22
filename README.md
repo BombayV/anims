@@ -25,6 +25,7 @@ This project does not contain a license, therefore you are not allowed to add on
 
 ### Locales
 - Everything has to be translated manually because I did not want to support different languages with a locales config. However, I will list every line that can be translated.
+
 **LUA**
 - [13-14 | server/syncing.lua]
 - [82 | client/functions.lua]
