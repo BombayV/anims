@@ -22,3 +22,18 @@ This project does not contain a license, therefore you are not allowed to add on
 ## Acknowledgements
 - [dpemotes](https://github.com/andristum/dpemotes) for the overall idea and the actual animations. Without it this wouldn't be possible <3.
 - [Ultrahacx](https://github.com/ultrahacx) for the extra custom anims.
+
+### Locales
+- Everything has to be translated manually because I did not want to support different languages with a locales config. However, I will list every line that can be translated.
+**LUA**
+- [13-14 | server/syncing.lua]
+- [82 | client/functions.lua]
+- [163 | client/functions.lua]
+- [105 | client/nui.lua]
+- [141 | client/nui.lua]
+
+**JS**
+- [22-33 | html/js/script.js]
+- [6-102 | html/js/listeners.js]
+- [88-89 | html/js/modules/fetch.js]
+- [104-105 | html/js/modules/functions.js]
