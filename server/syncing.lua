@@ -1,5 +1,6 @@
 local currentlyPlaying = {}
 
+--#region Shared anims
 RegisterNetEvent('anims:resolveAnimation', function(target, shared, accepted)
     local playerId <const> = source
     if type(shared) ~= "table" and tonumber(playerId) ~= tonumber(target) then
@@ -24,31 +25,32 @@ RegisterNetEvent('anims:awaitConfirmation', function(target, shared)
         end
     end
 end)
+--#endregion
 
-RegisterNetEvent('anims:syncParticles', function(particles, nearbyPlayers, prop)
+--#region PTFX Syncing
+RegisterNetEvent('anims:syncParticles', function(particles, nearbyPlayers)
     local playerId <const> = source
     if type(particles) ~= "table" or type(nearbyPlayers) ~= "table" then
         error('Table was not successful')
     end
     if playerId > 0 then
-        currentlyPlaying[playerId] = nearbyPlayers
         for i = 1, #nearbyPlayers do
-            TriggerClientEvent('anims:syncPlayerParticles', nearbyPlayers[i], playerId, particles, prop)
+            TriggerClientEvent('anims:syncPlayerParticles', nearbyPlayers[i], playerId, particles)
         end
+        currentlyPlaying[playerId] = nearbyPlayers
     end
 end)
 
 RegisterNetEvent('anims:syncRemoval', function()
     local playerId <const> = source
     if playerId > 0 then
-        local nearbyPlayers = currentlyPlaying and currentlyPlaying[playerId]
+        local nearbyPlayers = currentlyPlaying[playerId]
         if nearbyPlayers then
             for i = 1, #nearbyPlayers do
-                if nearbyPlayers[i] ~= playerId then
-                    TriggerClientEvent('anims:syncRemoval', nearbyPlayers[i])
-                end
+                TriggerClientEvent('anims:syncRemoval', nearbyPlayers[i], playerId)
             end
-            currentlyPlaying[playerId] = {}
+            currentlyPlaying[playerId] = nil
         end
     end
 end)
+--#endregion
