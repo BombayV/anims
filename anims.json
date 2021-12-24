@@ -2844,8 +2844,8 @@
         "title": "Lap Dance 2",
         "subtitle": "/e lapdance2",
         "dances": {
-            "dict": "priv_dance_idle",
-            "anim": "mini@strip_club@private_dance@idle"
+            "dict": "mini@strip_club@private_dance@idle",
+            "anim": "priv_dance_idle"
         }
     },    {
         "type": "dances",
