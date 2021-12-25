@@ -9,8 +9,8 @@ cfg = {
     keySuggestion = 'Open the emote panel by key', -- Suggestion on keybind mapping
     walkingTransition = 0.5,
 
-    acceptKey = 38,
-    denyKey = 182,
+    acceptKey = 38, -- Accept key for shared anim
+    denyKey = 182, -- Deny key for shared anim
     waitBeforeWalk = 5000, -- Wait before setting back walking style (If someone has a better method pls make a pull request because multichars are a pain in the ass)
 
     -- Do not touch
@@ -27,9 +27,10 @@ cfg = {
     propActive = false,
     propsEntities = {},
 
+    ptfxOwner = false,
     ptfxActive = false,
     ptfxEntities = {},
-    ptfxOtherEntities = {},
+    ptfxEntitiesTwo = {},
 
     malePeds = {
         "mp_m_freemode_01"

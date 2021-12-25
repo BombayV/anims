@@ -66,10 +66,10 @@ Load.PtfxCreation = function(ped, prop, name, asset, placement, rgb)
     local newPtfx = StartNetworkedParticleFxLoopedOnEntityBone(name, ptfxSpawn, placement[1] + 0.0, placement[2] + 0.0, placement[3] + 0.0, placement[4] + 0.0, placement[5] + 0.0, placement[6] + 0.0, GetEntityBoneIndexByName(name, "VFX"), placement[7] + 0.0, 0, 0, 0, 1065353216, 1065353216, 1065353216, 0)
     if newPtfx then
         SetParticleFxLoopedColour(newPtfx, rgb[1] + 0.0, rgb[2] + 0.0, rgb[3] + 0.0)
-        if ped ~= PlayerPedId() then
-            insert(cfg.ptfxOtherEntities, newPtfx)
-        else
+        if ped == PlayerPedId() then
             insert(cfg.ptfxEntities, newPtfx)
+        else
+            cfg.ptfxEntitiesTwo[GetPlayerServerId(NetworkGetEntityOwner(ped))] = newPtfx
         end
         cfg.ptfxActive = true
     end
@@ -197,10 +197,10 @@ Load.Cancel = function()
        cfg.propActive = false
     end
     if cfg.ptfxActive then
-        if #NearbyPlayers > 0 then
+        if cfg.ptfxOwner then
             TriggerServerEvent('anims:syncRemoval')
+            cfg.ptfxOwner = false
         end
-        NearbyPlayers = {}
         Load.PtfxRemoval()
         cfg.ptfxActive = false
     end
