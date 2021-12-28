@@ -2701,9 +2701,11 @@
         "subtitle": "/e flip",
         "dances": {
             "dict": "anim@arena@celeb@flat@solo@no_props@",
-            "anim": "flip_a_player_a"
+            "anim": "flip_a_player_a",
+            "duration": 1500
         },
-        "disableMovement": true
+        "disableMovement": true,
+        "disableLoop": true
     },    {
         "type": "dances",
         "title": "Flip 2",

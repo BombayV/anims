@@ -22,6 +22,7 @@ cfg = {
     animLoop = false,
     animMovement = false,
     animDisableMovement = false,
+    animDisableLoop = false,
 
     sceneActive = false,
 

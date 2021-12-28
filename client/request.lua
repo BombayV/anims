@@ -183,6 +183,9 @@ Load.Cancel = function()
     if cfg.animDisableMovement then
         cfg.animDisableMovement = false
     end
+    if cfg.animDisableLoop then
+        cfg.animDisableLoop = false
+    end
 
     if cfg.animActive then
         ClearPedTasks(PlayerPedId())

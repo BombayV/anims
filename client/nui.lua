@@ -8,6 +8,9 @@ local function animType(data, p)
         if data.disableMovement then
             cfg.animDisableMovement = true
         end
+        if data.disableLoop then
+            cfg.animDisableLoop = true
+        end
         if data.dance then
             Play.Animation(data.dance, data.particle, data.prop, p)
         elseif data.scene then
