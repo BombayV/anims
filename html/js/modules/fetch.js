@@ -61,7 +61,6 @@ export const createPanels = (panelData) => {
             block.setAttribute('data-particles', (panel.particles) ? (JSON.stringify({asset: panel.particles.asset, name: panel.particles.name, placement: panel.particles.placement, rgb: panel.particles.rgb})) : false);
             block.setAttribute('data-shared', (panel.shared) ? (JSON.stringify({first: panel.shared.first, second: panel.shared.second})) : false);
             block.setAttribute('data-disableMovement', (panel.disableMovement) ? (JSON.stringify({disableMovement: panel.disableMovement})) : false);
-            block.setAttribute('data-duration', (panel.duration) ? (JSON.stringify({duration: panel.duration})) : false);
             block.setAttribute('data-disableLoop', (panel.disableLoop) ? (JSON.stringify({disableLoop: panel.disableLoop})) : false);
 
             star.addEventListener('click', e => {
