@@ -180,6 +180,10 @@ end
 
 ---Cancels currently playing animations
 Load.Cancel = function()
+    if cfg.animDisableMovement then
+        cfg.animDisableMovement = false
+    end
+
     if cfg.animActive then
         ClearPedTasks(PlayerPedId())
         cfg.animActive = false

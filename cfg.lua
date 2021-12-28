@@ -21,6 +21,7 @@ cfg = {
     animDuration = 1500, -- You can change this but I recommend not to.
     animLoop = false,
     animMovement = false,
+    animDisableMovement = false,
 
     sceneActive = false,
 

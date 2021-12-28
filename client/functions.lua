@@ -58,7 +58,7 @@ Play.Animation = function(dance, particle, prop, p)
         else
             SetTimeout(cfg.animDuration, function() Load.Cancel() end)
         end
-        if cfg.animMovement then
+        if cfg.animMovement and not cfg.animDisableMovement then
             move = 51
         end
         TaskPlayAnim(PlayerPedId(), dance.dict, dance.anim, 1.5, 1.5, loop, move, 0, false, false, false)

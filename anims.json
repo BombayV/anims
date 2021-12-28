@@ -2702,7 +2702,8 @@
         "dances": {
             "dict": "anim@arena@celeb@flat@solo@no_props@",
             "anim": "flip_a_player_a"
-        }
+        },
+        "disableMovement": true
     },    {
         "type": "dances",
         "title": "Flip 2",
