@@ -1,0 +1,4726 @@
+[
+    {
+        "type": "dances",
+        "title": "Dance F",
+        "subtitle": "/e dancef",
+        "dances": {
+            "dict": "anim@amb@nightclub@dancers@solomun_entourage@",
+            "anim": "mi_dance_facedj_17_v1_female^1"
+        }
+    },
+    {
+        "type": "dances",
+        "title": "Dance F2",
+        "subtitle": "/e dancef2",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "high_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance F3",
+        "subtitle": "/e dancef3",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "high_center_up"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance F4",
+        "subtitle": "/e dancef4",
+        "dances": {
+            "dict": "anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity",
+            "anim": "hi_dance_facedj_09_v2_female^1"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dances F5",
+        "subtitle": "/e dancef5",
+        "dances": {
+            "dict": "anim@amb@nightclub@dancers@crowddance_facedj@hi_intensity",
+            "anim": "hi_dance_facedj_09_v2_female^3"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance F6",
+        "subtitle": "/e dancef6",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "high_center_up"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Slow 2",
+        "subtitle": "/e danceslow2",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "low_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Slow 3",
+        "subtitle": "/e danceslow3",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "low_center_down"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Slow 4",
+        "subtitle": "/e danceslow4",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+            "anim": "low_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance",
+        "subtitle": "/e dance",
+        "dances": {
+            "dict": "anim@amb@nightclub@dancers@podium_dancers@",
+            "anim": "hi_dance_facedj_17_v2_male^5"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 2",
+        "subtitle": "/e dance2",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@male@var_b@",
+            "anim": "high_center_down"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 3",
+        "subtitle": "/e dance3",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
+            "anim": "high_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Upper",
+        "subtitle": "/e danceupper",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+            "anim": "high_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Upper 2",
+        "subtitle": "/e danceupper2",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+            "anim": "high_center_up"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Shy",
+        "subtitle": "/e danceshy",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@male@var_a@",
+            "anim": "low_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Shy 2",
+        "subtitle": "/e danceshy2",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_b@",
+            "anim": "low_center_down"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Slow",
+        "subtitle": "/e danceslow",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@male@var_b@",
+            "anim": "low_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 6",
+        "subtitle": "/e dance6",
+        "dances": {
+            "dict": "misschinese2_crystalmazemcs1_cs",
+            "anim": "dance_loop_tao"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 7",
+        "subtitle": "/e dance7",
+        "dances": {
+            "dict": "misschinese2_crystalmazemcs1_ig",
+            "anim": "dance_loop_tao"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 8",
+        "subtitle": "/e dance8",
+        "dances": {
+            "dict": "missfbi3_sniping",
+            "anim": "dance_m_default"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly",
+        "subtitle": "/e dancesilly",
+        "dances": {
+            "dict": "special_ped@mountain_dancer@monologue_3@monologue_3a",
+            "anim": "mnt_dnc_buttwag"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 2",
+        "subtitle": "/e dancesilly2",
+        "dances": {
+            "dict": "move_clown@p_m_zero_idles@",
+            "anim": "fidget_short_dance"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 3",
+        "subtitle": "/e dancesilly3",
+        "dances": {
+            "dict": "move_clown@p_m_two_idles@",
+            "anim": "fidget_short_dance"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 4",
+        "subtitle": "/e dancesilly4",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+            "anim": "danceidle_hi_11_buttwiggle_b_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 5",
+        "subtitle": "/e dancesilly5",
+        "dances": {
+            "dict": "timetable@tracy@ig_5@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 6",
+        "subtitle": "/e dancesilly6",
+        "dances": {
+            "dict": "timetable@tracy@ig_8@idle_b",
+            "anim": "idle_d"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 7",
+        "subtitle": "/e dancesilly7",
+        "dances": {
+            "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+            "anim": "high_center"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 8",
+        "subtitle": "/e dancesilly8",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@the_woogie",
+            "anim": "the_woogie"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Silly 9",
+        "subtitle": "/e dancesilly9",
+        "dances": {
+            "dict": "rcmnigel1bnmt_1b",
+            "anim": "dance_loop_tyler"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 9",
+        "subtitle": "/e dance9",
+        "dances": {
+            "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+            "anim": "med_center_up"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance 5",
+        "subtitle": "/e dance5",
+        "dances": {
+            "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_a@",
+            "anim": "med_center"
+        }
+    }, {
+        "type": "dances",
+        "title": "Dance Glowsticks",
+        "subtitle": "/e danceglowstick",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_railing@",
+            "anim": "ambclub_13_mi_hi_sexualgriding_laz"
+        },
+        "props": {
+            "prop": "ba_prop_battle_glowstick_01",
+            "propBone": 28422,
+            "propPlacement": [0.0700, 0.1400, 0.0, -80.0, 20.0, 0.0],
+            "propTwo": "ba_prop_battle_glowstick_01",
+            "propTwoBone": 60309,
+            "propTwoPlacement": [0.0700, 0.0900, 0.0, -120.0, -20.0, 0.0]
+        }
+    }, {
+        "type": "dances",
+        "title": "Dance Glowsticks 2",
+        "subtitle": "/e danceglowstick2",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_railing@",
+            "anim": "ambclub_12_mi_hi_bootyshake_laz"
+        },
+        "props": {
+            "prop": "ba_prop_battle_glowstick_01",
+            "propBone": 28422,
+            "propPlacement": [0.0700, 0.1400, 0.0, -80.0, 20.0, 0.0],
+            "propTwo": "ba_prop_battle_glowstick_01",
+            "propTwoBone": 60309,
+            "propTwoPlacement": [0.0700, 0.0900, 0.0, -120.0, -20.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Glowsticks 3",
+        "subtitle": "/e danceglowstick3",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_railing@",
+            "anim": "ambclub_09_mi_hi_bellydancer_laz"
+        },
+        "props": {
+            "prop": "ba_prop_battle_glowstick_01",
+            "propBone": 28422,
+            "propPlacement": [0.0700, 0.1400, 0.0, -80.0, 20.0, 0.0],
+            "propTwo": "ba_prop_battle_glowstick_01",
+            "propTwoBone": 60309,
+            "propTwoPlacement": [0.0700, 0.0900, 0.0, -120.0, -20.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Horse",
+        "subtitle": "/e dancehorse",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_dancefloor@",
+            "anim": "dancecrowd_li_15_handup_laz"
+        },
+        "props": {
+            "prop": "ba_prop_battle_hobby_horse",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Horse 2",
+        "subtitle": "/e dancehorse2",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_dancefloor@",
+            "anim": "crowddance_hi_11_handup_laz"
+        },
+        "props": {
+            "prop": "ba_prop_battle_hobby_horse",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Dance Horse 3",
+        "subtitle": "/e dancehorse3",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_dancefloor@",
+            "anim": "dancecrowd_li_11_hu_shimmy_laz"
+        },
+        "props": {
+            "prop": "ba_prop_battle_hobby_horse",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },   {
+        "type": "dances",
+        "title": "Umbrella",
+        "subtitle": "/e umbrella",
+        "dances": {
+            "dict": "amb@world_human_drinking@coffee@male@base",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "p_amb_brolly_01",
+            "propBone": 57005,
+            "propPlacement": [0.15, 0.005, 0.0, 87.0, -20.0, 180.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Notepad",
+        "subtitle": "/e notepad",
+        "dances": {
+            "dict": "missheistdockssetup1clipboard@base",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "prop_notepad_01",
+            "propBone": 18905,
+            "propPlacement": [0.1, 0.02, 0.05, 10.0, 0.0, 0.0],
+            "propTwo": "prop_pencil_01",
+            "propTwoBone": 58866,
+            "propTwoPlacement": [0.11, -0.02, 0.001, -120.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Box",
+        "subtitle": "/e box",
+        "dances": {
+            "dict": "anim@heists@box_carry@",
+            "anim": "idle"
+        },
+        "props": {
+            "prop": "hei_prop_heist_box",
+            "propBone": 60309,
+            "propPlacement": [0.025, 0.08, 0.255, -145.0, 290.0, 0.0]
+        }
+        },    {
+            "type": "props",
+            "title": "bumper",
+            "subtitle": "/e bumper",
+            "dances": {
+                "dict": "anim@heists@box_carry@",
+                "anim": "idle"
+            },
+            "props": {
+                "prop": "prop_bumper_04",
+                "propBone": 60309,
+                "propPlacement": [0.070, -0.2, 0.255, -175.0, 295.0, 1.0]
+            }
+    },
+    {
+        "type": "props",
+        "title": "Mala Medica",
+        "subtitle": "kitmedico",
+        "dances": {
+            "dict": "missheistdocksprep1hold_cellphone",
+            "anim": "static"
+        },
+        "props": {
+            "prop": "xm_prop_x17_bag_med_01a",
+            "propBone": 57005,
+            "propPlacement": [0.39, 0.0, 0.0, 0.0, 266.0, 60.0]
+        }
+},      
+    {
+        "type": "dances",
+        "title": "Rose",
+        "subtitle": "/e rose",
+        "dances": {
+            "dict": "anim@heists@humane_labs@finale@keycards",
+            "anim": "ped_a_enter_loop"
+        },
+        "props": {
+            "prop": "prop_single_rose",
+            "propBone": 18905,
+            "propPlacement": [0.13, 0.15, 0.0, -100.0, 0.0, -20.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Smoke 2",
+        "subtitle": "/e smoke2",
+        "dances": {
+            "dict": "amb@world_human_aa_smoke@male@idle_a",
+            "anim": "idle_c"
+        },
+        "props": {
+            "prop": "prop_cs_ciggy_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Smoke 3",
+        "subtitle": "/e smoke3",
+        "dances": {
+            "dict": "amb@world_human_aa_smoke@male@idle_a",
+            "anim": "idle_b"
+        },
+        "props": {
+            "prop": "prop_cs_ciggy_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Smoke 4",
+        "subtitle": "/e smoke4",
+        "dances": {
+            "dict": "amb@world_human_smoking@female@idle_a",
+            "anim": "idle_b"
+        },
+        "props": {
+            "prop": "prop_cs_ciggy_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Bong",
+        "subtitle": "/e bong",
+        "dances": {
+            "dict": "anim@safehouse@bong",
+            "anim": "bong_stage3"
+        },
+        "props": {
+            "prop": "hei_heist_sh_bong_01",
+            "propBone": 18905,
+            "propPlacement": [0.10,-0.25,0.0,95.0,190.0,180.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Suitcase",
+        "subtitle": "/e suitcase",
+        "dances": {
+            "dict": "missheistdocksprep1hold_cellphone",
+            "anim": "static"
+        },
+        "props": {
+            "prop": "prop_ld_suitcase_01",
+            "propBone": 57005,
+            "propPlacement": [0.39, 0.0, 0.0, 0.0, 266.0, 60.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Suitcase 2",
+        "subtitle": "/e suitcase2",
+        "dances": {
+            "dict": "missheistdocksprep1hold_cellphone",
+            "anim": "static"
+        },
+        "props": {
+            "prop": "prop_security_case_01",
+            "propBone": 57005,
+            "propPlacement": [0.10, 0.0, 0.0, 0.0, 280.0, 53.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Suitcase 3",
+        "subtitle": "/e suitcase2",
+        "dances": {
+            "dict": "anim@heists@box_carry@",
+            "anim": "idle"
+        },
+        "props": {
+            "prop": "prop_cash_case_02",
+            "propBone": 60309,
+            "propPlacement": [0.025, -0.03, 0.255, 445.0, 290.0, 170.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Mugshot",
+        "subtitle": "/e mugshot",
+        "dances": {
+            "dict": "mp_character_creation@customise@male_a",
+            "anim": "loop"
+        },
+        "props": {
+            "prop": "prop_police_id_board",
+            "propBone": 58868,
+            "propPlacement": [0.12, 0.24, 0.0, 5.0, 0.0, 70.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Coffee",
+        "subtitle": "/e coffee",
+        "dances": {
+            "dict": "amb@world_human_drinking@coffee@male@idle_a",
+            "anim": "idle_c"
+        },
+        "props": {
+            "prop": "p_amb_coffeecup_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Whiskey",
+        "subtitle": "/e whiskey",
+        "dances": {
+            "dict": "amb@world_human_drinking@coffee@male@idle_a",
+            "anim": "idle_c"
+        },
+        "props": {
+            "prop": "prop_drink_whisky",
+            "propBone": 28422,
+            "propPlacement": [0.01, -0.01, -0.06, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Beer",
+        "subtitle": "/e beer",
+        "dances": {
+            "dict": "amb@world_human_drinking@coffee@male@idle_a",
+            "anim": "idle_c"
+        },
+        "props": {
+            "prop": "prop_amb_beer_bottle",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Cup",
+        "subtitle": "/e cup",
+        "dances": {
+            "dict": "amb@world_human_drinking@coffee@male@idle_a",
+            "anim": "idle_c"
+        },
+        "props": {
+            "prop": "prop_plastic_cup_02",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Donut",
+        "subtitle": "/e donut",
+        "dances": {
+            "dict": "mp_player_inteat@burger",
+            "anim": "mp_player_int_eat_burger"
+        },
+        "props": {
+            "prop": "prop_amb_donut",
+            "propBone": 18905,
+            "propPlacement": [0.13, 0.05, 0.02, -50.0, 16.0, 60.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Burger",
+        "subtitle": "/e burger",
+        "dances": {
+            "dict": "mp_player_inteat@burger",
+            "anim": "mp_player_int_eat_burger"
+        },
+        "props": {
+            "prop": "prop_cs_burger_01",
+            "propBone": 18905,
+            "propPlacement": [0.13, 0.05, 0.02, -50.0, 16.0, 60.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Sandwich",
+        "subtitle": "/e sandwich",
+        "dances": {
+            "dict": "mp_player_inteat@burger",
+            "anim": "mp_player_int_eat_burger"
+        },
+        "props": {
+            "prop": "prop_sandwich_01",
+            "propBone": 18905,
+            "propPlacement": [0.13, 0.05, 0.02, -50.0, 16.0, 60.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Soda",
+        "subtitle": "/e soda",
+        "dances": {
+            "dict": "amb@world_human_drinking@coffee@male@idle_a",
+            "anim": "idle_c"
+        },
+        "props": {
+            "prop": "prop_ecola_can",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 130.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Ego Bar",
+        "subtitle": "/e egobar",
+        "dances": {
+            "dict": "mp_player_inteat@burger",
+            "anim": "mp_player_int_eat_burger"
+        },
+        "props": {
+            "prop": "prop_choc_ego",
+            "propBone": 60309,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Wine",
+        "subtitle": "/e wine",
+        "dances": {
+            "dict": "anim@heists@humane_labs@finale@keycards",
+            "anim": "ped_a_enter_loop"
+        },
+        "props": {
+            "prop": "prop_drink_redwine",
+            "propBone": 18905,
+            "propPlacement": [0.10, -0.03, 0.03, -100.0, 0.0, -10.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Flute",
+        "subtitle": "/e flute",
+        "dances": {
+            "dict": "anim@heists@humane_labs@finale@keycards",
+            "anim": "ped_a_enter_loop"
+        },
+        "props": {
+            "prop": "prop_champ_flute",
+            "propBone": 18905,
+            "propPlacement": [0.10, -0.03, 0.03, -100.0, 0.0, -10.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Champagne",
+        "subtitle": "/e champagne",
+        "dances": {
+            "dict": "anim@heists@humane_labs@finale@keycards",
+            "anim": "ped_a_enter_loop"
+        },
+        "props": {
+            "prop": "prop_drink_champ",
+            "propBone": 18905,
+            "propPlacement": [0.10, -0.03, 0.03, -100.0, 0.0, -10.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Cigar",
+        "subtitle": "/e cigar",
+        "dances": {
+            "dict": "amb@world_human_smoking@male@male_a@enter",
+            "anim": "enter"
+        },
+        "props": {
+            "prop": "prop_cigar_02",
+            "propBone": 47419,
+            "propPlacement": [0.010, 0.0, 0.0, 50.0, 0.0, -80.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Cigar 2",
+        "subtitle": "/e cigar2",
+        "dances": {
+            "dict": "amb@world_human_smoking@male@male_a@enter",
+            "anim": "enter"
+        },
+        "props": {
+            "prop": "prop_cigar_01",
+            "propBone": 47419,
+            "propPlacement": [0.010, 0.0, 0.0, 50.0, 0.0, -80.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Guitar",
+        "subtitle": "/e guitar",
+        "dances": {
+            "dict": "amb@world_human_musician@guitar@male@idle_a",
+            "anim": "idle_b"
+        },
+        "props": {
+            "prop": "prop_acc_guitar_01",
+            "propBone": 24818,
+            "propPlacement": [-0.1, 0.31, 0.1, 0.0, 20.0, 150.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Guitar 2",
+        "subtitle": "/e guitar2",
+        "dances": {
+            "dict": "switch@trevor@guitar_beatdown",
+            "anim": "001370_02_trvs_8_guitar_beatdown_idle_busker"
+        },
+        "props": {
+            "prop": "prop_acc_guitar_01",
+            "propBone": 24818,
+            "propPlacement": [-0.1, 0.31, 0.1, 0.0, 20.0, 150.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Guitarelectric",
+        "subtitle": "/e guitarelectric",
+        "dances": {
+            "dict": "amb@world_human_musician@guitar@male@idle_a",
+            "anim": "idle_b"
+        },
+        "props": {
+            "prop": "prop_el_guitar_01",
+            "propBone": 24818,
+            "propPlacement": [-0.1, 0.31, 0.1, 0.0, 20.0, 150.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Guitar Electric 2",
+        "subtitle": "/e guitarelectric2",
+        "dances": {
+            "dict": "amb@world_human_musician@guitar@male@idle_a",
+            "anim": "idle_b"
+        },
+        "props": {
+            "prop": "prop_el_guitar_03",
+            "propBone": 24818,
+            "propPlacement": [-0.1, 0.31, 0.1, 0.0, 20.0, 150.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Book",
+        "subtitle": "/e book",
+        "dances": {
+            "dict": "cellphone@",
+            "anim": "cellphone_text_read_base"
+        },
+        "props": {
+            "prop": "prop_novel_01",
+            "propBone": 6286,
+            "propPlacement": [0.15, 0.03, -0.065, 0.0, 180.0, 90.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Bouquet",
+        "subtitle": "/e bouquet",
+        "dances": {
+            "dict": "impexp_int-0",
+            "anim": "mp_m_waremech_01_dual-0"
+        },
+        "props": {
+            "prop": "prop_snow_flower_02",
+            "propBone": 24817,
+            "propPlacement": [-0.29, 0.40, -0.02, -90.0, -90.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Teddy",
+        "subtitle": "/e teddy",
+        "dances": {
+            "dict": "impexp_int-0",
+            "anim": "mp_m_waremech_01_dual-0"
+        },
+        "props": {
+            "prop": "v_ilev_mr_rasberryclean",
+            "propBone": 24817,
+            "propPlacement": [-0.20, 0.46, -0.016, -180.0, -90.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Backpack",
+        "subtitle": "/e backpack",
+        "dances": {
+            "dict": "move_p_m_zero_rucksack",
+            "anim": "idle"
+        },
+        "props": {
+            "prop": "p_michael_backpack_s",
+            "propBone": 24818,
+            "propPlacement": [0.07, -0.11, -0.05, 0.0, 90.0, 175.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Clipboard",
+        "subtitle": "/e clipboard",
+        "dances": {
+            "dict": "missfam4",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "p_amb_clipboard_01",
+            "propBone": 36029,
+            "propPlacement": [0.16, 0.08, 0.1, -130.0, -50.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Map",
+        "subtitle": "/e map",
+        "dances": {
+            "dict": "amb@world_human_tourist_map@male@base",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "prop_tourist_map_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Beg",
+        "subtitle": "/e beg",
+        "dances": {
+            "dict": "amb@world_human_bum_freeway@male@base",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "prop_beggers_sign_03",
+            "propBone": 58868,
+            "propPlacement": [0.19, 0.18, 0.0, 5.0, 0.0, 40.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Make It Rain",
+        "subtitle": "/e makeitrain",
+        "dances": {
+            "dict": "anim@mp_player_intupperraining_cash",
+            "anim": "idle_a"
+        },
+        "props": {
+            "prop": "prop_anim_cash_pile_01",
+            "propBone": 60309,
+            "propPlacement": [0.0, 0.0, 0.0, 180.0, 0.0, 70.0]
+        },
+        "particles": {
+            "asset": "scr_xs_celebration",
+            "name": "scr_xs_money_rain",
+            "placement": [0.0, 0.0, -0.09, -80.0, 0.0, 0.0, 1.0],
+            "rgb": [1.0, 1.0, 1.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Spray",
+        "subtitle": "/e spray",
+        "dances": {
+            "dict": "switch@franklin@lamar_tagging_wall",
+            "anim": "lamar_tagging_exit_loop_lamar"
+        },
+        "props": {
+            "prop": "prop_cs_spray_can",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        },
+        "particles": {
+            "asset": "scr_playerlamgraff",
+            "name": "scr_lamgraff_paint_spray",
+            "placement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+            "rgb": [1.0, 1.0, 1.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Spray 2",
+        "subtitle": "/e spray2",
+        "dances": {
+            "dict": "switch@franklin@lamar_tagging_wall",
+            "anim": "lamar_tagging_wall_loop_lamar"
+        },
+        "props": {
+            "prop": "prop_cs_spray_can",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 130.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Champagne Spray",
+        "subtitle": "/e champagnespray",
+        "dances": {
+            "dict": "anim@mp_player_intupperspray_champagne",
+            "anim": "idle_a"
+        },
+        "props": {
+            "prop": "ba_prop_battle_champ_open",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        },
+        "particles": {
+            "asset": "scr_ba_club",
+            "name": "scr_ba_club_champagne_spray",
+            "placement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+            "rgb": [1.0, 1.0, 1.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Camera",
+        "subtitle": "/e camera",
+        "dances": {
+            "dict": "amb@world_human_paparazzi@male@base",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "prop_pap_camera_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        },
+        "particles": {
+            "asset": "scr_bike_business",
+            "name": "scr_bike_cfid_camera_flash",
+            "placement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+            "rgb": [1.0, 1.0, 1.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Joint",
+        "subtitle": "/e joint",
+        "dances": {
+            "dict": "amb@world_human_smoking@male@male_a@enter",
+            "anim": "enter"
+        },
+        "props": {
+            "prop": "p_cs_joint_02",
+            "propBone": 47419,
+            "propPlacement": [0.015, -0.009, 0.003, 55.0, 0.0, 110.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Cig",
+        "subtitle": "/e cig",
+        "dances": {
+            "dict": "amb@world_human_smoking@male@male_a@enter",
+            "anim": "enter"
+        },
+        "props": {
+            "prop": "prop_amb_ciggy_01",
+            "propBone": 47419,
+            "propPlacement": [0.015, -0.009, 0.003, 55.0, 0.0, 110.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Brief 3",
+        "subtitle": "/e brief3",
+        "dances": {
+            "dict": "missheistdocksprep1hold_cellphone",
+            "anim": "static"
+        },
+        "props": {
+            "prop": "prop_ld_case_01",
+            "propBone": 57005,
+            "propPlacement": [0.10, 0.0, 0.0, 0.0, 280.0, 53.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Tablet",
+        "subtitle": "/e tablet",
+        "dances": {
+            "dict": "amb@world_human_tourist_map@male@base",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "prop_cs_tablet",
+            "propBone": 28422,
+            "propPlacement": [0.0, -0.03, 0.0, 20.0, -90.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Tablet 2",
+        "subtitle": "/e tablet2",
+        "dances": {
+            "dict": "amb@code_human_in_bus_passenger_idles@female@tablet@idle_a",
+            "anim": "idle_a"
+        },
+        "props": {
+            "prop": "prop_cs_tablet",
+            "propBone": 28422,
+            "propPlacement": [-0.05, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Phone Call",
+        "subtitle": "/e phonecall",
+        "dances": {
+            "dict": "cellphone@",
+            "anim": "cellphone_call_listen_base"
+        },
+        "props": {
+            "prop": "prop_npc_phone_02",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Phone",
+        "subtitle": "/e phone",
+        "dances": {
+            "dict": "cellphone@",
+            "anim": "cellphone_text_read_base"
+        },
+        "props": {
+            "prop": "prop_npc_phone_02",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Clean",
+        "subtitle": "/e clean",
+        "dances": {
+            "dict": "timetable@floyd@clean_kitchen@base",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "prop_sponge_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, -0.01, 90.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Clean 2",
+        "subtitle": "/e clean2",
+        "dances": {
+            "dict": "amb@world_human_maid_clean@",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "prop_sponge_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, -0.01, 90.0, 0.0, 0.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Drink",
+        "subtitle": "/e drink",
+        "dances": {
+            "dict": "mp_player_intdrink",
+            "anim": "loop_bottle"
+        },
+        "props": {
+            "prop": "prop_ld_flow_bottle",
+            "propBone": 18905,
+            "propPlacement": [0.12, 0.008, 0.03, 240.0, -60.0, 0.0]
+        }
+
+    },    {
+        "type": "dances",
+        "title": "Beast",
+        "subtitle": "/e beast",
+        "dances": {
+            "dict": "anim@mp_fm_event@intr",
+            "anim": "beast_transform"
+        }
+    },    {
+        "type": "dances",
+        "title": "Chill",
+        "subtitle": "/e chill",
+        "dances": {
+            "dict": "switch@trevor@scares_tramp",
+            "anim": "trev_scares_tramp_idle_tramp"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cloudgaze",
+        "subtitle": "/e cloudgaze",
+        "dances": {
+            "dict": "switch@trevor@annoys_sunbathers",
+            "anim": "trev_annoys_sunbathers_loop_girl"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cloudgaze 2",
+        "subtitle": "/e cloudgaze2",
+        "dances": {
+            "dict": "switch@trevor@annoys_sunbathers",
+            "anim": "trev_annoys_sunbathers_loop_guy"
+        }
+    },    {
+        "type": "dances",
+        "title": "Prone",
+        "subtitle": "/e prone",
+        "dances": {
+            "dict": "missfbi3_sniping",
+            "anim": "prone_dave"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pullover",
+        "subtitle": "/e pullover",
+        "dances": {
+            "dict": "misscarsteal3pullover",
+            "anim": "pull_over_right"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle",
+        "subtitle": "/e idle",
+        "dances": {
+            "dict": "anim@heists@heist_corona@team_idles@male_a",
+            "anim": "idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 8",
+        "subtitle": "/e idle8",
+        "dances": {
+            "dict": "amb@world_human_hang_out_street@male_b@idle_a",
+            "anim": "idle_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 9",
+        "subtitle": "/e idle9",
+        "dances": {
+            "dict": "friends@fra@ig_1",
+            "anim": "base_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 10",
+        "subtitle": "/e idle10",
+        "dances": {
+            "dict": "mp_move@prostitute@m@french",
+            "anim": "idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 11",
+        "subtitle": "/e idle11",
+        "dances": {
+            "dict": "random@countrysiderobbery",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 2",
+        "subtitle": "/e idle2",
+        "dances": {
+            "dict": "anim@heists@heist_corona@team_idles@female_a",
+            "anim": "idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 3",
+        "subtitle": "/e idle3",
+        "dances": {
+            "dict": "anim@heists@humane_labs@finale@strip_club",
+            "anim": "ped_b_celebrate_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 4",
+        "subtitle": "/e idle4",
+        "dances": {
+            "dict": "anim@mp_celebration@idles@female",
+            "anim": "celebration_idle_f_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 5",
+        "subtitle": "/e idle5",
+        "dances": {
+            "dict": "anim@mp_corona_idles@female_b@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 6",
+        "subtitle": "/e idle6",
+        "dances": {
+            "dict": "anim@mp_corona_idles@male_c@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle 7",
+        "subtitle": "/e idle7",
+        "dances": {
+            "dict": "anim@mp_corona_idles@male_d@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 3",
+        "subtitle": "/e wait3",
+        "dances": {
+            "dict": "amb@world_human_hang_out_street@female_hold_arm@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle Drunk",
+        "subtitle": "/e idledrunk",
+        "dances": {
+            "dict": "random@drunk_driver_1",
+            "anim": "drunk_driver_stand_loop_dd1"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle Drunk 2",
+        "subtitle": "/e idledrunk2",
+        "dances": {
+            "dict": "random@drunk_driver_1",
+            "anim": "drunk_driver_stand_loop_dd2"
+        }
+    },    {
+        "type": "dances",
+        "title": "Idle Drunk 3",
+        "subtitle": "/e idledrunk3",
+        "dances": {
+            "dict": "missarmenian2",
+            "anim": "standing_idle_loop_drunk"
+        }
+    },    {
+        "type": "dances",
+        "title": "Air Guitar",
+        "subtitle": "/e airguitar",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@air_guitar",
+            "anim": "air_guitar"
+        }
+    },    {
+        "type": "dances",
+        "title": "Air Synth",
+        "subtitle": "/e airsynth",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@air_synth",
+            "anim": "airsynth"
+        }
+    },    {
+        "type": "dances",
+        "title": "Argue",
+        "subtitle": "/e argue",
+        "dances": {
+            "dict": "misscarsteal4@actor",
+            "anim": "actor_berating_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Argue 2",
+        "subtitle": "/e argue2",
+        "dances": {
+            "dict": "oddjobs@assassinate@vice@hooker",
+            "anim": "argue_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Bartender",
+        "subtitle": "/e bartender",
+        "dances": {
+            "dict": "anim@amb@clubhouse@bar@drink@idle_a",
+            "anim": "idle_a_bartender"
+        }
+    },    {
+        "type": "dances",
+        "title": "Blow Kiss",
+        "subtitle": "/e blowkiss",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@blow_kiss",
+            "anim": "blow_kiss"
+        }
+    },    {
+        "type": "dances",
+        "title": "Blow Kiss 2",
+        "subtitle": "/e blowkiss2",
+        "dances": {
+            "dict": "anim@mp_player_intselfieblow_kiss",
+            "anim": "exit"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cursty",
+        "subtitle": "/e curtsy",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationpaired@f_f_sarcastic",
+            "anim": "sarcastic_left"
+        }
+    },    {
+        "type": "dances",
+        "title": "Bring It On",
+        "subtitle": "/e bringiton",
+        "dances": {
+            "dict": "misscommon@response",
+            "anim": "bring_it_on"
+        }
+    },    {
+        "type": "dances",
+        "title": "Come At Me Bro",
+        "subtitle": "/e comeatmebro",
+        "dances": {
+            "dict": "mini@triathlon",
+            "anim": "want_some_of_this"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cop 2",
+        "subtitle": "/e cop2",
+        "dances": {
+            "dict": "anim@amb@nightclub@peds@",
+            "anim": "rcmme_amanda1_stand_loop_cop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cop 3",
+        "subtitle": "/e cop3",
+        "dances": {
+            "dict": "amb@code_human_police_investigate@idle_a",
+            "anim": "idle_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cross Arms",
+        "subtitle": "/e crossarms",
+        "dances": {
+            "dict": "amb@world_human_hang_out_street@female_arms_crossed@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cross Arms 2",
+        "subtitle": "/e crossarms2",
+        "dances": {
+            "dict": "amb@world_human_hang_out_street@male_c@idle_a",
+            "anim": "idle_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cross Arms 3",
+        "subtitle": "/e crossarms3",
+        "dances": {
+            "dict": "anim@heists@heist_corona@single_team",
+            "anim": "single_team_loop_boss"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cross Arms 4",
+        "subtitle": "/e crossarms4",
+        "dances": {
+            "dict": "random@street_race",
+            "anim": "_car_b_lookout"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cross Arms 5",
+        "subtitle": "/e crossarms5",
+        "dances": {
+            "dict": "anim@amb@nightclub@peds@",
+            "anim": "rcmme_amanda1_stand_loop_cop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fold Arms 2",
+        "subtitle": "/e foldarms2",
+        "dances": {
+            "dict": "anim@amb@nightclub@peds@",
+            "anim": "rcmme_amanda1_stand_loop_cop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cross Arms 6",
+        "subtitle": "/e crossarms6",
+        "dances": {
+            "dict": "random@shop_gunstore",
+            "anim": "_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fold Arms",
+        "subtitle": "/e foldarms",
+        "dances": {
+            "dict": "anim@amb@business@bgen@bgen_no_work@",
+            "anim": "stand_phone_phoneputdown_idle_nowork"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cross Arms Side",
+        "subtitle": "/e crossarmsside",
+        "dances": {
+            "dict": "rcmnigel1a_band_groupies",
+            "anim": "base_m2"
+        }
+    },    {
+        "type": "dances",
+        "title": "Damn",
+        "subtitle": "/e damn",
+        "dances": {
+            "dict": "gestures@m@standing@casual",
+            "anim": "gesture_damn"
+        }
+    },    {
+        "type": "dances",
+        "title": "Damn 2",
+        "subtitle": "/e damn2",
+        "dances": {
+            "dict": "anim@am_hold_up@male",
+            "anim": "shoplift_mid"
+        }
+    },    {
+        "type": "dances",
+        "title": "Point Down",
+        "subtitle": "/e pointdown",
+        "dances": {
+            "dict": "gestures@f@standing@casual",
+            "anim": "gesture_hand_down"
+        }
+    },    {
+        "type": "dances",
+        "title": "Surrender",
+        "subtitle": "/e surrender",
+        "dances": {
+            "dict": "random@arrests@busted",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Face Palm",
+        "subtitle": "/e facepalm2",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@face_palm",
+            "anim": "face_palm"
+        }
+    },    {
+        "type": "dances",
+        "title": "Face Palm",
+        "subtitle": "/e facepalm",
+        "dances": {
+            "dict": "random@car_thief@agitated@idle_a",
+            "anim": "agitated_idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Face Palm",
+        "subtitle": "/e facepalm3",
+        "dances": {
+            "dict": "missminuteman_1ig_2",
+            "anim": "tasered_2"
+        }
+    },    {
+        "type": "dances",
+        "title": "Face Palm 4",
+        "subtitle": "/e facepalm4",
+        "dances": {
+            "dict": "anim@mp_player_intupperface_palm",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fall Over",
+        "subtitle": "/e fallover",
+        "dances": {
+            "dict": "random@drunk_driver_1",
+            "anim": "drunk_fall_over"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fall Over 2",
+        "subtitle": "/e fallover2",
+        "dances": {
+            "dict": "mp_suicide",
+            "anim": "pistol"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fall Over 3",
+        "subtitle": "/e fallover3",
+        "dances": {
+            "dict": "mp_suicide",
+            "anim": "pill"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fall Over 4",
+        "subtitle": "/e fallover4",
+        "dances": {
+            "dict": "friends@frf@ig_",
+            "anim": "knockout_plyr"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fall Over 5",
+        "subtitle": "/e fallover5",
+        "dances": {
+            "dict": "anim@gangops@hostage@",
+            "anim": "victim_fail"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fall Asleep",
+        "subtitle": "/e fallasleep",
+        "dances": {
+            "dict": "fallasleep",
+            "anim": "sleep_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fight Me",
+        "subtitle": "/e fightme",
+        "dances": {
+            "dict": "anim@deathmatch_intros@unarmed",
+            "anim": "intro_male_unarmed_c"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fight Me 2",
+        "subtitle": "/e fightme2",
+        "dances": {
+            "dict": "anim@deathmatch_intros@unarmed",
+            "anim": "intro_male_unarmed_e"
+        }
+    },    {
+        "type": "dances",
+        "title": "Finger",
+        "subtitle": "/e finger",
+        "dances": {
+            "dict": "anim@mp_player_intselfiethe_bird",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Finger 2",
+        "subtitle": "/e finger2",
+        "dances": {
+            "dict": "anim@mp_player_intupperfinger",
+            "anim": "idle_a_fp"
+        }
+    },    {
+        "type": "dances",
+        "title": "Hand Shake",
+        "subtitle": "/e handshake",
+        "dances": {
+            "dict": "mp_ped_interaction",
+            "anim": "handshake_guy_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Hand Shake 2",
+        "subtitle": "/e handshake2",
+        "dances": {
+            "dict": "mp_ped_interaction",
+            "anim": "handshake_guy_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 4",
+        "subtitle": "/e wait4",
+        "dances": {
+            "dict": "amb@world_human_hang_out_street@Female_arm_side@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 5",
+        "subtitle": "/e wait5",
+        "dances": {
+            "dict": "missclothing",
+            "anim": "idle_storeclerk"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 6",
+        "subtitle": "/e wait6",
+        "dances": {
+            "dict": "timetable@amanda@ig_2",
+            "anim": "ig_2_base_amanda"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 7",
+        "subtitle": "/e wait7",
+        "dances": {
+            "dict": "rcmnigel1cnmt_1c",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 8",
+        "subtitle": "/e wait8",
+        "dances": {
+            "dict": "rcmjosh1",
+            "anim": "idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 9",
+        "subtitle": "/e wait9",
+        "dances": {
+            "dict": "rcmjosh2",
+            "anim": "josh_2_intp1_base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 10",
+        "subtitle": "/e wait10",
+        "dances": {
+            "dict": "timetable@amanda@ig_3",
+            "anim": "ig_3_base_tracy"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 11",
+        "subtitle": "/e wait11",
+        "dances": {
+            "dict": "misshair_shop@hair_dressers",
+            "anim": "keeper_base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Hiking",
+        "subtitle": "/e hiking",
+        "dances": {
+            "dict": "move_m@hiking",
+            "anim": "idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Hug",
+        "subtitle": "/e hug",
+        "dances": {
+            "dict": "mp_ped_interaction",
+            "anim": "kisses_guy_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Hug 2",
+        "subtitle": "/e hug2",
+        "dances": {
+            "dict": "mp_ped_interaction",
+            "anim": "kisses_guy_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Hug 3",
+        "subtitle": "/e hug3",
+        "dances": {
+            "dict": "mp_ped_interaction",
+            "anim": "hugs_guy_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Inspect",
+        "subtitle": "/e inspect",
+        "dances": {
+            "dict": "random@train_tracks",
+            "anim": "idle_e"
+        }
+    },    {
+        "type": "dances",
+        "title": "Jazz Hands",
+        "subtitle": "/e jazzhands",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@jazz_hands",
+            "anim": "jazz_hands"
+        }
+    },    {
+        "type": "dances",
+        "title": "Jog 2",
+        "subtitle": "/e jog2",
+        "dances": {
+            "dict": "amb@world_human_jog_standing@male@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Jog 3",
+        "subtitle": "/e jog3",
+        "dances": {
+            "dict": "amb@world_human_jog_standing@female@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Jog 4",
+        "subtitle": "/e jog4",
+        "dances": {
+            "dict": "amb@world_human_power_walker@female@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Jog 5",
+        "subtitle": "/e jog5",
+        "dances": {
+            "dict": "move_m@joy@a",
+            "anim": "walk"
+        }
+    },    {
+        "type": "dances",
+        "title": "Jumping Jacks",
+        "subtitle": "/e jumpingjacks",
+        "dances": {
+            "dict": "timetable@reunited@ig_2",
+            "anim": "jimmy_getknocked"
+        }
+    },    {
+        "type": "dances",
+        "title": "Kneel 2",
+        "subtitle": "/e kneel2",
+        "dances": {
+            "dict": "rcmextreme3",
+            "anim": "idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Kneel 3",
+        "subtitle": "/e kneel3",
+        "dances": {
+            "dict": "amb@world_human_bum_wash@male@low@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Knock",
+        "subtitle": "/e knock",
+        "dances": {
+            "dict": "timetable@jimmy@doorknock@",
+            "anim": "knockdoor_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Knock 2",
+        "subtitle": "/e knock2",
+        "dances": {
+            "dict": "missheistfbi3b_ig7",
+            "anim": "missheistfbi3b_ig7"
+        }
+    },    {
+        "type": "dances",
+        "title": "Knucle Crunch",
+        "subtitle": "/e knucklecrunch",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@knuckle_crunch",
+            "anim": "knuckle_crunch"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lap Dance",
+        "subtitle": "/e lapdance",
+        "dances": {
+            "dict": "mp_safehouse",
+            "anim": "lap_dance_girl"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean 2",
+        "subtitle": "/e lean2",
+        "dances": {
+            "dict": "amb@world_human_leaning@female@wall@back@hand_up@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean 3",
+        "subtitle": "/e lean3",
+        "dances": {
+            "dict": "amb@world_human_leaning@female@wall@back@holding_elbow@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean 4",
+        "subtitle": "/e lean4",
+        "dances": {
+            "dict": "amb@world_human_leaning@male@wall@back@foot_up@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean 5",
+        "subtitle": "/e lean5",
+        "dances": {
+            "dict": "amb@world_human_leaning@male@wall@back@hands_together@idle_b",
+            "anim": "idle_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean Flirt",
+        "subtitle": "/e leanflirt",
+        "dances": {
+            "dict": "random@street_race",
+            "anim": "_car_a_flirt_girl"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean Bar 2",
+        "subtitle": "/e leanbar2",
+        "dances": {
+            "dict": "amb@prop_human_bum_shopping_cart@male@idle_a",
+            "anim": "idle_c"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean Bar 2",
+        "subtitle": "/e leanbar3",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@ig1_vip@",
+            "anim": "clubvip_base_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean Bar 4",
+        "subtitle": "/e leanbar4",
+        "dances": {
+            "dict": "anim@heists@prison_heist",
+            "anim": "ped_b_loop_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean High",
+        "subtitle": "/e leanhigh",
+        "dances": {
+            "dict": "anim@mp_ferris_wheel",
+            "anim": "idle_a_player_one"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean High 2",
+        "subtitle": "/e leanhigh2",
+        "dances": {
+            "dict": "anim@mp_ferris_wheel",
+            "anim": "idle_a_player_two"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean Side",
+        "subtitle": "/e leanside",
+        "dances": {
+            "dict": "timetable@mime@01_gc",
+            "anim": "idle_a"
+        }
+    },   {
+        "type": "dances",
+        "title": "Lean Side 2",
+        "subtitle": "/e leanside2",
+        "dances": {
+            "dict": "misscarstealfinalecar_5_ig_1",
+            "anim": "waitloop_lamar"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean Side 3",
+        "subtitle": "/e leanside3",
+        "dances": {
+            "dict": "misscarstealfinalecar_5_ig_1",
+            "anim": "_____"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lean Side 4",
+        "subtitle": "/e leanside4",
+        "dances": {
+            "dict": "rcmjosh2",
+            "anim": "josh_2_intp1_base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Me",
+        "subtitle": "/e me",
+        "dances": {
+            "dict": "gestures@f@standing@casual",
+            "anim": "gesture_me_hard"
+        }
+    },    {
+        "type": "dances",
+        "title": "Mechanic",
+        "subtitle": "/e mechanic",
+        "dances": {
+            "dict": "mini@repair",
+            "anim": "fixing_a_ped"
+        }
+    },    {
+        "type": "dances",
+        "title": "Mechanic 2",
+        "subtitle": "/e mechanic2",
+        "dances": {
+            "dict": "amb@world_human_vehicle_mechanic@male@base",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Mechanic 3",
+        "subtitle": "/e mechanic3",
+        "dances": {
+            "dict": "anim@amb@clubhouse@tutorial@bkr_tut_ig3@",
+            "anim": "machinic_loop_mechandplayer"
+        }
+    },    {
+        "type": "dances",
+        "title": "Medic 2",
+        "subtitle": "/e medic2",
+        "dances": {
+            "dict": "amb@medic@standing@tendtodead@base",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Meditate",
+        "subtitle": "/e meditate",
+        "dances": {
+            "dict": "rcmcollect_paperleadinout@",
+            "anim": "meditiate_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Meditate 2",
+        "subtitle": "/e meditate2",
+        "dances": {
+            "dict": "rcmepsilonism3",
+            "anim": "ep_3_rcm_marnie_meditating"
+        }
+    },    {
+        "type": "dances",
+        "title": "Meditate 3",
+        "subtitle": "/e meditate3",
+        "dances": {
+            "dict": "rcmepsilonism3",
+            "anim": "base_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Metal",
+        "subtitle": "/e metal",
+        "dances": {
+            "dict": "anim@mp_player_intincarrockstd@ps@",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "No",
+        "subtitle": "/e no",
+        "dances": {
+            "dict": "anim@heists@ornate_bank@chat_manager",
+            "anim": "fail"
+        }
+    },    {
+        "type": "dances",
+        "title": "No 2",
+        "subtitle": "/e no2",
+        "dances": {
+            "dict": "mp_player_int_upper_nod",
+            "anim": "mp_player_int_nod_no"
+        }
+    },    {
+        "type": "dances",
+        "title": "Nose Pick",
+        "subtitle": "/e nosepick",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@nose_pick",
+            "anim": "nose_pick"
+        }
+    },    {
+        "type": "dances",
+        "title": "No Way",
+        "subtitle": "/e noway",
+        "dances": {
+            "dict": "gestures@m@standing@casual",
+            "anim": "gesture_no_way"
+        }
+    },    {
+        "type": "dances",
+        "title": "Ok",
+        "subtitle": "/e ok",
+        "dances": {
+            "dict": "anim@mp_player_intselfiedock",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Out Of Breath",
+        "subtitle": "/e outofbreath",
+        "dances": {
+            "dict": "re@construction",
+            "anim": "out_of_breath"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pick Up",
+        "subtitle": "/e pickup",
+        "dances": {
+            "dict": "random@domestic",
+            "anim": "pickup_low"
+        }
+    },    {
+        "type": "dances",
+        "title": "Push",
+        "subtitle": "/e push",
+        "dances": {
+            "dict": "missfinale_c2ig_11",
+            "anim": "pushcar_offcliff_f"
+        }
+    },    {
+        "type": "dances",
+        "title": "Push 2",
+        "subtitle": "/e push2",
+        "dances": {
+            "dict": "missfinale_c2ig_11",
+            "anim": "pushcar_offcliff_m"
+        }
+    },    {
+        "type": "dances",
+        "title": "Point",
+        "subtitle": "/e point",
+        "dances": {
+            "dict": "gestures@f@standing@casual",
+            "anim": "gesture_point"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pushup",
+        "subtitle": "/e pushup",
+        "dances": {
+            "dict": "amb@world_human_push_ups@male@idle_a",
+            "anim": "idle_d"
+        }
+    },    {
+        "type": "dances",
+        "title": "Countdown",
+        "subtitle": "/e countdown",
+        "dances": {
+            "dict": "random@street_race",
+            "anim": "grid_girl_race_start"
+        }
+    },    {
+        "type": "dances",
+        "title": "Point Right",
+        "subtitle": "/e pointright",
+        "dances": {
+            "dict": "mp_gun_shop_tut",
+            "anim": "indicate_right"
+        }
+    },    {
+        "type": "dances",
+        "title": "Salute",
+        "subtitle": "/e salute",
+        "dances": {
+            "dict": "anim@mp_player_intincarsalutestd@ds@",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Salute 2",
+        "subtitle": "/e salute2",
+        "dances": {
+            "dict": "anim@mp_player_intincarsalutestd@ps@",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Salute 3",
+        "subtitle": "/e salute3",
+        "dances": {
+            "dict": "anim@mp_player_intuppersalute",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Scared",
+        "subtitle": "/e scared",
+        "dances": {
+            "dict": "random@domestic",
+            "anim": "f_distressed_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Scared 2",
+        "subtitle": "/e scared2",
+        "dances": {
+            "dict": "random@homelandsecurity",
+            "anim": "knees_loop_girl"
+        }
+    },    {
+        "type": "dances",
+        "title": "Screw You",
+        "subtitle": "/e screwyou",
+        "dances": {
+            "dict": "misscommon@response",
+            "anim": "screw_you"
+        }
+    },    {
+        "type": "dances",
+        "title": "Shake Off",
+        "subtitle": "/e shakeoff",
+        "dances": {
+            "dict": "move_m@_idles@shake_off",
+            "anim": "shakeoff_1"
+        }
+    },    {
+        "type": "dances",
+        "title": "Shot",
+        "subtitle": "/e shot",
+        "dances": {
+            "dict": "random@dealgonewrong",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sleep",
+        "subtitle": "/e sleep",
+        "dances": {
+            "dict": "timetable@tracy@sleep@",
+            "anim": "idle_c"
+        }
+    },    {
+        "type": "dances",
+        "title": "Shrug",
+        "subtitle": "/e shrug",
+        "dances": {
+            "dict": "gestures@f@standing@casual",
+            "anim": "gesture_shrug_hard"
+        }
+    },    {
+        "type": "dances",
+        "title": "Shrug 2",
+        "subtitle": "/e shrug2",
+        "dances": {
+            "dict": "gestures@m@standing@casual",
+            "anim": "gesture_shrug_hard"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit",
+        "subtitle": "/e sit",
+        "dances": {
+            "dict": "anim@amb@business@bgen@bgen_no_work@",
+            "anim": "sit_phone_phoneputdown_idle_nowork"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit 2",
+        "subtitle": "/e sit2",
+        "dances": {
+            "dict": "rcm_barry3",
+            "anim": "barry_3_sit_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit 3",
+        "subtitle": "/e sit3",
+        "dances": {
+            "dict": "amb@world_human_picnic@male@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit 4",
+        "subtitle": "/e sit4",
+        "dances": {
+            "dict": "amb@world_human_picnic@female@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit 5",
+        "subtitle": "/e sit5",
+        "dances": {
+            "dict": "anim@heists@fleeca_bank@ig_7_jetski_owner",
+            "anim": "owner_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit 6",
+        "subtitle": "/e sit6",
+        "dances": {
+            "dict": "timetable@jimmy@mics3_ig_15@",
+            "anim": "idle_a_jimmy"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit 7",
+        "subtitle": "/e sit7",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@lo_alone@",
+            "anim": "lowalone_base_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit 8",
+        "subtitle": "/e sit8",
+        "dances": {
+            "dict": "timetable@jimmy@mics3_ig_15@",
+            "anim": "mics3_15_base_jimmy"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit 9",
+        "subtitle": "/e sit9",
+        "dances": {
+            "dict": "amb@world_human_stupor@male@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Lean",
+        "subtitle": "/e sitlean",
+        "dances": {
+            "dict": "timetable@tracy@ig_14@",
+            "anim": "ig_14_base_tracy"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Sad",
+        "subtitle": "/e sitsad",
+        "dances": {
+            "dict": "anim@amb@business@bgen@bgen_no_work@",
+            "anim": "sit_phone_phoneputdown_sleeping-noworkfemale"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Scared",
+        "subtitle": "/e sitscared",
+        "dances": {
+            "dict": "anim@heists@ornate_bank@hostages@hit",
+            "anim": "hit_loop_ped_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Scared 2",
+        "subtitle": "/e sitscared2",
+        "dances": {
+            "dict": "anim@heists@ornate_bank@hostages@ped_c@",
+            "anim": "flinch_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Scared 3",
+        "subtitle": "/e sitscared3",
+        "dances": {
+            "dict": "anim@heists@ornate_bank@hostages@ped_e@",
+            "anim": "flinch_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Drunk",
+        "subtitle": "/e sitdrunk",
+        "dances": {
+            "dict": "timetable@amanda@drunk@base",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Chair 2",
+        "subtitle": "/e sitchair2",
+        "dances": {
+            "dict": "timetable@ron@ig_5_p3",
+            "anim": "ig_5_p3_base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Chair 3",
+        "subtitle": "/e sitchair3",
+        "dances": {
+            "dict": "timetable@reunited@ig_10",
+            "anim": "base_amanda"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Chair 4",
+        "subtitle": "/e sitchair4",
+        "dances": {
+            "dict": "timetable@ron@ig_3_couch",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Chair 5",
+        "subtitle": "/e sitchair5",
+        "dances": {
+            "dict": "timetable@jimmy@mics3_ig_15@",
+            "anim": "mics3_15_base_tracy"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Chair 6",
+        "subtitle": "/e sitchair6",
+        "dances": {
+            "dict": "timetable@maid@couch@",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Chair Side",
+        "subtitle": "/e sitchairside",
+        "dances": {
+            "dict": "timetable@ron@ron_ig_2_alt1",
+            "anim": "ig_2_alt1_base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sit Up",
+        "subtitle": "/e situp",
+        "dances": {
+            "dict": "amb@world_human_sit_ups@male@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Angry Clap",
+        "subtitle": "/e clapangry",
+        "dances": {
+            "dict": "anim@arena@celeb@flat@solo@no_props@",
+            "anim": "angry_clap_a_player_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Slow Clap 3",
+        "subtitle": "/e slowclap3",
+        "dances": {
+            "dict": "anim@mp_player_intupperslow_clap",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Clap",
+        "subtitle": "/e clap",
+        "dances": {
+            "dict": "amb@world_human_cheering@male_a",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Slow Clap",
+        "subtitle": "/e slowclap",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@slow_clap",
+            "anim": "slow_clap"
+        }
+    },    {
+        "type": "dances",
+        "title": "Slow Clap 2",
+        "subtitle": "/e slowclap2",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationmale@slow_clap",
+            "anim": "slow_clap"
+        }
+    },    {
+        "type": "dances",
+        "title": "Smell",
+        "subtitle": "/e smell",
+        "dances": {
+            "dict": "move_p_m_two_idles@generic",
+            "anim": "fidget_sniff_fingers"
+        }
+    },    {
+        "type": "dances",
+        "title": "Stick Up",
+        "subtitle": "/e stickup",
+        "dances": {
+            "dict": "random@countryside_gang_fight",
+            "anim": "biker_02_stickup_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Stumble",
+        "subtitle": "/e stumble",
+        "dances": {
+            "dict": "misscarsteal4@actor",
+            "anim": "stumble"
+        }
+    },    {
+        "type": "dances",
+        "title": "Stunned",
+        "subtitle": "/e stunned",
+        "dances": {
+            "dict": "stungun@standing",
+            "anim": "damage"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sunbathe",
+        "subtitle": "/e sunbathe",
+        "dances": {
+            "dict": "amb@world_human_sunbathe@male@back@base",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sunbathe 2",
+        "subtitle": "/e sunbathe2",
+        "dances": {
+            "dict": "amb@world_human_sunbathe@female@back@base",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "T Pose",
+        "subtitle": "/e t",
+        "dances": {
+            "dict": "missfam5_yoga",
+            "anim": "a2_pose"
+        }
+    },    {
+        "type": "dances",
+        "title": "T Pose 2",
+        "subtitle": "/e t2",
+        "dances": {
+            "dict": "mp_sleep",
+            "anim": "bind_pose_180"
+        }
+    },    {
+        "type": "dances",
+        "title": "Think",
+        "subtitle": "/e think",
+        "dances": {
+            "dict": "mp_cp_welcome_tutthink",
+            "anim": "b_think"
+        }
+    },    {
+        "type": "dances",
+        "title": "Think 2",
+        "subtitle": "/e think2",
+        "dances": {
+            "dict": "misscarsteal4@aliens",
+            "anim": "rehearsal_base_idle_director"
+        }
+    },    {
+        "type": "dances",
+        "title": "Think 3",
+        "subtitle": "/e think3",
+        "dances": {
+            "dict": "timetable@tracy@ig_8@base",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Think 4",
+        "subtitle": "/e think4",
+        "dances": {
+            "dict": "missheist_jewelleadinout",
+            "anim": "jh_int_outro_loop_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Thumbs Up",
+        "subtitle": "/e thumbsup",
+        "dances": {
+            "dict": "anim@mp_player_intincarthumbs_uplow@ds@",
+            "anim": "enter"
+        }
+    },    {
+        "type": "dances",
+        "title": "Thumbs Up 2",
+        "subtitle": "/e thumbsup2",
+        "dances": {
+            "dict": "anim@mp_player_intselfiethumbs_up",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Thumbs Up 3",
+        "subtitle": "/e thumbsup3",
+        "dances": {
+            "dict": "anim@mp_player_intupperthumbs_u",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Type",
+        "subtitle": "/e type",
+        "dances": {
+            "dict": "anim@heists@prison_heiststation@cop_reactions",
+            "anim": "cop_b_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Type 2",
+        "subtitle": "/e type2",
+        "dances": {
+            "dict": "anim@heists@prison_heistig1_p1_guard_checks_bus",
+            "anim": "loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Type 3",
+        "subtitle": "/e type3",
+        "dances": {
+            "dict": "mp_prison_break",
+            "anim": "hack_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Type 4",
+        "subtitle": "/e type4",
+        "dances": {
+            "dict": "mp_fbi_heist",
+            "anim": "loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Warmth",
+        "subtitle": "/e warmth",
+        "dances": {
+            "dict": "amb@world_human_stand_fire@male@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wave",
+        "subtitle": "/e wave",
+        "dances": {
+            "dict": "random@mugging5",
+            "anim": "001445_01_gangintimidation_1_female_idle_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wave 2",
+        "subtitle": "/e wave2",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@wave",
+            "anim": "wave"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wave 3",
+        "subtitle": "/e wave3",
+        "dances": {
+            "dict": "friends@fra@ig_1",
+            "anim": "over_here_idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wave 4",
+        "subtitle": "/e wave4",
+        "dances": {
+            "dict": "friends@frj@ig_1",
+            "anim": "wave_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wave 5",
+        "subtitle": "/e wave5",
+        "dances": {
+            "dict": "friends@frj@ig_1",
+            "anim": "wave_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wave 6",
+        "subtitle": "/e wave6",
+        "dances": {
+            "dict": "friends@frj@ig_1",
+            "anim": "wave_c"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wave 7",
+        "subtitle": "/e wave7",
+        "dances": {
+            "dict": "friends@frj@ig_1",
+            "anim": "wave_d"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wave 8",
+        "subtitle": "/e wave8",
+        "dances": {
+            "dict": "friends@frj@ig_1",
+            "anim": "wave_e"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wave 9",
+        "subtitle": "/e wave9",
+        "dances": {
+            "dict": "gestures@m@standing@casual",
+            "anim": "gesture_hello"
+        }
+    },    {
+        "type": "dances",
+        "title": "Whistle",
+        "subtitle": "/e whistle",
+        "dances": {
+            "dict": "taxi_hail",
+            "anim": "hail_taxi"
+        }
+    },    {
+        "type": "dances",
+        "title": "Whistle 2",
+        "subtitle": "/e whistle2",
+        "dances": {
+            "dict": "rcmnigel1c",
+            "anim": "hailing_whistle_waive_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Yeah",
+        "subtitle": "/e yeah",
+        "dances": {
+            "dict": "anim@mp_player_intupperair_shagging",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lift",
+        "subtitle": "/e lift",
+        "dances": {
+            "dict": "random@hitch_lift",
+            "anim": "idle_f"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lol",
+        "subtitle": "/e lol",
+        "dances": {
+            "dict": "anim@arena@celeb@flat@paired@no_props@",
+            "anim": "laugh_a_player_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lol 2",
+        "subtitle": "/e lol2",
+        "dances": {
+            "dict": "anim@arena@celeb@flat@solo@no_props@",
+            "anim": "giggle_a_player_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Statue 2",
+        "subtitle": "/e statue2",
+        "dances": {
+            "dict": "fra_0_int-1",
+            "anim": "cs_lamardavis_dual-1"
+        }
+    },    {
+        "type": "dances",
+        "title": "Statue 3",
+        "subtitle": "/e statue3",
+        "dances": {
+            "dict": "club_intro2-0",
+            "anim": "csb_englishdave_dual-0"
+        }
+    },    {
+        "type": "dances",
+        "title": "Gang Sign",
+        "subtitle": "/e gangsign",
+        "dances": {
+            "dict": "mp_player_int_uppergang_sign_a",
+            "anim": "mp_player_int_gang_sign_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Gang Sign 2",
+        "subtitle": "/e gangsign2",
+        "dances": {
+            "dict": "mp_player_int_uppergang_sign_b",
+            "anim": "mp_player_int_gang_sign_b"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pass Out",
+        "subtitle": "/e passout",
+        "dances": {
+            "dict": "missarmenian2",
+            "anim": "drunk_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pass Out 2",
+        "subtitle": "/e passout2",
+        "dances": {
+            "dict": "missarmenian2",
+            "anim": "corpse_search_exit_ped"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pass Out 3",
+        "subtitle": "/e passout3",
+        "dances": {
+            "dict": "anim@gangops@morgue@table@",
+            "anim": "body_search"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pass Out 4",
+        "subtitle": "/e passout4",
+        "dances": {
+            "dict": "mini@cpr@char_b@cpr_def",
+            "anim": "cpr_pumpchest_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pass Out 5",
+        "subtitle": "/e passout5",
+        "dances": {
+            "dict": "random@mugging4",
+            "anim": "flee_backward_loop_shopkeeper"
+        }
+    },    {
+        "type": "dances",
+        "title": "Petting",
+        "subtitle": "/e petting",
+        "dances": {
+            "dict": "creatures@rottweiler@tricks@",
+            "anim": "petting_franklin"
+        }
+    },    {
+        "type": "dances",
+        "title": "Crawl",
+        "subtitle": "/e crawl",
+        "dances": {
+            "dict": "move_injured_ground",
+            "anim": "front_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Flip",
+        "subtitle": "/e flip",
+        "dances": {
+            "dict": "anim@arena@celeb@flat@solo@no_props@",
+            "anim": "flip_a_player_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Flip 2",
+        "subtitle": "/e flip2",
+        "dances": {
+            "dict": "anim@arena@celeb@flat@solo@no_props@",
+            "anim": "cap_a_player_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Slide",
+        "subtitle": "/e slide",
+        "dances": {
+            "dict": "anim@arena@celeb@flat@solo@no_props@",
+            "anim": "slide_a_player_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Slide 2",
+        "subtitle": "/e slide2",
+        "dances": {
+            "dict": "anim@arena@celeb@flat@solo@no_props@",
+            "anim": "slide_b_player_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Slide 3",
+        "subtitle": "/e slide3",
+        "dances": {
+            "dict": "anim@arena@celeb@flat@solo@no_props@",
+            "anim": "slide_c_player_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Slugger",
+        "subtitle": "/e slugger",
+        "dances": {
+            "dict": "anim@arena@celeb@flat@solo@no_props@",
+            "anim": "slugger_a_player_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Flip Off",
+        "subtitle": "/e flipoff",
+        "dances": {
+            "dict": "anim@arena@celeb@podium@no_prop@",
+            "anim": "flip_off_a_1st"
+        }
+    },    {
+        "type": "dances",
+        "title": "Flip Off 2",
+        "subtitle": "/e flipoff2",
+        "dances": {
+            "dict": "anim@arena@celeb@podium@no_prop@",
+            "anim": "flip_off_c_1st"
+        }
+    },    {
+        "type": "dances",
+        "title": "Bow",
+        "subtitle": "/e bow",
+        "dances": {
+            "dict": "anim@arena@celeb@podium@no_prop@",
+            "anim": "regal_c_1st"
+        }
+    },    {
+        "type": "dances",
+        "title": "Bow 2",
+        "subtitle": "/e bow2",
+        "dances": {
+            "dict": "anim@arena@celeb@podium@no_prop@",
+            "anim": "regal_a_1st"
+        }
+    },    {
+        "type": "dances",
+        "title": "Key Fob",
+        "subtitle": "/e keyfob",
+        "dances": {
+            "dict": "anim@mp_player_intmenu@key_fob@",
+            "anim": "fob_click"
+        }
+    },    {
+        "type": "dances",
+        "title": "Golf Swing",
+        "subtitle": "/e golfswing",
+        "dances": {
+            "dict": "rcmnigel1d",
+            "anim": "swing_a_mark"
+        }
+    },    {
+        "type": "dances",
+        "title": "Eat",
+        "subtitle": "/e eat",
+        "dances": {
+            "dict": "mp_player_inteat@burger",
+            "anim": "mp_player_int_eat_burger"
+        }
+    },    {
+        "type": "dances",
+        "title": "Reaching",
+        "subtitle": "/e reaching",
+        "dances": {
+            "dict": "move_m@intimidation@cop@unarmed",
+            "anim": "idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait",
+        "subtitle": "/e wait",
+        "dances": {
+            "dict": "random@shop_tattoo",
+            "anim": "_idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 2",
+        "subtitle": "/e wait2",
+        "dances": {
+            "dict": "missbigscore2aig_3",
+            "anim": "wait_for_van_c"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 12",
+        "subtitle": "/e wait12",
+        "dances": {
+            "dict": "rcmjosh1",
+            "anim": "idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Wait 13",
+        "subtitle": "/e wait13",
+        "dances": {
+            "dict": "rcmnigel1a",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lap Dance 2",
+        "subtitle": "/e lapdance2",
+        "dances": {
+            "dict": "mini@strip_club@private_dance@idle",
+            "anim": "priv_dance_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lap Dance 3",
+        "subtitle": "/e lapdance3",
+        "dances": {
+            "dict": "mini@strip_club@private_dance@part2",
+            "anim": "priv_dance_p2"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lap Dance 4",
+        "subtitle": "/e lapdance4",
+        "dances": {
+            "dict": "mini@strip_club@private_dance@part3",
+            "anim": "priv_dance_p3"
+        }
+    },    {
+        "type": "dances",
+        "title": "Twerk",
+        "subtitle": "/e twerk",
+        "dances": {
+            "dict": "switch@trevor@mocks_lapdance",
+            "anim": "001443_01_trvs_28_idle_stripper"
+        }
+    },    {
+        "type": "dances",
+        "title": "Slap",
+        "subtitle": "/e slap",
+        "dances": {
+            "dict": "melee@unarmed@streamed_variations",
+            "anim": "plyr_takedown_front_slap"
+        }
+    },    {
+        "type": "dances",
+        "title": "Headbutt",
+        "subtitle": "/e headbutt",
+        "dances": {
+            "dict": "melee@unarmed@streamed_variations",
+            "anim": "plyr_takedown_front_headbutt"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fish Dance",
+        "subtitle": "/e fishdance",
+        "dances": {
+            "dict": "anim@mp_player_intupperfind_the_fish",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Peace",
+        "subtitle": "/e peace",
+        "dances": {
+            "dict": "mp_player_int_upperpeace_sign",
+            "anim": "mp_player_int_peace_sign"
+        }
+    },    {
+        "type": "dances",
+        "title": "Peace 2",
+        "subtitle": "/e peace2",
+        "dances": {
+            "dict": "anim@mp_player_intupperpeace",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "CPR",
+        "subtitle": "/e cpr",
+        "dances": {
+            "dict": "mini@cpr@char_a@cpr_str",
+            "anim": "cpr_pumpchest"
+        }
+    },    {
+        "type": "dances",
+        "title": "Ledge",
+        "subtitle": "/e ledge",
+        "dances": {
+            "dict": "missfbi1",
+            "anim": "ledge_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Airplane",
+        "subtitle": "/e airplane",
+        "dances": {
+            "dict": "missfbi1",
+            "anim": "ledge_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Peek",
+        "subtitle": "/e peek",
+        "dances": {
+            "dict": "random@paparazzi@peek",
+            "anim": "left_peek_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cough",
+        "subtitle": "/e cough",
+        "dances": {
+            "dict": "timetable@gardener@smoking_joint",
+            "anim": "idle_cough"
+        }
+    },    {
+        "type": "dances",
+        "title": "Stretch",
+        "subtitle": "/e stretch",
+        "dances": {
+            "dict": "mini@triathlon",
+            "anim": "idle_e"
+        }
+    },    {
+        "type": "dances",
+        "title": "Stretch 2",
+        "subtitle": "/e stretch2",
+        "dances": {
+            "dict": "mini@triathlon",
+            "anim": "idle_f"
+        }
+    },    {
+        "type": "dances",
+        "title": "Stretch 3",
+        "subtitle": "/e stretch3",
+        "dances": {
+            "dict": "mini@triathlon",
+            "anim": "idle_d"
+        }
+    },    {
+        "type": "dances",
+        "title": "Stretch 4",
+        "subtitle": "/e stretch4",
+        "dances": {
+            "dict": "rcmfanatic1maryann_stretchidle_",
+            "anim": "idle_e"
+        }
+    },    {
+        "type": "dances",
+        "title": "Celebrate",
+        "subtitle": "/e celebrate",
+        "dances": {
+            "dict": "rcmfanatic1celebrate",
+            "anim": "celebrate"
+        }
+    },    {
+        "type": "dances",
+        "title": "Punching",
+        "subtitle": "/e punching",
+        "dances": {
+            "dict": "rcmextreme2",
+            "anim": "loop_punching"
+        }
+    },    {
+        "type": "dances",
+        "title": "Superhero",
+        "subtitle": "/e superhero",
+        "dances": {
+            "dict": "rcmbarry",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Superhero 2",
+        "subtitle": "/e superhero2",
+        "dances": {
+            "dict": "rcmbarry",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Mind Control",
+        "subtitle": "/e mindcontrol",
+        "dances": {
+            "dict": "rcmbarry",
+            "anim": "mind_control_b_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Mind Control 2",
+        "subtitle": "/e mindcontrol2",
+        "dances": {
+            "dict": "rcmbarry",
+            "anim": "bar_1_attack_idle_aln"
+        }
+    },    {
+        "type": "dances",
+        "title": "Clown",
+        "subtitle": "/e clown",
+        "dances": {
+            "dict": "rcm_barry2",
+            "anim": "clown_idle_0"
+        }
+    },    {
+        "type": "dances",
+        "title": "Clown 2",
+        "subtitle": "/e clown2",
+        "dances": {
+            "dict": "rcm_barry2",
+            "anim": "clown_idle_1"
+        }
+    },    {
+        "type": "dances",
+        "title": "Clown 3",
+        "subtitle": "/e clown3",
+        "dances": {
+            "dict": "rcm_barry2",
+            "anim": "clown_idle_2"
+        }
+    },    {
+        "type": "dances",
+        "title": "Clown 4",
+        "subtitle": "/e clown4",
+        "dances": {
+            "dict": "rcm_barry2",
+            "anim": "clown_idle_3"
+        }
+    },    {
+        "type": "dances",
+        "title": "Clown 6",
+        "subtitle": "/e clown5",
+        "dances": {
+            "dict": "rcm_barry2",
+            "anim": "clown_idle_6"
+        }
+    },    {
+        "type": "dances",
+        "title": "Try Clothes",
+        "subtitle": "/e tryclothes",
+        "dances": {
+            "dict": "mp_clothing@female@trousers",
+            "anim": "try_trousers_neutral_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Try Clothes 2",
+        "subtitle": "/e tryclothes2",
+        "dances": {
+            "dict": "mp_clothing@female@shirt",
+            "anim": "try_shirt_positive_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Try Clothes 3",
+        "subtitle": "/e tryclothes3",
+        "dances": {
+            "dict": "mp_clothing@female@shoes",
+            "anim": "try_shoes_positive_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Nervous",
+        "subtitle": "/e nervous",
+        "dances": {
+            "dict": "mp_missheist_countrybank@nervous",
+            "anim": "nervous_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Nervous 2",
+        "subtitle": "/e nervous2",
+        "dances": {
+            "dict": "amb@world_human_bum_standing@twitchy@idle_a",
+            "anim": "idle_c"
+        }
+    },    {
+        "type": "dances",
+        "title": "Nervous 3",
+        "subtitle": "/e nervous3",
+        "dances": {
+            "dict": "rcmme_tracey1",
+            "anim": "nervous_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Uncuff",
+        "subtitle": "/e uncuff",
+        "dances": {
+            "dict": "mp_arresting",
+            "anim": "a_uncuff"
+        }
+    },    {
+        "type": "dances",
+        "title": "Namaste",
+        "subtitle": "/e namaste",
+        "dances": {
+            "dict": "timetable@amanda@ig_4",
+            "anim": "ig_4_base"
+        }
+    },    {
+        "type": "dances",
+        "title": "DJ",
+        "subtitle": "/e dj",
+        "dances": {
+            "dict": "anim@amb@nightclub@djs@dixon@",
+            "anim": "dixn_dance_cntr_open_dix"
+        }
+    },    {
+        "type": "dances",
+        "title": "Threaten",
+        "subtitle": "/e threaten",
+        "dances": {
+            "dict": "random@atmrobberygen",
+            "anim": "b_atm_mugging"
+        }
+    },    {
+        "type": "dances",
+        "title": "Radio",
+        "subtitle": "/e radio",
+        "dances": {
+            "dict": "random@arrests",
+            "anim": "generic_radio_chatter"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pull",
+        "subtitle": "/e pull",
+        "dances": {
+            "dict": "random@mugging4",
+            "anim": "struggle_loop_b_thief"
+        }
+    },    {
+        "type": "dances",
+        "title": "Bird",
+        "subtitle": "/e bird",
+        "dances": {
+            "dict": "random@peyote@bird",
+            "anim": "wakeup"
+        }
+    },    {
+        "type": "dances",
+        "title": "Chicken",
+        "subtitle": "/e chicken",
+        "dances": {
+            "dict": "random@peyote@chicken",
+            "anim": "wakeup"
+        }
+    },    {
+        "type": "dances",
+        "title": "Bark",
+        "subtitle": "/e bark",
+        "dances": {
+            "dict": "random@peyote@dog",
+            "anim": "wakeup"
+        }
+    },    {
+        "type": "dances",
+        "title": "Rabbit",
+        "subtitle": "/e rabbit",
+        "dances": {
+            "dict": "random@peyote@rabbit",
+            "anim": "wakeup"
+        }
+    },    {
+        "type": "dances",
+        "title": "Spiderman",
+        "subtitle": "/e spiderman",
+        "dances": {
+            "dict": "missexile3",
+            "anim": "ex03_train_roof_idle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Boi",
+        "subtitle": "/e boi",
+        "dances": {
+            "dict": "special_ped@jane@monologue_5@monologue_5c",
+            "anim": "brotheradrianhasshown_2"
+        }
+    },    {
+        "type": "dances",
+        "title": "Adjust",
+        "subtitle": "/e adjust",
+        "dances": {
+            "dict": "missmic4",
+            "anim": "michael_tux_fidget"
+        }
+    },    {
+        "type": "dances",
+        "title": "Hands Up",
+        "subtitle": "/e handsup",
+        "dances": {
+            "dict": "missminuteman_1ig_2",
+            "anim": "handsup_base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pee",
+        "subtitle": "/e pee",
+        "dances": {
+            "dict": "misscarsteal2peeing",
+            "anim": "peeing_loop"
+        },
+        "particles": {
+            "asset": "scr_amb_chop",
+            "name": "ent_anim_dog_peeing",
+            "placement": [-0.05, 0.3, 0.0, 0.0, 90.0, 90.0, 1.0],
+            "rgb": [1.0, 1.0, 1.0]
+        }
+    },    {
+        "type": "dances",
+        "title": "Karate",
+        "subtitle": "/e karate",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@karate_chops",
+            "anim": "karate_chops"
+        }
+    },    {
+        "type": "dances",
+        "title": "Karate 2",
+        "subtitle": "/e karate2",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationmale@karate_chop",
+            "anim": "karate_chops"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cut Throat",
+        "subtitle": "/e cutthroat",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationmale@cut_throat",
+            "anim": "cut_throat"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cut Throat 2",
+        "subtitle": "/e cutthroat2",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@cut_throat",
+            "anim": "cut_throat"
+        }
+    },    {
+        "type": "dances",
+        "title": "Mind Blown",
+        "subtitle": "/e mindblown",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationmale@mind_blown",
+            "anim": "mind_blown"
+        }
+    },    {
+        "type": "dances",
+        "title": "Mind Blown 2",
+        "subtitle": "/e mindblown2",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@mind_blown",
+            "anim": "mind_blown"
+        }
+    },    {
+        "type": "dances",
+        "title": "Boxing",
+        "subtitle": "/e boxing",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationmale@shadow_boxing",
+            "anim": "shadow_boxing"
+        }
+    },    {
+        "type": "dances",
+        "title": "Boxing 2",
+        "subtitle": "/e boxing2",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@shadow_boxing",
+            "anim": "shadow_boxing"
+        }
+    },    {
+        "type": "dances",
+        "title": "Stink",
+        "subtitle": "/e stink",
+        "dances": {
+            "dict": "anim@mp_player_intcelebrationfemale@stinker",
+            "anim": "stinker"
+        }
+    },    {
+        "type": "dances",
+        "title": "Think 4",
+        "subtitle": "/e think4",
+        "dances": {
+            "dict": "anim@amb@casino@hangout@ped_male@stand@02b@idles",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Adjust Tie",
+        "subtitle": "/e adjusttie",
+        "dances": {
+            "dict": "clothingtie",
+            "anim": "try_tie_positive_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dab",
+        "subtitle": "/e dab",
+        "dances": {
+            "dict": "custom@dab",
+            "anim": "dab"
+        }
+    },    {
+        "type": "dances",
+        "title": "Can't See Me",
+        "subtitle": "/e cantsee",
+        "dances": {
+            "dict": "custom@cant_see",
+            "anim": "cant_see"
+        }
+    },    {
+        "type": "dances",
+        "title": "Cop Search",
+        "subtitle": "/e copsearch",
+        "dances": {
+            "dict": "custom@dab",
+            "anim": "dab"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sheeeeesh",
+        "subtitle": "/e sheesh",
+        "dances": {
+            "dict": "custom@sheeeeesh",
+            "anim": "sheeeeesh"
+        }
+    },    {
+        "type": "dances",
+        "title": "Suspect",
+        "subtitle": "/e sus",
+        "dances": {
+            "dict": "custom@suspect",
+            "anim": "suspect"
+        }
+    },    {
+        "type": "dances",
+        "title": "Breakdance",
+        "subtitle": "/e breakdance",
+        "dances": {
+            "dict": "export@breakdance",
+            "anim": "breakdance"
+        }
+    },    {
+        "type": "dances",
+        "title": "Id",
+        "subtitle": "/e id",
+        "dances": {
+            "dict": "friends@laf@ig_5",
+            "anim": "nephew"
+        }
+    },    {
+        "type": "dances",
+        "title": "Lap Dance 4",
+        "subtitle": "/e lapdance4",
+        "dances": {
+            "dict": "mini@strip_club@private_dance@part2",
+            "anim": "priv_dance_p2"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex",
+        "subtitle": "/e sex",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "shagloop_hooker"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 2",
+        "subtitle": "/e sex2",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "shagloop_pimp"
+        }
+    },    {
+        "type": "dances",
+        "title": "Grab Crotch",
+        "subtitle": "/e grabcrotch",
+        "dances": {
+            "dict": "mp_player_int_uppergrab_crotch",
+            "anim": "mp_player_int_grab_crotch"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fix",
+        "subtitle": "/e fix",
+        "dances": {
+            "dict": "amb@prop_human_bum_bin@base",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fix 2",
+        "subtitle": "/e fix2",
+        "dances": {
+            "dict": "amb@prop_human_movie_bulb@base",
+            "anim": "base"
+        }
+    },    {
+        "type": "dances",
+        "title": "Fix 3",
+        "subtitle": "/e fix3",
+        "dances": {
+            "dict": "amb@prop_human_bum_bin@idle_a",
+            "anim": "idle_a"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pick Butt",
+        "subtitle": "/e pickbutt",
+        "dances": {
+            "dict": "mp_player_int_upperarse_pick",
+            "anim": "mp_player_int_arse_pick"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 3",
+        "subtitle": "/e sex3",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "shagloop_hooker"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 4",
+        "subtitle": "/e sex4",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "shagloop_pimp"
+        }
+    },    {
+        "type": "dances",
+        "title": "Blowjob",
+        "subtitle": "/e blowjob",
+        "dances": {
+            "dict": "oddjobs@towing",
+            "anim": "m_blow_job_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Blowjob 2",
+        "subtitle": "/e blowjob2",
+        "dances": {
+            "dict": "oddjobs@towing",
+            "anim": "f_blow_job_loop"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 5",
+        "subtitle": "/e sex5",
+        "dances": {
+            "dict": "mini@prostitutes@sexlow_veh",
+            "anim": "low_car_sex_loop_player"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 6",
+        "subtitle": "/e sex6",
+        "dances": {
+            "dict": "mini@prostitutes@sexlow_veh",
+            "anim": "low_car_sex_loop_female"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 7",
+        "subtitle": "/e sex7",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_chair@",
+            "anim": "seatedidle_hi_13_sexualadvance_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 8",
+        "subtitle": "/e sex",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_chair@",
+            "anim": "seatedidle_hi_13_sexualadvance_laz_face"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 9",
+        "subtitle": "/e sex9",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_chair@",
+            "anim": "seatedidle_mi_17_sexualadvance_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 10",
+        "subtitle": "/e sex10",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_chair@",
+            "anim": "seatedidle_mi_17_sexualadvance_laz_face"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 11",
+        "subtitle": "/e sex11",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+            "anim": "danceidle_li_15_sexygrind_laz"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 12",
+        "subtitle": "/e sex12",
+        "dances": {
+            "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+            "anim": "danceidle_li_15_sexygrind_laz_face"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 13",
+        "subtitle": "/e sex13",
+        "dances": {
+            "dict": "director@character_select_intro@female",
+            "anim": "ambclub_13_mi_hi_sexualgriding_glowstick_l"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 14",
+        "subtitle": "/e sex14",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "pimpsex_pimp"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 15",
+        "subtitle": "/e sex15",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "pimpsex_hooker"
+        }
+    },    {
+        "type": "dances",
+        "title": "Sex 16",
+        "subtitle": "/e sex16",
+        "dances": {
+            "dict": "misscarsteal2pimpsex",
+            "anim": "pimpsex_punter"
+        }
+    },
+
+
+
+
+
+    {
+        "type": "scenarios",
+        "title": "ATM",
+        "subtitle": "/e atm",
+        "scenarios": {
+            "sex": "both",
+            "scene": "PROP_HUMAN_ATM"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "BBQ",
+        "subtitle": "/e bbq",
+        "scenarios": {
+            "sex": "male",
+            "scene": "PROP_HUMAN_BBQ"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Bum Bin",
+        "subtitle": "/e bumbin",
+        "scenarios": {
+            "sex": "both",
+            "scene": "PROP_HUMAN_BUM_BIN"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Bum Sleep",
+        "subtitle": "/e bumsleep",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_BUM_SLUMPED"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Cheer",
+        "subtitle": "/e cheer",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_CHEERING"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Chin Up",
+        "subtitle": "/e chinup",
+        "scenarios": {
+            "sex": "both",
+            "scene": "PROP_HUMAN_MUSCLE_CHIN_UPS"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Clipboard 2",
+        "subtitle": "/e clipboard2",
+        "scenarios": {
+            "sex": "male",
+            "scene": "WORLD_HUMAN_CLIPBOARD"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Cop Idle",
+        "subtitle": "/e copidle",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_COP_IDLES"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Cop Beacon",
+        "subtitle": "/e copbeacon",
+        "scenarios": {
+            "sex": "male",
+            "scene": "WORLD_HUMAN_CAR_PARK_ATTENDANT"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Film Shocking",
+        "subtitle": "/e filmshocking",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_MOBILE_FILM_SHOCKING"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Flex",
+        "subtitle": "/e flex",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_MUSCLE_FLEX"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Guard Stand",
+        "subtitle": "/e guardstand",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_GUARD_STAND"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Hammer",
+        "subtitle": "/e hammer",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_HAMMERING"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Hangout",
+        "subtitle": "/e hangout",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_HANG_OUT_STREET"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Impatient",
+        "subtitle": "/e impatient",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_STAND_IMPATIENT"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Janitor",
+        "subtitle": "/e janitor",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_JANITOR"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Jog",
+        "subtitle": "/e jog",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_JOG_STANDING"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Kneel",
+        "subtitle": "/e kneel",
+        "scenarios": {
+            "sex": "both",
+            "scene": "CODE_HUMAN_MEDIC_KNEEL"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Leafblower",
+        "subtitle": "/e leafblower",
+        "scenarios": {
+            "sex": "male",
+            "scene": "WORLD_HUMAN_GARDENER_LEAF_BLOWER"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Lean",
+        "subtitle": "/e leanscene",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_LEANING"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Lean Bar",
+        "subtitle": "/e leanbarscene",
+        "scenarios": {
+            "sex": "both",
+            "scene": "PROP_HUMAN_BUM_SHOPPING_CART"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Lookout",
+        "subtitle": "/e lookout",
+        "scenarios": {
+            "sex": "both",
+            "scene": "CODE_HUMAN_CROSS_ROAD_WAIT"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Maid",
+        "subtitle": "/e maid",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_MAID_CLEAN"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Medic",
+        "subtitle": "/e medic",
+        "scenarios": {
+            "sex": "both",
+            "scene": "CODE_HUMAN_MEDIC_TEND_TO_DEAD"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Musician",
+        "subtitle": "/e musician",
+        "scenarios": {
+            "sex": "male",
+            "scene": "WORLD_HUMAN_MUSICIAN"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Notepad",
+        "subtitle": "/e notepad2",
+        "scenarios": {
+            "sex": "both",
+            "scene": "CODE_HUMAN_MEDIC_TIME_OF_DEATH"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Parking Meter",
+        "subtitle": "/e parkingmeter",
+        "scenarios": {
+            "sex": "both",
+            "scene": "PROP_HUMAN_PARKING_METER"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Party",
+        "subtitle": "/e party",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_PARTYING"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Texting",
+        "subtitle": "/e texting",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_STAND_MOBILE"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Prostitute High",
+        "subtitle": "/e prosthigh",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_PROSTITUTE_HIGH_CLASS"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Prostitute Low",
+        "subtitle": "/e prostlow",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_PROSTITUTE_LOW_CLASS"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Puddle",
+        "subtitle": "/e puddle",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_BUM_WASH"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Record",
+        "subtitle": "/e record",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_MOBILE_FILM_SHOCKING"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Smoke",
+        "subtitle": "/e smoke",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_SMOKING"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Smoke Weed",
+        "subtitle": "/e smokeweed",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_DRUG_DEALER"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Statue",
+        "subtitle": "/e statue",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_HUMAN_STATUE"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Sunbathe 3",
+        "subtitle": "/e sunbathe3",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_SUNBATHE"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Sunbathe Back",
+        "subtitle": "/e sunbatheback",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_SUNBATHE_BACK"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Weld",
+        "subtitle": "/e weld",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_WELDING"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Window Shop",
+        "subtitle": "/e windowshop",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_WINDOW_SHOP_BROWSE"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Yoga",
+        "subtitle": "/e yoga",
+        "scenarios": {
+            "sex": "both",
+            "scene": "WORLD_HUMAN_YOGA"
+        }
+    },    {
+        "type": "scenarios",
+        "title": "Sit Chair",
+        "subtitle": "/e sitchair",
+        "scenarios": {
+            "sex": "position",
+            "scene": "PROP_HUMAN_SEAT_CHAIR_MP_PLAYER"
+        }
+    },
+
+
+
+
+
+    {
+        "type": "walks",
+        "title": "Alien",
+        "subtitle": "/e alien",
+        "walks": {
+            "style": "move_m@alien"
+        }
+    },    {
+        "type": "walks",
+        "title": "Armored",
+        "subtitle": "/e armored",
+        "walks": {
+            "style": "anim_group_move_ballistic"
+        }
+    },    {
+        "type": "walks",
+        "title": "Arrogant",
+        "subtitle": "/e arrogant",
+        "walks": {
+            "style": "move_f@arrogant@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Brave",
+        "subtitle": "/e brave",
+        "walks": {
+            "style": "move_m@brave"
+        }
+    },    {
+        "type": "walks",
+        "title": "Casual",
+        "subtitle": "/e casual",
+        "walks": {
+            "style": "move_m@casual@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Casual 2",
+        "subtitle": "/e casual2",
+        "walks": {
+            "style": "move_m@casual@b"
+        }
+    },    {
+        "type": "walks",
+        "title": "Casual 3",
+        "subtitle": "/e casual3",
+        "walks": {
+            "style": "move_m@casual@c"
+        }
+    },    {
+        "type": "walks",
+        "title": "Casual 4",
+        "subtitle": "/e casual4",
+        "walks": {
+            "style": "move_m@casual@d"
+        }
+    },    {
+        "type": "walks",
+        "title": "Casual 5",
+        "subtitle": "/e casual5",
+        "walks": {
+            "style": "move_m@casual@e"
+        }
+    },    {
+        "type": "walks",
+        "title": "Casual 6",
+        "subtitle": "/e casual6",
+        "walks": {
+            "style": "move_m@casual@f"
+        }
+    },    {
+        "type": "walks",
+        "title": "Chichi",
+        "subtitle": "/e chichi",
+        "walks": {
+            "style": "move_f@chichi"
+        }
+    },    {
+        "type": "walks",
+        "title": "Confident",
+        "subtitle": "/e confident",
+        "walks": {
+            "style": "move_m@confident"
+        }
+    },    {
+        "type": "walks",
+        "title": "Cop",
+        "subtitle": "/e cop",
+        "walks": {
+            "style": "move_m@business@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Cop 2",
+        "subtitle": "/e cop2",
+        "walks": {
+            "style": "move_m@business@b"
+        }
+    },    {
+        "type": "walks",
+        "title": "Cop 3",
+        "subtitle": "/e cop3",
+        "walks": {
+            "style": "move_m@business@c"
+        }
+    },    {
+        "type": "walks",
+        "title": "Default Female",
+        "subtitle": "/e defaultfemale",
+        "walks": {
+            "style": "move_f@multiplayer"
+        }
+    },    {
+        "type": "walks",
+        "title": "Default Male",
+        "subtitle": "/e defaultmale",
+        "walks": {
+            "style": "move_m@multiplayer"
+        }
+    },    {
+        "type": "walks",
+        "title": "Drunk",
+        "subtitle": "/e drunk",
+        "walks": {
+            "style": "move_m@drunk@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Drunk 2",
+        "subtitle": "/e drunk2",
+        "walks": {
+            "style": "move_m@drunk@slightlydrunk"
+        }
+    },    {
+        "type": "walks",
+        "title": "Drunk 3",
+        "subtitle": "/e drunk3",
+        "walks": {
+            "style": "move_m@buzzed"
+        }
+    },    {
+        "type": "walks",
+        "title": "Drunk 4",
+        "subtitle": "/e drunk4",
+        "walks": {
+            "style": "move_m@drunk@verydrunk"
+        }
+    },    {
+        "type": "walks",
+        "title": "Femme",
+        "subtitle": "/e femme",
+        "walks": {
+            "style": "move_f@femme@"
+        }
+    },    {
+        "type": "walks",
+        "title": "Fire",
+        "subtitle": "/e fire",
+        "walks": {
+            "style": "move_characters@franklin@fire"
+        }
+    },    {
+        "type": "walks",
+        "title": "Fire 2",
+        "subtitle": "/e fire2",
+        "walks": {
+            "style": "move_characters@michael@fire"
+        }
+    },    {
+        "type": "walks",
+        "title": "Fire 3",
+        "subtitle": "/e fire3",
+        "walks": {
+            "style": "move_m@fire"
+        }
+    },    {
+        "type": "walks",
+        "title": "Flee",
+        "subtitle": "/e flee",
+        "walks": {
+            "style": "move_f@flee@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Franklin",
+        "subtitle": "/e franklin",
+        "walks": {
+            "style": "move_p_m_one"
+        }
+    },    {
+        "type": "walks",
+        "title": "Gangster",
+        "subtitle": "/e gangster",
+        "walks": {
+            "style": "move_m@gangster@generic"
+        }
+    },    {
+        "type": "walks",
+        "title": "Gangster 2",
+        "subtitle": "/e gangster2",
+        "walks": {
+            "style": "move_m@gangster@ng"
+        }
+    },    {
+        "type": "walks",
+        "title": "Gangster 3",
+        "subtitle": "/e gangster3",
+        "walks": {
+            "style": "move_m@gangster@var_e"
+        }
+    },    {
+        "type": "walks",
+        "title": "Gangster 4",
+        "subtitle": "/e gangster4",
+        "walks": {
+            "style": "move_m@gangster@var_f"
+        }
+    },    {
+        "type": "walks",
+        "title": "Gangster 5",
+        "subtitle": "/e gangster5",
+        "walks": {
+            "style": "move_m@gangster@var_i"
+        }
+    },    {
+        "type": "walks",
+        "title": "Grooving",
+        "subtitle": "/e grooving",
+        "walks": {
+            "style": "anim@move_m@grooving@"
+        }
+    },    {
+        "type": "walks",
+        "title": "Guard",
+        "subtitle": "/e guard",
+        "walks": {
+            "style": "move_m@prison_gaurd"
+        }
+    },    {
+        "type": "walks",
+        "title": "Handcuffed",
+        "subtitle": "/e handcuffed",
+        "walks": {
+            "style": "move_m@prisoner_cuffed"
+        }
+    },    {
+        "type": "walks",
+        "title": "Heels",
+        "subtitle": "/e heels",
+        "walks": {
+            "style": "move_f@heels@c"
+        }
+    },    {
+        "type": "walks",
+        "title": "Heels 2",
+        "subtitle": "/e heels2",
+        "walks": {
+            "style": "move_f@heels@d"
+        }
+    },    {
+        "type": "walks",
+        "title": "Hiking",
+        "subtitle": "/e hiking",
+        "walks": {
+            "style": "move_m@hiking"
+        }
+    },    {
+        "type": "walks",
+        "title": "Hipster",
+        "subtitle": "/e hipster",
+        "walks": {
+            "style": "move_m@hipster@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Hobo",
+        "subtitle": "/e hobo",
+        "walks": {
+            "style": "move_m@hobo@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Hurry",
+        "subtitle": "/e hurry",
+        "walks": {
+            "style": "move_f@hurry@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Janitor",
+        "subtitle": "/e janitor",
+        "walks": {
+            "style": "move_p_m_zero_janitor"
+        }
+    },    {
+        "type": "walks",
+        "title": "Janitor 2",
+        "subtitle": "/e janitor2",
+        "walks": {
+            "style": "move_p_m_zero_slow"
+        }
+    },    {
+        "type": "walks",
+        "title": "Jog",
+        "subtitle": "/e jog",
+        "walks": {
+            "style": "move_m@jog@"
+        }
+    },    {
+        "type": "walks",
+        "title": "Lamar",
+        "subtitle": "/e lamar",
+        "walks": {
+            "style": "anim_group_move_lemar_alley"
+        }
+    },    {
+        "type": "walks",
+        "title": "Lester",
+        "subtitle": "/e lester",
+        "walks": {
+            "style": "move_heist_lester"
+        }
+    },    {
+        "type": "walks",
+        "title": "Lester 2",
+        "subtitle": "/e lester2",
+        "walks": {
+            "style": "move_lester_caneup"
+        }
+    },    {
+        "type": "walks",
+        "title": "Maneater",
+        "subtitle": "/e maneater",
+        "walks": {
+            "style": "move_f@maneater"
+        }
+    },    {
+        "type": "walks",
+        "title": "Michael",
+        "subtitle": "/e michael",
+        "walks": {
+            "style": "move_ped_bucket"
+        }
+    },    {
+        "type": "walks",
+        "title": "Money",
+        "subtitle": "/e money",
+        "walks": {
+            "style": "move_m@money"
+        }
+    },    {
+        "type": "walks",
+        "title": "Muscle",
+        "subtitle": "/e muscle",
+        "walks": {
+            "style": "move_m@muscle@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Posh",
+        "subtitle": "/e posh",
+        "walks": {
+            "style": "move_m@posh@"
+        }
+    },    {
+        "type": "walks",
+        "title": "Posh2",
+        "subtitle": "/e posh2",
+        "walks": {
+            "style": "move_f@posh@"
+        }
+    },    {
+        "type": "walks",
+        "title": "Quick",
+        "subtitle": "/e quick",
+        "walks": {
+            "style": "move_m@quick"
+        }
+    },    {
+        "type": "walks",
+        "title": "Runner",
+        "subtitle": "/e runner",
+        "walks": {
+            "style": "female_fast_runner"
+        }
+    },    {
+        "type": "walks",
+        "title": "Sad",
+        "subtitle": "/e sad",
+        "walks": {
+            "style": "move_m@sad@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Sassy",
+        "subtitle": "/e sassy",
+        "walks": {
+            "style": "move_m@sassy"
+        }
+    },    {
+        "type": "walks",
+        "title": "Sassy2",
+        "subtitle": "/e sassy2",
+        "walks": {
+            "style": "move_f@sassy"
+        }
+    },    {
+        "type": "walks",
+        "title": "Scared",
+        "subtitle": "/e scared",
+        "walks": {
+            "style": "move_f@scared"
+        }
+    },    {
+        "type": "walks",
+        "title": "Sexy",
+        "subtitle": "/e sexy",
+        "walks": {
+            "style": "move_f@sexy@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Shady",
+        "subtitle": "/e shady",
+        "walks": {
+            "style": "move_m@shadyped@a"
+        }
+    },    {
+        "type": "walks",
+        "title": "Slow",
+        "subtitle": "/e slow",
+        "walks": {
+            "style": "move_characters@jimmy@slow@"
+        }
+    },    {
+        "type": "walks",
+        "title": "Swagger",
+        "subtitle": "/e swagger",
+        "walks": {
+            "style": "move_m@swagger"
+        }
+    },    {
+        "type": "walks",
+        "title": "Tough",
+        "subtitle": "/e tough",
+        "walks": {
+            "style": "move_m@tough_guy@"
+        }
+    },    {
+        "type": "walks",
+        "title": "Tough2",
+        "subtitle": "/e tough2",
+        "walks": {
+            "style": "move_f@tough_guy@"
+        }
+    },    {
+        "type": "walks",
+        "title": "Trash",
+        "subtitle": "/e trash",
+        "walks": {
+            "style": "clipset@move@trash_fast_turn"
+        }
+    },    {
+        "type": "walks",
+        "title": "Trash2",
+        "subtitle": "/e trash2",
+        "walks": {
+            "style": "missfbi4prepp1_garbageman"
+        }
+    },    {
+        "type": "walks",
+        "title": "Trevor",
+        "subtitle": "/e trevor",
+        "walks": {
+            "style": "move_p_m_two"
+        }
+    },    {
+        "type": "walks",
+        "title": "Wide",
+        "subtitle": "/e wide",
+        "walks": {
+            "style": "move_m@bag"
+        }
+    },
+
+
+
+
+    {
+        "type": "expressions",
+        "title": "Angry",
+        "subtitle": "/e angry",
+        "expressions": {
+            "expression": "mood_angry_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Drunk",
+        "subtitle": "/e drunk",
+        "expressions": {
+            "expression": "mood_drunk_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Dumb",
+        "subtitle": "/e dumb",
+        "expressions": {
+            "expression": "pose_injured_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Electrocuted",
+        "subtitle": "/e electrocuted",
+        "expressions": {
+            "expression": "electrocuted_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Grumpy",
+        "subtitle": "/e grumpy",
+        "expressions": {
+            "expression": "effort_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Grumpy2",
+        "subtitle": "/e grumpy2",
+        "expressions": {
+            "expression": "mood_drivefast_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Grumpy 3",
+        "subtitle": "/e grumpy3",
+        "expressions": {
+            "expression": "pose_angry_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Happy",
+        "subtitle": "/e happy",
+        "expressions": {
+            "expression": "mood_happy_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Injured",
+        "subtitle": "/e injured",
+        "expressions": {
+            "expression": "mood_injured_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Joyful",
+        "subtitle": "/e joyful",
+        "expressions": {
+            "expression": "mood_dancing_low_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Mouthbreather",
+        "subtitle": "/e mouthbreather",
+        "expressions": {
+            "expression": "smoking_hold_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Never Blink",
+        "subtitle": "/e neverblink",
+        "expressions": {
+            "expression": "pose_normal_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "One Eye",
+        "subtitle": "/e oneeye",
+        "expressions": {
+            "expression": "pose_aiming_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Shocked",
+        "subtitle": "/e shocked",
+        "expressions": {
+            "expression": "shocked_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Shocked2",
+        "subtitle": "/e shocked2",
+        "expressions": {
+            "expression": "shocked_2"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Sleeping",
+        "subtitle": "/e sleeping",
+        "expressions": {
+            "expression": "mood_sleeping_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Sleeping 2",
+        "subtitle": "/e sleeping2",
+        "expressions": {
+            "expression": "dead_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Sleeping 3",
+        "subtitle": "/e sleeping3",
+        "expressions": {
+            "expression": "dead_2"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Smug",
+        "subtitle": "/e smug",
+        "expressions": {
+            "expression": "mood_smug_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Speculative",
+        "subtitle": "/e speculative",
+        "expressions": {
+            "expression": "mood_aiming_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Stressed",
+        "subtitle": "/e stressed",
+        "expressions": {
+            "expression": "mood_stressed_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Sulking",
+        "subtitle": "/e sulking",
+        "expressions": {
+            "expression": "mood_sulk_1"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Weird",
+        "subtitle": "/e weird",
+        "expressions": {
+            "expression": "effort_2"
+        }
+    },
+    {
+        "type": "expressions",
+        "title": "Weird2",
+        "subtitle": "/e weird2",
+        "expressions": {
+            "expression": "effort_3"
+        }
+    },
+
+
+
+
+
+    {
+        "type": "shared",
+        "title": "Handshake",
+        "subtitle": "/e handshake",
+        "shared": {
+            "first": ["mp_ped_interaction", "handshake_guy_a", 1.0, 3000],
+            "second": ["mp_ped_interaction", "handshake_guy_b", 0.9, 3000]
+        }
+    },    {
+        "type": "shared",
+        "title": "Hug Other",
+        "subtitle": "/e hugother",
+        "shared": {
+            "first": ["mp_ped_interaction", "kisses_guy_a", 1.0, 10000],
+            "second": ["mp_ped_interaction", "kisses_guy_b", 1.05, 10000]
+        }
+    },    {
+        "type": "shared",
+        "title": "Hug Other 2",
+        "subtitle": "/e hugother2",
+        "shared": {
+            "first": ["mp_ped_interaction", "hugs_guy_a", 5000],
+            "second": ["mp_ped_interaction", "hugs_guy_b", 1.14, 7000]
+        }
+    },    {
+        "type": "shared",
+        "title": "Give & Take",
+        "subtitle": "/e givetake",
+        "shared": {
+            "first": ["mp_common", "givetake1_a", 2000],
+            "second": ["mp_common", "givetake1_b", 1.0, 2000]
+        }
+    },    {
+        "type": "shared",
+        "title": "Baseball",
+        "subtitle": "/e baseball",
+        "shared": {
+            "first": ["anim@arena@celeb@flat@paired@no_props@", "baseball_a_player_a", 1.0, 5000],
+            "second": ["anim@arena@celeb@flat@paired@no_props@", "baseball_a_player_b", 1.14, 5000]
+        }
+    },    {
+        "type": "shared",
+        "title": "Point At Man",
+        "subtitle": "/e pointatman",
+        "shared": {
+            "first": ["random@countryside_gang_fight", "biker_02_stickup_loop", 1.0, 2000],
+            "second": ["missminuteman_1ig_2", "handsup_base", 1.0, 2000]
+        }
+    },    {
+        "type": "shared",
+        "title": "Punch",
+        "subtitle": "/e punch",
+        "shared": {
+            "first": ["melee@unarmed@streamed_variations", "plyr_takedown_rear_lefthook", 1.0, 2000],
+            "second": ["melee@unarmed@streamed_variations", "victim_takedown_front_cross_r", 1.0, 2000]
+        }
+    },    {
+        "type": "shared",
+        "title": "Headbutt",
+        "subtitle": "/e headputt",
+        "shared": {
+            "first": ["melee@unarmed@streamed_variations", "plyr_takedown_front_headbutt", 1.0, 2000],
+            "second": ["melee@unarmed@streamed_variations", "victim_takedown_front_headbutt", 1.1, 2000]
+        }
+    },    {
+        "type": "shared",
+        "title": "Back Slap",
+        "subtitle": "/e backslap",
+        "shared": {
+            "first": ["melee@unarmed@streamed_variations", "plyr_takedown_front_backslap", 1.0, 2000],
+            "second": ["melee@unarmed@streamed_variations", "victim_takedown_front_backslap", 1.0, 2000]
+        }
+    },    {
+        "type": "shared",
+        "title": "Front Slap",
+        "subtitle": "/e frontslap",
+        "shared": {
+            "first": ["melee@unarmed@streamed_variations", "plyr_takedown_front_slap", 1.0, 2000],
+            "second": ["melee@unarmed@streamed_variations", "victim_takedown_front_slap", 1.0, 2000]
+        }
+    }
+]

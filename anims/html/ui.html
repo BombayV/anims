@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anims</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="menu-container">
+        <span id="home" class="material-icons md-18 sidebar" style="color: white; transition: all 0.2s ease-in-out;">home</span>
+        <span id="favorite" class="material-icons md-18 sidebar" style="color: white;">bookmark</span>
+        <span id="dances" class="material-icons md-18 sidebar" style="color: white;">nightlife</span>
+        <span id="scenarios" class="material-icons md-18 sidebar" style="color: white;">emoji_people</span>
+        <span id="walks" class="material-icons md-18 sidebar" style="color: white;">directions_walk</span>
+        <span id="props" class="material-icons md-18 sidebar" style="color: white;">emoji_objects</span>
+        <span id="expressions" class="material-icons md-18 sidebar" style="color: white;">sentiment_satisfied_alt</span>
+        <span id="shared" class="material-icons md-18 sidebar" style="color: white;">people</span>
+        <span id="settings" class="material-icons md-18 sidebar" style="color: white;">settings</span>
+        <span id="exit" class="material-icons md-18 sidebar" style="color: white;">power_settings_new</span>
+    </div>
+    <div class="anims-container">
+        <nav class="navbar">
+            <div>
+                <input id="search-bar" class="search-bar" placeholder="Search animation...">
+                <span class="material-icons" style="color: white;">search</span>
+            </div>
+            <span id="cancel" class="material-icons md-18 controls" style="color: white;">pause</span>
+            <span id="delete" class="material-icons md-18 controls" style="color: white;">auto_fix_high</span>
+            <span id="movement" class="material-icons md-18 controls" style="color: white;">control_camera</span>
+            <span id="loop" class="material-icons md-18 controls" style="color: white;">loop</span>
+        </nav>
+        <div class="info-container">
+            <span id="info-title">Info</span>
+            <span id="info-desc">Display info about certain buttons and icons.</span>
+        </div>
+        <main id="anims-holder" class="anims-block">
+            <!--Data inserted by Javascript-->
+        </main>
+    </div>
+    <div class="settings-container">
+        <span class="settings-title">Settings</span>
+        <hr style="margin-top: 2.5%; margin-bottom: 2.5%;" width="80%">
+        <div>
+            <span>Animation Duration</span>
+            <input id="set-duration" type="number" placeholder="1500" maxlength="5" min="1000" max="15000" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
+        </div>
+        <div>
+            <span>Cancel Animation Key</span>
+            <input id="set-cancel" type="number" placeholder="38" maxlength="3" min="0" max="360" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
+        </div>
+        <div>
+            <span>Favorite Animation</span>
+            <input id="set-emote" type="text" placeholder="emote1">
+        </div>
+        <div>
+            <span>Favorite Animation Key</span>
+            <input id="set-key" type="number" placeholder="38" maxlength="3" min="0" max="360" oninput="javascript: if (this.value >= this.max && this.value.length >= this.maxLength) this.value = this.max;">
+        </div>
+        <hr style="margin-top: 2.5%; margin-bottom: 2.5%;" width="80%">
+        <button id="reset-duration">Reset Animation Duration</button>
+        <button id="reset-cancel">Reset Cancel Animation Key</button>
+        <button id="reset-fav">Reset Favorite Animation</button>
+        <button id="reset-key">Reset Favorite Animation Key</button>
+        <hr style="margin-top: 2.5%; margin-bottom: 2.5%;" width="80%">
+        <button id="reset-favs">Reset Favorite Anims</button>
+        <button id="save-settings" style="margin-bottom: 5%">Save Settings</button>
+    </div>
+    <script type="module" src='./js/script.js'></script>
+    <script type="module" src='./js/listeners.js'></script>
+</body>
+
+</html>
