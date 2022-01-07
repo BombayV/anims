@@ -310,6 +310,7 @@ body {
 
 .favorite {order: 1 !important;}
 .dances {order: 2;}
+.props {order: 3;}
 .scenarios {order: 3;}
 .walks {order: 4;}
 .expressions {order: 5;}

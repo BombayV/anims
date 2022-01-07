@@ -33,6 +33,10 @@ doc.getElementById('dances').addEventListener('mouseover', _ => changeInfo(true,
 doc.getElementById('dances').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('dances').addEventListener('click', e => changeClass(e.target));
 
+doc.getElementById('props').addEventListener('mouseover', _ => changeInfo(true, 'props', 'Show props animations.'));
+doc.getElementById('props').addEventListener('mouseleave', _ => changeInfo(false));
+doc.getElementById('props').addEventListener('click', e => changeClass(e.target));
+
 doc.getElementById('scenarios').addEventListener('mouseover', _ => changeInfo(true, 'scenarios', 'Show scenario animations.'));
 doc.getElementById('scenarios').addEventListener('mouseleave', _ => changeInfo(false));
 doc.getElementById('scenarios').addEventListener('click', e => changeClass(e.target));
