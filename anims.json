@@ -379,7 +379,7 @@
         }
         },    {
             "type": "props",
-            "title": "bumper",
+            "title": "Bumper",
             "subtitle": "/e bumper",
             "dances": {
                 "dict": "anim@heists@box_carry@",
@@ -392,8 +392,8 @@
             }
     }, {
         "type": "props",
-        "title": "medic kit",
-        "subtitle": "Medic kit",
+        "title": "Medic Kit",
+        "subtitle": "/medickit",
         "dances": {
             "dict": "missheistdocksprep1hold_cellphone",
             "anim": "static"
