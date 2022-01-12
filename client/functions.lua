@@ -1,6 +1,8 @@
 ---Holds Playing animation
 ---@class Play
 Play = {}
+local crouched = false
+local curentWalk
 
 ---Checks for sex of ped
 ---@return string
@@ -119,6 +121,7 @@ Play.Walk = function(walks, p)
         Load.Walk(walks.style)
         SetPedMovementClipset(PlayerPedId(), walks.style, cfg.walkingTransition)
         RemoveAnimSet(walks.style)
+        curentWalk = walks.style
         SetResourceKvp('savedWalk', walks.style)
         p:resolve({passed = true})
         return
@@ -258,3 +261,37 @@ RegisterNetEvent('anims:syncRemoval', function(syncPlayer)
         cfg.ptfxEntitiesTwo[syncPlayer] = nil
     end
 end)
+
+RegisterCommand('crouch', function()
+    local ped = PlayerPedId()
+    if not IsPauseMenuActive() and not IsEntityDead(ped) and not IsPedInAnyVehicle(ped, true) then
+      DisableControlAction(0, 36, true)
+
+        if crouched == true then 
+            if curentWalk then 
+                ResetPedMovementClipset(ped, 0)
+                RequestAnimSet(curentWalk)
+                while not HasAnimSetLoaded(curentWalk) do
+                    Wait(100)
+                end
+                SetPedMovementClipset(ped, curentWalk, 0.2)
+            else
+                ResetPedMovementClipset(ped, 0.25)
+            end
+            crouched = false 
+        elseif crouched == false then
+            local dist = "move_ped_crouched"
+            
+            RequestAnimSet(dist)
+            while not HasAnimSetLoaded(dist) do 
+                Citizen.Wait(100)
+            end 
+
+            SetPedMovementClipset(ped, dist, 0.25)
+            RemoveAnimSet(dist)
+            crouched = true 
+        end
+    end
+end)
+
+RegisterKeyMapping('crouch', '(Assets) Crouch~', 'keyboard', 'LCONTROL')
