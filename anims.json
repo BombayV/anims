@@ -2377,6 +2377,78 @@
         }
     },    {
         "type": "dances",
+        "title": "Swat Freeze",
+        "subtitle": "/e swat1",
+        "dances": {
+            "dict": "swat",
+            "anim": "freeze"
+        }
+    },    {
+        "type": "dances",
+        "title": "Swat Come",
+        "subtitle": "/e swat2",
+        "dances": {
+            "dict": "swat",
+            "anim": "come"
+        }
+    },    {
+        "type": "dances",
+        "title": "Swat Rally",
+        "subtitle": "/e swat3",
+        "dances": {
+            "dict": "swat",
+            "anim": "rally_point"
+        }
+    },     {
+        "type": "dances",
+        "title": "Swat yes",
+        "subtitle": "/e swat4",
+        "dances": {
+            "dict": "swat",
+            "anim": "understood"
+        }
+    },     {
+        "type": "dances",
+        "title": "Swat back",
+        "subtitle": "/e swat5",
+        "dances": {
+            "dict": "swat",
+            "anim": "you_back"
+        }
+    },     {
+        "type": "dances",
+        "title": "Swat forward",
+        "subtitle": "/e swat6",
+        "dances": {
+            "dict": "swat",
+            "anim": "you_fwd"
+        }
+    },    {
+        "type": "dances",
+        "title": "Swat left",
+        "subtitle": "/e swat7",
+        "dances": {
+            "dict": "swat",
+            "anim": "you_left"
+        }
+    },    {
+        "type": "dances",
+        "title": "Swat right",
+        "subtitle": "/e swat8",
+        "dances": {
+            "dict": "swat",
+            "anim": "you_right"
+        }
+    },    {
+        "type": "dances",
+        "title": "Swat Go",
+        "subtitle": "/e swat9",
+        "dances": {
+            "dict": "swat",
+            "anim": "go_fwd"
+        }
+    },    {
+        "type": "dances",
         "title": "T Pose",
         "subtitle": "/e t",
         "dances": {
