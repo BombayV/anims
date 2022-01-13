@@ -3682,6 +3682,86 @@
             "dict": "misscarsteal2pimpsex",
             "anim": "pimpsex_punter"
         }
+    },    {
+        "type": "dances",
+        "title": "Arm Swirl",
+        "subtitle": "/e armswirl",
+        "dances": {
+            "dict": "custom@",
+            "anim": "armswirl"
+        }
+    },    {
+        "type": "dances",
+        "title": "Arm Wave",
+        "subtitle": "/e armwave",
+        "dances": {
+            "dict": "custom@",
+            "anim": "armwave"
+        }
+    },    {
+        "type": "dances",
+        "title": "Circle Crunch",
+        "subtitle": "/e circlecrunch",
+        "dances": {
+            "dict": "custom@",
+            "anim": "circle_crunch"
+        }
+    },    {
+        "type": "dances",
+        "title": "Dig",
+        "subtitle": "/e dig",
+        "dances": {
+            "dict": "custom@",
+            "anim": "dig"
+        }
+    },    {
+        "type": "dances",
+        "title": "Gangnam Style",
+        "subtitle": "/e gangnamstyle",
+        "dances": {
+            "dict": "custom@",
+            "anim": "gangnamstyle"
+        }
+    },    {
+        "type": "dances",
+        "title": "Macarena",
+        "subtitle": "/e macarena",
+        "dances": {
+            "dict": "custom@",
+            "anim": "makarena"
+        }
+    },    {
+        "type": "dances",
+        "title": "Maraschino",
+        "subtitle": "/e maraschino",
+        "dances": {
+            "dict": "custom@",
+            "anim": "maraschino"
+        }
+    },    {
+        "type": "dances",
+        "title": "Salsa",
+        "subtitle": "/e salsa",
+        "dances": {
+            "dict": "custom@",
+            "anim": "salsa"
+        }
+    },    {
+        "type": "dances",
+        "title": "What",
+        "subtitle": "/e whatidk",
+        "dances": {
+            "dict": "custom@",
+            "anim": "what_idk"
+        }
+    },    {
+        "type": "dances",
+        "title": "Pick From Ground",
+        "subtitle": "/e pickfromground",
+        "dances": {
+            "dict": "custom@",
+            "anim": "pickfromground"
+        }
     },
 
 
