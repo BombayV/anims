@@ -242,7 +242,9 @@ RegisterNetEvent('anims:notify', function(type, message)
     Play.Notification(type, message)
 end)
 
-exports('Play', Play)
+exports('Play', function()
+    return Play
+end)
 
 RegisterNetEvent('anims:syncPlayerParticles', function(syncPlayer, particle)
     local mainPed = GetPlayerPed(GetPlayerFromServerId(syncPlayer))
