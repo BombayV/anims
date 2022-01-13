@@ -213,7 +213,9 @@ Load.Cancel = function()
     end
 end
 
-exports('Load', Load)
+exports('Load', function()
+    return Load
+end)
 
 CreateThread(function()
     TriggerEvent('chat:addSuggestions', {
