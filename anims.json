@@ -334,8 +334,8 @@
             "propBone": 28422,
             "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         }
-    }, {
-        "type": "dances",
+    },   {
+        "type": "props",
         "title": "Umbrella",
         "subtitle": "/e umbrella",
         "dances": {
@@ -347,8 +347,8 @@
             "propBone": 57005,
             "propPlacement": [0.15, 0.005, 0.0, 87.0, -20.0, 180.0]
         }
-    }, {
-        "type": "dances",
+    },    {
+        "type": "props",
         "title": "Notepad",
         "subtitle": "/e notepad",
         "dances": {
@@ -363,8 +363,8 @@
             "propTwoBone": 58866,
             "propTwoPlacement": [0.11, -0.02, 0.001, -120.0, 0.0, 0.0]
         }
-    }, {
-        "type": "dances",
+    },   {
+        "type": "props",
         "title": "Box",
         "subtitle": "/e box",
         "dances": {
@@ -392,7 +392,7 @@
     }, {
         "type": "props",
         "title": "Medic Kit",
-        "subtitle": "/medickit",
+        "subtitle": "/e medikit",
         "dances": {
             "dict": "missheistdocksprep1hold_cellphone",
             "anim": "static"
@@ -402,8 +402,8 @@
             "propBone": 57005,
             "propPlacement": [0.39, 0.0, 0.0, 0.0, 266.0, 60.0]
         }
-    }, {
-        "type": "dances",
+    },  {
+        "type": "props",
         "title": "Rose",
         "subtitle": "/e rose",
         "dances": {

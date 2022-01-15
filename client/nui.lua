@@ -46,6 +46,22 @@ local function findEmote(emoteName)
         SendNUIMessage({action = 'findEmote', name = name})
     end
 end
+
+---Returns the current walking style saved in kvp
+---@return string
+local function getWalkingStyle(cb)
+    local savedWalk = GetResourceKvpString('savedWalk')
+    if savedWalk then
+        if cb then
+            return cb(savedWalk)
+        end
+        return savedWalk
+    end
+    if cb then
+        return cb(nil)
+    end
+    return nil
+end
 --#endregion
 
 --#region NUI callbacks
@@ -202,3 +218,4 @@ AddEventHandler('anims:updateCfg', function(_cfg, result)
 end)
 
 exports('PlayEmote', findEmote)
+exports('GetWalkingStyle', getWalkingStyle)
