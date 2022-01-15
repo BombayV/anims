@@ -393,7 +393,7 @@
     }, {
         "type": "props",
         "title": "Medic Kit",
-        "subtitle": "/medickit",
+        "subtitle": "/e medikit",
         "dances": {
             "dict": "missheistdocksprep1hold_cellphone",
             "anim": "static"
