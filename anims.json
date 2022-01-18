@@ -1069,7 +1069,7 @@
         "title": "Beast",
         "subtitle": "/e beast",
         "dances": {
-            "dict": "anim@mp_fm_event@intr",
+            "dict": "anim@mp_fm_event@intro",
             "anim": "beast_transform"
         }
     }, {
