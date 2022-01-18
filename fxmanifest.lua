@@ -10,6 +10,7 @@ version '1.0.0'
 
 client_scripts {
     'cfg.lua',
+    'Ragdoll.lua',
     'client/*.lua'
 }
 
