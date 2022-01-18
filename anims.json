@@ -1254,7 +1254,7 @@
         "subtitle": "/e airsynth",
         "dances": {
             "dict": "anim@mp_player_intcelebrationfemale@air_synth",
-            "anim": "airsynth"
+            "anim": "air_synth"
         }
     }, {
         "type": "dances",
