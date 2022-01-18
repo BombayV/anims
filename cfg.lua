@@ -24,6 +24,9 @@ cfg = {
     animDisableMovement = false,
     animDisableLoop = false,
 
+    RagdollEnabled = true, --true this make script take more MS
+	RagdollKeybind = 303,
+    
     sceneActive = false,
 
     propActive = false,
