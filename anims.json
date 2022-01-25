@@ -4986,5 +4986,133 @@
             "first": ["melee@unarmed@streamed_variations", "plyr_takedown_front_slap", 1.0, 2000],
             "second": ["melee@unarmed@streamed_variations", "victim_takedown_front_slap", 1.0, 2000]
         }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 1",
+        "subtitle": "/e gangsignn1",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_1"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 2",
+        "subtitle": "/e gangsignn2",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_2"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 3",
+        "subtitle": "/e gangsignn3",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_3"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 4",
+        "subtitle": "/e gangsignn4",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_4"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 5",
+        "subtitle": "/e gangsignn5",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_5"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 6",
+        "subtitle": "/e gangsignn6",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_6"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 7",
+        "subtitle": "/e gangsignn7",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_7"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 8",
+        "subtitle": "/e gangsignn8",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_8"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 9",
+        "subtitle": "/e gangsignn9",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_9"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 10",
+        "subtitle": "/e gangsignn10",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_10"
+        }
+    }, {
+        "type": "dances",
+        "title": "Gang Sign New 11",
+        "subtitle": "/e gangsignn11",
+        "dances": {
+            "dict": "mikey@gangsigns@new",
+            "anim": "mgangsign_11"
+        }
+    }, {
+        "type": "dances",
+        "title": "F - Downward",
+        "subtitle": "/e fdown",
+        "dances": {
+            "dict": "export@downward_fortnite",
+            "anim": "Downward_fortnite"
+        }
+    }, {
+        "type": "dances",
+        "title": "F - Pullup",
+        "subtitle": "/e fpull",
+        "dances": {
+            "dict": "export@pullup",
+            "anim": "pullup"
+        }
+    }, {
+        "type": "dances",
+        "title": "F - Rollie",
+        "subtitle": "/e frollie",
+        "dances": {
+            "dict": "export@rollie",
+            "anim": "rollie"
+        }
+    }, {
+        "type": "dances",
+        "title": "F - Wanna See",
+        "subtitle": "/e wsm",
+        "dances": {
+            "dict": "export@wanna_see_me",
+            "anim": "wanna_see_me"
+        }
+    }, {
+        "type": "dances",
+        "title": "F - Billy Bounce",
+        "subtitle": "/e billyb",
+        "dances": {
+            "dict": "export@billybounce",
+            "anim": "billybounce"
+        }
     }
 ]

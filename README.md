@@ -22,6 +22,7 @@ This project does not contain a license, therefore you are not allowed to add on
 ## Acknowledgements
 - [dpemotes](https://github.com/andristum/dpemotes) for the overall idea and the actual animations. Without it this wouldn't be possible <3.
 - [Ultrahacx](https://github.com/ultrahacx) for the extra custom anims.
+- [DivinedDude] gang sign animations
 
 ### Locales
 - Everything has to be translated manually because I did not want to support different languages with a locales config. However, I will list every line that can be translated.
