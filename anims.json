@@ -334,7 +334,7 @@
             "propBone": 28422,
             "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
         }
-    },   {
+    }, {
         "type": "props",
         "title": "Umbrella",
         "subtitle": "/e umbrella",
@@ -347,7 +347,7 @@
             "propBone": 57005,
             "propPlacement": [0.15, 0.005, 0.0, 87.0, -20.0, 180.0]
         }
-    },    {
+    }, {
         "type": "props",
         "title": "Notepad",
         "subtitle": "/e notepad",
@@ -363,7 +363,7 @@
             "propTwoBone": 58866,
             "propTwoPlacement": [0.11, -0.02, 0.001, -120.0, 0.0, 0.0]
         }
-    },   {
+    }, {
         "type": "props",
         "title": "Box",
         "subtitle": "/e box",
@@ -402,7 +402,7 @@
             "propBone": 57005,
             "propPlacement": [0.39, 0.0, 0.0, 0.0, 266.0, 60.0]
         }
-    },  {
+    }, {
         "type": "props",
         "title": "Rose",
         "subtitle": "/e rose",
@@ -448,6 +448,46 @@
         "dances": {
             "dict": "amb@world_human_smoking@female@idle_a",
             "anim": "idle_b"
+        },
+        "props": {
+            "prop": "prop_cs_ciggy_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    {
+        "type": "dances",
+        "title": "Smoke 5",
+        "subtitle": "/e smoke5",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@smoke@male_a@base",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "prop_cs_ciggy_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    }, {
+        "type": "dances",
+        "title": "Smoke 6",
+        "subtitle": "/e smoke6",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@smoke@male_b@base",
+            "anim": "base"
+        },
+        "props": {
+            "prop": "prop_cs_ciggy_01",
+            "propBone": 28422,
+            "propPlacement": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    }, {
+        "type": "dances",
+        "title": "Smoke 7",
+        "subtitle": "/e smoke7",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@smoke@male_c@base",
+            "anim": "base"
         },
         "props": {
             "prop": "prop_cs_ciggy_01",
@@ -1930,6 +1970,142 @@
         }
     }, {
         "type": "dances",
+        "title": "Mechanic Check Engine",
+        "subtitle": "/e checkengine",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_engine@male_a@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic Check Engine 2",
+        "subtitle": "/e checkengine2",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_engine@male_b@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic Check Engine 3",
+        "subtitle": "/e checkengine3",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_engine@male_c@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic Check Engine 4",
+        "subtitle": "/e checkengine4",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_engine@male_d@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic Check Engine 5",
+        "subtitle": "/e checkengine5",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_engine@male_e@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic Check Engine 6",
+        "subtitle": "/e checkengine6",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_engine@male_f@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic Check Engine 7",
+        "subtitle": "/e checkengine7",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_engine@male_g@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic Check Engine 8",
+        "subtitle": "/e checkengine8",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_engine@male_h@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic checkout car",
+        "subtitle": "/e checkcar",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@drink@male_a@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic checkout car 2",
+        "subtitle": "/e checkcar2",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@male_a@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic checkout car 3",
+        "subtitle": "/e checkcar3",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@male_b@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic checkout car 4",
+        "subtitle": "/e checkcar4",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@male_c@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic checkout car 5",
+        "subtitle": "/e checkcar5",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@male_d@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic checkout car 6",
+        "subtitle": "/e checkcar6",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@male_e@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic checkout car 7",
+        "subtitle": "/e checkcar7",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@male_f@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic checkout car 8",
+        "subtitle": "/e checkcar8",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@male_g@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Mechanic checkout car 9",
+        "subtitle": "/e checkcar9",
+        "dances": {
+            "dict": "anim@amb@carmeet@checkout_car@male_h@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
         "title": "Meditate",
         "subtitle": "/e meditate",
         "dances": {
@@ -2599,6 +2775,70 @@
         "dances": {
             "dict": "mp_sleep",
             "anim": "bind_pose_180"
+        }
+    }, {
+        "type": "dances",
+        "title": "Texting",
+        "subtitle": "/e texting",
+        "dances": {
+            "dict": "anim@amb@carmeet@take_photos@male_a@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Texting 2",
+        "subtitle": "/e texting2",
+        "dances": {
+            "dict": "anim@amb@carmeet@take_photos@male_b@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Texting 3",
+        "subtitle": "/e texting3",
+        "dances": {
+            "dict": "anim@amb@carmeet@take_photos@male_c@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Texting 4",
+        "subtitle": "/e texting4",
+        "dances": {
+            "dict": "anim@amb@carmeet@take_photos@male_d@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Texting 5",
+        "subtitle": "/e texting5",
+        "dances": {
+            "dict": "anim@amb@carmeet@take_photos@male_e@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Texting 6",
+        "subtitle": "/e texting6",
+        "dances": {
+            "dict": "anim@amb@carmeet@take_photos@male_f@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Texting 7",
+        "subtitle": "/e texting7",
+        "dances": {
+            "dict": "anim@amb@carmeet@take_photos@male_g@base",
+            "anim": "base"
+        }
+    }, {
+        "type": "dances",
+        "title": "Texting 8",
+        "subtitle": "/e texting8",
+        "dances": {
+            "dict": "anim@amb@carmeet@take_photos@male_h@base",
+            "anim": "base"
         }
     }, {
         "type": "dances",
