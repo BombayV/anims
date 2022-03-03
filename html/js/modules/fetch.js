@@ -10,7 +10,7 @@ export const fetchNUI = async (cbname, data) => {
         },
         body: JSON.stringify(data)
     };
-    const resp = await fetch(`https://anims/${cbname}`, options);
+    const resp = await fetch(`https://${GetParentResourceName()}/${cbname}`, options);
     return await resp.json();
 };
 
