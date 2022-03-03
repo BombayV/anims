@@ -1,5 +1,5 @@
 local firstTime = false
-local versionData = json.decode(LoadResourceFile('anims', 'update.json'))
+local versionData = json.decode(LoadResourceFile(GetCurrentResourceName(), 'update.json'))
 
 local function checkVersion(e, latest, _)
     local latest = json.decode(latest)
