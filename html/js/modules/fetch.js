@@ -1,6 +1,7 @@
 // All favorites will be sotred in favoriteAnims
 
 const doc = document;
+const resourceName = window.GetParentResourceName ? GetParentResourceName () : 'anims';
 
 export const fetchNUI = async (cbname, data) => {
     const options = {
@@ -10,7 +11,7 @@ export const fetchNUI = async (cbname, data) => {
         },
         body: JSON.stringify(data)
     };
-    const resp = await fetch(`https://anims/${cbname}`, options);
+    const resp = await fetch(`https://${resourceName}/${cbname}`, options);
     return await resp.json();
 };
 
