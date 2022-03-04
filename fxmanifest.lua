@@ -6,7 +6,7 @@ lua54 'yes'
 
 description 'A simple NUI animations panel developed by Bombay'
 
-version '1.0.0'
+version '1.4.0'
 
 client_scripts {
     'cfg.lua',
