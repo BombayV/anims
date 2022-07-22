@@ -219,3 +219,7 @@ end)
 
 exports('PlayEmote', findEmote)
 exports('GetWalkingStyle', getWalkingStyle)
+
+RegisterCommand('e', function(source, args)
+    findEmote(args[1])
+end)
